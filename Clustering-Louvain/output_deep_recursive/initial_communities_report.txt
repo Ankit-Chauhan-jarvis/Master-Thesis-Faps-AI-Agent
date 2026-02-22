@@ -1,0 +1,401 @@
+Detected Sub-Schemas: (Initial Full Graph)
+============================================================
+
+Community #1 (70 nodes):
+------------------------------------------------------------
+System, Event, Label, UserInterface, Color, Menu, Button, Element, Context, Navigation
+Trigger, Log, Form, Action, Grid, Icon, RelationType, Column, ContextBox, Logo
+FieldSet, DataType, Graph, Value, Method, MenuItem, Style, Shape, Counter, Report
+Solution, Font, Filter, Layout, Row, Wdget, BaseNode, Module, Test, Gallery
+Message, Property, TreeGrid, Text, Language, Translation, LanguageProfile, DataAtomValue, Template, Rule
+Function, EN, DE, ZH, FR, Parameter, Gantt, Diagram, List, Connector
+Dependency, ElectronicalDocumentTransmission, Review, CADModel, Note, Session, Body, Header, Footer, ChangeRequestGroup
+
+Community #2 (67 nodes):
+------------------------------------------------------------
+Apps, Workflow, Widget, Query, Attribute, Setting, ComponentType, PropertySet, DataAtom, UomSet
+Mapping, WriteDataAtom, Process, Stage, Task, Activity, PropertyValue, UserStory, FunctionalSystem, FileType
+Transformation, Conversion, BOM, BOMElement, Environment, FixedAsset, MaterialDeclaration, ComplianceGroup, Substance, Demand
+Proof, DemandApproval, ComplianceCheck, Gate, ServiceContract, Contract, Acceptance, Timeslot, TestCase, Function_SE
+FunctionalPart_SE, TechnicalDocument, License, ARE, Country, SystemClientCompanyCode, LegalEntity, Registration, ReportingRequirement, RoyaltyPayment
+StatusReport, ImageToFixedAsset, StateRecording, WorkPackage, TechnicalDrawing, LimitValue, Meeting, Project, Resource, DrawingRevision
+FunctionalArea, FunctionalGeometryModel, Data, ContactPoint, Node, Segment, Routing
+
+Community #3 (12 nodes):
+------------------------------------------------------------
+Usage, Component, Version, FunctionalPart, WorkStep, ProposedSolution, Occurrence, Topology, Connection, Snapshot
+Configuration, CableHarness
+
+Community #4 (12 nodes):
+------------------------------------------------------------
+File, Image, ImageToComponent, Upload, ImageToRequirement, ImageToTask, ImageToWorkpackage, ImageToChangeRequest, ImageToProposedSolution, imageToNote
+ImageToMeeting, Import
+
+Community #5 (11 nodes):
+------------------------------------------------------------
+Company, Area, Document, LicensingAgreement, Requirement, ChangeRequest, AssetToArea, Regulation, Person, MaterialDemand
+Publication
+
+Community #6 (10 nodes):
+------------------------------------------------------------
+Section, View, Link, ImageToRichtextPage, PageToPage, DiagramToPage, ImageToTranslation, SectionToSection, DiagramToTranslation, SectionToImage
+
+Community #7 (10 nodes):
+------------------------------------------------------------
+User, Scenario, Service, CRM, BusinessType, BusinessChallenge, Issue, Question, Product, AccessControl
+
+Community #8 (8 nodes):
+------------------------------------------------------------
+State, Field, Validation, Schema, NodeType, Approval, StateMachine, Backup
+
+Community #9 (3 nodes):
+------------------------------------------------------------
+Pose, ProcessTag, ObjectTag
+
+Community #10 (2 nodes):
+------------------------------------------------------------
+Group, Term
+
+Community #11 (2 nodes):
+------------------------------------------------------------
+Permission, Role
+
+Community #12 (2 nodes):
+------------------------------------------------------------
+Application, P09
+
+Community #13 (2 nodes):
+------------------------------------------------------------
+Option, OptionSet
+
+Community #14 (2 nodes):
+------------------------------------------------------------
+Type, Store
+
+Community #15 (1 nodes):
+------------------------------------------------------------
+ContextItem
+
+Community #16 (1 nodes):
+------------------------------------------------------------
+UsageType
+
+Community #17 (1 nodes):
+------------------------------------------------------------
+CodeLocMarker
+
+Community #18 (1 nodes):
+------------------------------------------------------------
+Start
+
+Community #19 (1 nodes):
+------------------------------------------------------------
+Config_AR
+
+Community #20 (1 nodes):
+------------------------------------------------------------
+DocumentType
+
+Community #21 (1 nodes):
+------------------------------------------------------------
+Patch
+
+Community #22 (1 nodes):
+------------------------------------------------------------
+SideBarItem
+
+Community #23 (1 nodes):
+------------------------------------------------------------
+N2Neo4j
+
+Community #24 (1 nodes):
+------------------------------------------------------------
+xApplication
+
+Community #25 (1 nodes):
+------------------------------------------------------------
+EnumItem
+
+Community #26 (1 nodes):
+------------------------------------------------------------
+TagType
+
+Community #27 (1 nodes):
+------------------------------------------------------------
+ValueChain
+
+Community #28 (1 nodes):
+------------------------------------------------------------
+Industry
+
+Community #29 (1 nodes):
+------------------------------------------------------------
+Target
+
+Community #30 (1 nodes):
+------------------------------------------------------------
+Persona
+
+Community #31 (1 nodes):
+------------------------------------------------------------
+UNIQUE IMPORT LABEL
+
+Community #32 (1 nodes):
+------------------------------------------------------------
+MaterialGroup
+
+Community #33 (1 nodes):
+------------------------------------------------------------
+Uom
+
+Community #34 (1 nodes):
+------------------------------------------------------------
+Objective
+
+Community #35 (1 nodes):
+------------------------------------------------------------
+Date
+
+Community #36 (1 nodes):
+------------------------------------------------------------
+en
+
+Community #37 (1 nodes):
+------------------------------------------------------------
+de
+
+Community #38 (1 nodes):
+------------------------------------------------------------
+TransformationProfile
+
+Community #39 (1 nodes):
+------------------------------------------------------------
+Download
+
+Community #40 (1 nodes):
+------------------------------------------------------------
+ListOfDemands
+
+Community #41 (1 nodes):
+------------------------------------------------------------
+DataItem
+
+Community #42 (1 nodes):
+------------------------------------------------------------
+ProcessTemplate
+
+Community #43 (1 nodes):
+------------------------------------------------------------
+ServerInstance
+
+Community #44 (1 nodes):
+------------------------------------------------------------
+Licence
+
+Community #45 (1 nodes):
+------------------------------------------------------------
+Component_SE
+
+Community #46 (1 nodes):
+------------------------------------------------------------
+Rendering
+
+Community #47 (1 nodes):
+------------------------------------------------------------
+test
+
+Community #48 (1 nodes):
+------------------------------------------------------------
+Allocation_ImageToRichtextPage
+
+Community #49 (1 nodes):
+------------------------------------------------------------
+Rest
+
+Community #50 (1 nodes):
+------------------------------------------------------------
+Accounting
+
+Community #51 (1 nodes):
+------------------------------------------------------------
+Period
+
+Community #52 (1 nodes):
+------------------------------------------------------------
+Operator
+
+Community #53 (1 nodes):
+------------------------------------------------------------
+Operation
+
+Community #54 (1 nodes):
+------------------------------------------------------------
+BomList
+
+Community #55 (1 nodes):
+------------------------------------------------------------
+WireList
+
+Community #56 (1 nodes):
+------------------------------------------------------------
+AEM
+
+Community #57 (1 nodes):
+------------------------------------------------------------
+KBL
+
+Community #58 (1 nodes):
+------------------------------------------------------------
+Viewer
+
+Community #59 (1 nodes):
+------------------------------------------------------------
+Workspace
+
+Community #60 (1 nodes):
+------------------------------------------------------------
+Location
+
+Community #61 (1 nodes):
+------------------------------------------------------------
+Job
+
+Community #62 (1 nodes):
+------------------------------------------------------------
+WorkUnit
+
+Community #63 (1 nodes):
+------------------------------------------------------------
+Signal
+
+Community #64 (1 nodes):
+------------------------------------------------------------
+CartesianPoint
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 70     | 70              | 0.0290    | C2:39, C5:9, C8:8, C7:5, C3:4, C4:4, C6:3, C10:2, C11:2, C12:2, C14:1
+C2           | 67     | 67              | 0.0303    | C1:39, C4:10, C5:9, C3:9, C8:4, C6:4, C12:2, C7:2, C11:1, C13:1, C14:1, C10:1
+C3           | 12     | 15              | 0.2273    | C2:9, C1:4, C5:3, C8:1, C4:1
+C4           | 12     | 13              | 0.1970    | C2:10, C1:4, C6:2, C3:1
+C5           | 11     | 12              | 0.2182    | C2:9, C1:9, C3:3, C8:1
+C6           | 10     | 10              | 0.2222    | C2:4, C1:3, C4:2
+C7           | 10     | 11              | 0.2444    | C1:5, C2:2, C8:1
+C8           | 8      | 8               | 0.2857    | C1:8, C2:4, C7:1, C3:1, C5:1
+C9           | 3      | 2               | 0.6667    | 
+C10          | 2      | 1               | 1.0000    | C1:2, C2:1
+C11          | 2      | 1               | 1.0000    | C1:2, C2:1
+C12          | 2      | 1               | 1.0000    | C1:2, C2:2
+C13          | 2      | 1               | 1.0000    | C2:1
+C14          | 2      | 1               | 1.0000    | C1:1, C2:1
+C15          | 1      | 0               | 0.0000    | 
+C16          | 1      | 0               | 0.0000    | 
+C17          | 1      | 0               | 0.0000    | 
+C18          | 1      | 0               | 0.0000    | 
+C19          | 1      | 0               | 0.0000    | 
+C20          | 1      | 0               | 0.0000    | 
+C21          | 1      | 0               | 0.0000    | 
+C22          | 1      | 0               | 0.0000    | 
+C23          | 1      | 0               | 0.0000    | 
+C24          | 1      | 0               | 0.0000    | 
+C25          | 1      | 0               | 0.0000    | 
+C26          | 1      | 0               | 0.0000    | 
+C27          | 1      | 0               | 0.0000    | 
+C28          | 1      | 0               | 0.0000    | 
+C29          | 1      | 0               | 0.0000    | 
+C30          | 1      | 0               | 0.0000    | 
+C31          | 1      | 0               | 0.0000    | 
+C32          | 1      | 0               | 0.0000    | 
+C33          | 1      | 0               | 0.0000    | 
+C34          | 1      | 0               | 0.0000    | 
+C35          | 1      | 0               | 0.0000    | 
+C36          | 1      | 0               | 0.0000    | 
+C37          | 1      | 0               | 0.0000    | 
+C38          | 1      | 0               | 0.0000    | 
+C39          | 1      | 0               | 0.0000    | 
+C40          | 1      | 0               | 0.0000    | 
+C41          | 1      | 0               | 0.0000    | 
+C42          | 1      | 0               | 0.0000    | 
+C43          | 1      | 0               | 0.0000    | 
+C44          | 1      | 0               | 0.0000    | 
+C45          | 1      | 0               | 0.0000    | 
+C46          | 1      | 0               | 0.0000    | 
+C47          | 1      | 0               | 0.0000    | 
+C48          | 1      | 0               | 0.0000    | 
+C49          | 1      | 0               | 0.0000    | 
+C50          | 1      | 0               | 0.0000    | 
+C51          | 1      | 0               | 0.0000    | 
+C52          | 1      | 0               | 0.0000    | 
+C53          | 1      | 0               | 0.0000    | 
+C54          | 1      | 0               | 0.0000    | 
+C55          | 1      | 0               | 0.0000    | 
+C56          | 1      | 0               | 0.0000    | 
+C57          | 1      | 0               | 0.0000    | 
+C58          | 1      | 0               | 0.0000    | 
+C59          | 1      | 0               | 0.0000    | 
+C60          | 1      | 0               | 0.0000    | 
+C61          | 1      | 0               | 0.0000    | 
+C62          | 1      | 0               | 0.0000    | 
+C63          | 1      | 0               | 0.0000    | 
+C64          | 1      | 0               | 0.0000    | 
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #2: 39 connections
+Community #2 ↔ Community #1: 39 connections
+Community #2 ↔ Community #4: 10 connections
+Community #4 ↔ Community #2: 10 connections
+Community #1 ↔ Community #5: 9 connections
+Community #2 ↔ Community #5: 9 connections
+Community #2 ↔ Community #3: 9 connections
+Community #3 ↔ Community #2: 9 connections
+Community #5 ↔ Community #2: 9 connections
+Community #5 ↔ Community #1: 9 connections
+Community #1 ↔ Community #8: 8 connections
+Community #8 ↔ Community #1: 8 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 70):
+System, Event, Label, UserInterface, Color, Menu, Button, Element, Context, Navigation
++ 60 more nodes
+
+Community #2 (Size: 67):
+Apps, Workflow, Widget, Query, Attribute, Setting, ComponentType, PropertySet, DataAtom, UomSet
++ 57 more nodes
+
+Community #3 (Size: 12):
+Usage, Component, Version, FunctionalPart, WorkStep, ProposedSolution, Occurrence, Topology, Connection, Snapshot
++ 2 more nodes
+
+Community #4 (Size: 12):
+File, Image, ImageToComponent, Upload, ImageToRequirement, ImageToTask, ImageToWorkpackage, ImageToChangeRequest, ImageToProposedSolution, imageToNote
++ 2 more nodes
+
+Community #5 (Size: 11):
+Company, Area, Document, LicensingAgreement, Requirement, ChangeRequest, AssetToArea, Regulation, Person, MaterialDemand
++ 1 more nodes
+
+Community #6 (Size: 10):
+Section, View, Link, ImageToRichtextPage, PageToPage, DiagramToPage, ImageToTranslation, SectionToSection, DiagramToTranslation, SectionToImage
+
+Community #7 (Size: 10):
+User, Scenario, Service, CRM, BusinessType, BusinessChallenge, Issue, Question, Product, AccessControl
+
+Community #8 (Size: 8):
+State, Field, Validation, Schema, NodeType, Approval, StateMachine, Backup
+
+Community #9 (Size: 3):
+Pose, ProcessTag, ObjectTag
+
+Community #10 (Size: 2):
+Group, Term

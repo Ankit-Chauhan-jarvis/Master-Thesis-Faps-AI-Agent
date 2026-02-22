@@ -1,0 +1,16 @@
+strategy,metric,score
+strategy-1,cosine,0.5342657821060128
+strategy-1,dice_token,0.4764341733963242
+strategy-1,jaccard,0.3278285406487395
+strategy-1,sequence_matching,0.48018460212667813
+strategy-1,similarity_score,0.4129108899924054
+strategy-2,cosine,0.6625043140379139
+strategy-2,dice_token,0.7178548433466759
+strategy-2,jaccard,0.5741304631277042
+strategy-2,sequence_matching,0.6692999073989201
+strategy-2,similarity_score,0.5914602696805973
+strategy-3,cosine,0.7632506240188046
+strategy-3,dice_token,0.8155577806433725
+strategy-3,jaccard,0.7052665014829723
+strategy-3,sequence_matching,0.7572302424305052
+strategy-3,similarity_score,0.7016005873512489

@@ -1,0 +1,6045 @@
+--- Neo4j Full Schema Results (Formatted) ---
+[
+  {
+    "label": "Company",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "uses": "Apps",
+      "representedBy": "System"
+    }
+  },
+  {
+    "label": "System",
+    "attributes": {
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "_key": "STRING",
+      "type": "STRING",
+      "password": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "breadcrumb": "STRING",
+      "validTo": "STRING",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "description": "STRING",
+      "action": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "allowPaging": "BOOLEAN",
+      "refresh": "STRING",
+      "key": "STRING",
+      "lastName": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "select": "STRING",
+      "changedAt.second": "INTEGER",
+      "labels": "STRING",
+      "width": "INTEGER",
+      "pageSize": "INTEGER",
+      "format": "STRING",
+      "code": "STRING",
+      "properties": "STRING",
+      "log": "BOOLEAN",
+      "url": "STRING",
+      "createdAt.hour": "INTEGER",
+      "aggregation": "LIST",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "email": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "validFrom": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING unique indexed",
+      "locked": "BOOLEAN",
+      "filter": "BOOLEAN",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "scope": "STRING",
+      "createdAt.second": "INTEGER",
+      "direction": "STRING",
+      "data": "STRING",
+      "createdAt.year": "INTEGER",
+      "eventType": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "timestamp": "DATE_TIME",
+      "title": "STRING",
+      "changedAt.month": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "name": "STRING indexed",
+      "deactivated": "BOOLEAN",
+      "firstName": "STRING",
+      "widget": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "changedAt.year": "INTEGER",
+      "edit": "BOOLEAN",
+      "changedAt.hour": "INTEGER",
+      "source": "STRING",
+      "sequence": "STRING",
+      "hidden": "BOOLEAN",
+      "target": "STRING",
+      "method": "STRING",
+      "ID_old": "STRING",
+      "user": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasAttribute": "System",
+      "raises": "System",
+      "for": "System",
+      "hasColumn": "System",
+      "hasFont": "System",
+      "hasField": "System",
+      "next": "System",
+      "endsAt": "System",
+      "plays": "System",
+      "from": "System",
+      "hasIcon": "System",
+      "has": "System",
+      "hasWidget": "System",
+      "hasShape": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "isOfDataType": "System",
+      "backup": "System",
+      "hasState": "State",
+      "startsAt": "System",
+      "hasValue": "System",
+      "hasGiven": "System",
+      "loads": "System",
+      "with": "System",
+      "usesCounter": "System",
+      "hasLabel": "System",
+      "extends": "System",
+      "gets": "System",
+      "enabledBy": "System",
+      "calls": "System",
+      "hasType": "Apps",
+      "hasSection": "System",
+      "withName": "Apps",
+      "hasColor": "System",
+      "uses": "System",
+      "triggers": "System",
+      "runs": "System",
+      "hasRow": "System"
+    }
+  },
+  {
+    "label": "Event",
+    "attributes": {
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "_key": "STRING",
+      "eventType": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "breadcrumb": "BOOLEAN",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "refresh": "STRING",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "changedAt.second": "INTEGER",
+      "class": "STRING",
+      "label": "STRING",
+      "changedAt.hour": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "FLOAT",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "confirm": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "loads": "System",
+      "with": "System",
+      "raises": "System",
+      "hasLabel": "System",
+      "hasColumn": "System",
+      "gets": "System",
+      "enabledBy": "System",
+      "calls": "System",
+      "has": "System",
+      "current": "System",
+      "uses": "System",
+      "triggers": "System",
+      "runs": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Workflow",
+    "attributes": {
+      "update": "STRING",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "scope": "STRING",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "direction": "STRING",
+      "createdAt.year": "INTEGER",
+      "eventType": "STRING",
+      "type": "STRING",
+      "breadcrumb": "BOOLEAN",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "deactivated": "STRING",
+      "widget": "STRING",
+      "modal": "STRING",
+      "refresh": "STRING",
+      "database_old": "STRING",
+      "cypher": "STRING",
+      "rowSelection": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "width": "INTEGER",
+      "class": "STRING",
+      "params": "STRING",
+      "database": "STRING",
+      "url": "STRING",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "method": "STRING",
+      "uuid": "STRING",
+      "filter": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "loads": "System",
+      "with": "System",
+      "raises": "System",
+      "hasLabel": "System",
+      "gets": "System",
+      "enabledBy": "System",
+      "hasIcon": "System",
+      "from": "System",
+      "calls": "System",
+      "has": "System",
+      "hasType": "Apps",
+      "maintains": "System",
+      "current": "System",
+      "uses": "System",
+      "triggers": "System",
+      "runs": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Label",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "mergedBy": "STRING",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "mergedAt": "STRING",
+      "title": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "deactivated": "STRING",
+      "migration": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "mergedOn": "STRING",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "ID_old": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "withName": "Apps",
+      "hasColor": "System",
+      "extends": "System",
+      "for": "System",
+      "hasColumn": "System",
+      "current": "System",
+      "hasIcon": "System",
+      "has": "System",
+      "backup": "Apps"
+    }
+  },
+  {
+    "label": "UserInterface",
+    "attributes": {
+      "showRelationDirection": "STRING",
+      "mergedBy": "STRING",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "animate": "STRING",
+      "_key": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "randomize": "STRING",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "level": "INTEGER",
+      "hex": "STRING",
+      "description": "STRING",
+      "treeData": "STRING",
+      "ID": "STRING",
+      "allowMultipleFiles": "BOOLEAN",
+      "nodeTitle": "STRING",
+      "createdAt.minute": "INTEGER",
+      "allowPaging": "BOOLEAN",
+      "grabbable": "STRING",
+      "limit": "INTEGER",
+      "template": "STRING",
+      "database_old": "STRING",
+      "languageForUI": "BOOLEAN",
+      "mergedOn": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "width": "INTEGER",
+      "pageSize": "INTEGER",
+      "label": "STRING",
+      "format": "STRING",
+      "code": "STRING",
+      "fontSize": "STRING",
+      "createdAt.hour": "INTEGER",
+      "aggregation": "LIST",
+      "createdOn": "STRING",
+      "content": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "BOOLEAN",
+      "filter": "BOOLEAN",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "sort": "STRING",
+      "createdAt.second": "INTEGER",
+      "state": "STRING",
+      "createdAt.year": "INTEGER",
+      "spacing": "FLOAT",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "fit": "BOOLEAN",
+      "multiLanguage": "STRING",
+      "mergedAt": "STRING",
+      "title": "STRING",
+      "style": "STRING",
+      "changedAt.month": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "autoGroupColumnDef": "STRING",
+      "columnDefs": "STRING",
+      "name": "STRING",
+      "layout": "STRING",
+      "deactivated": "STRING",
+      "widget": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "changedAt.year": "INTEGER",
+      "drag": "BOOLEAN",
+      "edit": "BOOLEAN",
+      "params": "STRING",
+      "database": "STRING",
+      "iso639_3": "STRING",
+      "changedAt.hour": "INTEGER",
+      "iso639_1": "STRING",
+      "selectable": "STRING",
+      "sequence": "INTEGER",
+      "hidden": "BOOLEAN",
+      "checkbox": "BOOLEAN",
+      "method": "STRING",
+      "ID_old": "STRING",
+      "group": "BOOLEAN",
+      "showRelationType": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "raises": "System",
+      "for": "System",
+      "hasColumn": "System",
+      "hasFont": "System",
+      "hasField": "System",
+      "hasIcon": "System",
+      "hasFieldSet": "System",
+      "has": "System",
+      "hasWidget": "System",
+      "hasShape": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "isOfDataType": "System",
+      "backup": "System",
+      "with": "System",
+      "hasLabel": "System",
+      "hasStyle": "System",
+      "hasTitle": "System",
+      "hasType": "Apps",
+      "hasSection": "System",
+      "withName": "Apps",
+      "hasColor": "System",
+      "hasContextBox": "System",
+      "hasRow": "System",
+      "representedBy": "System"
+    }
+  },
+  {
+    "label": "Color",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "selected": "BOOLEAN",
+      "createdBy": "STRING",
+      "hex": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Menu",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "scope": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "_key": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "format": "STRING",
+      "uuid": "STRING",
+      "type": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "raises": "System",
+      "hasLabel": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "raises_deactivated": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Button",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "shortcut": "STRING",
+      "breadcrumb": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "firstName": "STRING",
+      "icon": "STRING",
+      "cypher": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "format": "STRING",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "FLOAT",
+      "uuid": "STRING",
+      "confirm": "BOOLEAN",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "raises": "System",
+      "hasLabel": "System",
+      "current": "System",
+      "uses": "System",
+      "hasIcon": "System",
+      "runs": "System",
+      "raises_deactivated": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Element",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "widget": "STRING",
+      "modal": "BOOLEAN",
+      "triggered": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "width": "INTEGER",
+      "format": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "loads": "System",
+      "with": "System",
+      "raises": "System",
+      "hasLabel": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "raises_deactivated": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Context",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "direction": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "browse": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "deactivated": "STRING",
+      "triggered": "STRING",
+      "database_old": "STRING",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "database": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "STRING",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasContextBoxItem": "System",
+      "raises": "System",
+      "hasLabel": "System",
+      "current": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Navigation",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "type": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "raises": "System",
+      "current": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "ContextItem",
+    "attributes": {
+      "id": "INTEGER",
+      "name": "STRING",
+      "counter": "STRING",
+      "format": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Trigger",
+    "attributes": {
+      "id": "INTEGER",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasTarget": "System",
+      "hasRelation": "System",
+      "hasSource": "System"
+    }
+  },
+  {
+    "label": "Field",
+    "attributes": {
+      "migration": "STRING",
+      "mergedBy": "STRING",
+      "mergedOn": "STRING",
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "mergedAt": "STRING",
+      "height": "INTEGER",
+      "createdBy": "STRING",
+      "hidden": "BOOLEAN",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "deactivated": "STRING",
+      "uuid": "STRING",
+      "locked": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "System",
+      "hasLabel": "System",
+      "current": "System",
+      "uses": "Validation",
+      "has": "System",
+      "isOfDataType": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Log",
+    "attributes": {
+      "timestamp": "DATE_TIME",
+      "source": "STRING",
+      "labels": "STRING",
+      "action": "STRING",
+      "target": "STRING",
+      "properties": "STRING",
+      "type": "STRING",
+      "user": "STRING"
+    },
+    "relationships": {
+      "next": "System"
+    }
+  },
+  {
+    "label": "Widget",
+    "attributes": {
+      "showRelationDirection": "BOOLEAN",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "animate": "BOOLEAN",
+      "_key": "STRING",
+      "package": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "randomize": "BOOLEAN",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "level": "INTEGER",
+      "hex": "STRING",
+      "description": "STRING",
+      "treeData": "STRING",
+      "allowMultipleFiles": "BOOLEAN",
+      "createdAt.minute": "INTEGER",
+      "allowPaging": "BOOLEAN",
+      "grabbable": "BOOLEAN",
+      "limit": "INTEGER",
+      "database_old": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "width": "INTEGER",
+      "pageSize": "INTEGER",
+      "label": "BOOLEAN",
+      "format": "STRING",
+      "fontSize": "STRING",
+      "editable": "BOOLEAN",
+      "createdAt.hour": "INTEGER",
+      "createdOn": "STRING",
+      "content": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "cypher_test": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "filter": "STRING",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "sort": "STRING",
+      "cypher_new": "STRING",
+      "createdAt.second": "INTEGER",
+      "state": "STRING",
+      "createdAt.year": "INTEGER",
+      "spacing": "FLOAT",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "fit": "BOOLEAN",
+      "multiLanguage": "STRING",
+      "changedAt.month": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "autoGroupColumnDef": "STRING",
+      "columnDefs": "STRING",
+      "name": "STRING",
+      "layout": "STRING",
+      "deactivated": "STRING",
+      "widget": "STRING",
+      "triggered": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "changedAt.year": "INTEGER",
+      "database": "STRING",
+      "changedAt.hour": "INTEGER",
+      "selectable": "BOOLEAN",
+      "sequence": "INTEGER",
+      "hidden": "STRING",
+      "showRelationType": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasContextBoxItem": "System",
+      "loads": "System",
+      "with": "System",
+      "raises": "System",
+      "for": "System",
+      "hasLabel": "System",
+      "hasColumn": "System",
+      "hasStyle": "System",
+      "hasFieldSet": "System",
+      "has": "System",
+      "hasType": "Apps",
+      "hasSection": "System",
+      "hasWidget": "System",
+      "hasColor": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "uses": "System",
+      "hasContextBox": "System",
+      "hasColumng": "System",
+      "backup": "System",
+      "x": "System"
+    }
+  },
+  {
+    "label": "Form",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "hex": "STRING",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "deactivated": "STRING",
+      "database_old": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "width": "INTEGER",
+      "database": "STRING",
+      "createdOn": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "raises": "System",
+      "hasLabel": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "hasContextBox": "System",
+      "has": "System",
+      "backup": "System",
+      "hasSection": "System"
+    }
+  },
+  {
+    "label": "Query",
+    "attributes": {
+      "update": "STRING",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "changedAt.day": "INTEGER",
+      "cypher_new": "STRING",
+      "store": "STRING",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "cypher_unlink": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "cypher_link": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "params": "STRING",
+      "createdOn": "DATE_TIME",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "disabled": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System",
+      "hasType": "Apps",
+      "backup": "Apps"
+    }
+  },
+  {
+    "label": "Action",
+    "attributes": {
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "store": "STRING",
+      "_key": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "description": "STRING",
+      "action": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "relationTypeName": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "nodeTypeName": "STRING",
+      "format": "STRING",
+      "fontSize": "STRING",
+      "url": "STRING",
+      "createdAt.hour": "INTEGER",
+      "createdOn": "DATE_TIME",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "filter": "STRING",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "update": "STRING",
+      "cypher_old": "STRING",
+      "cypher_new": "STRING",
+      "createdAt.second": "INTEGER",
+      "direction": "STRING",
+      "createdAt.year": "INTEGER",
+      "cypher_unlink": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "cypher": "STRING",
+      "cypher_link": "STRING",
+      "changedAt.year": "INTEGER",
+      "params": "STRING",
+      "changedAt.hour": "INTEGER",
+      "sequence": "FLOAT",
+      "counter_cypher": "STRING",
+      "method": "STRING",
+      "changedAt": "DATE_TIME",
+      "disabled": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "from": "System",
+      "has": "System",
+      "hasType": "Apps",
+      "backup": "Apps"
+    }
+  },
+  {
+    "label": "UsageType",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "migration": "STRING",
+      "changedOn": "STRING",
+      "description": "STRING",
+      "name": "STRING",
+      "deactivated": "STRING",
+      "code": "STRING",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "changedAt": "DATE_TIME",
+      "step": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Grid",
+    "attributes": {
+      "showRelationDirection": "BOOLEAN",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "animate": "BOOLEAN",
+      "_key": "STRING",
+      "package": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "randomize": "BOOLEAN",
+      "createdAt.day": "INTEGER",
+      "height": "INTEGER",
+      "description": "STRING",
+      "treeData": "STRING",
+      "createdAt.minute": "INTEGER",
+      "allowPaging": "BOOLEAN",
+      "grabbable": "BOOLEAN",
+      "limit": "INTEGER",
+      "database_old": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "width": "INTEGER",
+      "pageSize": "INTEGER",
+      "label": "BOOLEAN",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "cypher_test": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "filter": "STRING",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "sort": "STRING",
+      "cypher_new": "STRING",
+      "createdAt.second": "INTEGER",
+      "state": "STRING",
+      "createdAt.year": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "multiLanguage": "STRING",
+      "changedAt.month": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "autoGroupColumnDef": "STRING",
+      "columnDefs": "STRING",
+      "name": "STRING",
+      "layout": "STRING",
+      "deactivated": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "changedAt.year": "INTEGER",
+      "database": "STRING",
+      "changedAt.hour": "INTEGER",
+      "selectable": "BOOLEAN",
+      "sequence": "INTEGER",
+      "hidden": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "loads": "System",
+      "raises": "System",
+      "for": "System",
+      "hasLabel": "System",
+      "hasColumn": "System",
+      "hasStyle": "System",
+      "hasFieldSet": "System",
+      "has": "System",
+      "hasWidget": "System",
+      "hasColor": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "hasColumng": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Icon",
+    "attributes": {
+      "UNIQUE IMPORT ID": "INTEGER",
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "data": "STRING",
+      "code": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Schema",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "value": "INTEGER",
+      "padded": "BOOLEAN",
+      "createdAt.minute": "INTEGER",
+      "end": "INTEGER",
+      "options": "STRING",
+      "template": "STRING",
+      "site": "STRING",
+      "areaID": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "condition": "STRING",
+      "select": "STRING",
+      "logging": "BOOLEAN",
+      "format": "STRING",
+      "log": "BOOLEAN",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "start": "INTEGER",
+      "sequence": "FLOAT",
+      "prefix": "STRING",
+      "uuid": "STRING",
+      "datatype": "STRING",
+      "locked": "BOOLEAN",
+      "group": "STRING",
+      "cardinality": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasValue": "System",
+      "startsAt": "System",
+      "hasAttribute": "System",
+      "usesCounter": "System",
+      "for": "System",
+      "hasLabel": "System",
+      "extends": "System",
+      "needs": "System",
+      "hasStyle": "System",
+      "throws": "System",
+      "endsAt": "System",
+      "from": "Apps",
+      "has": "System",
+      "inheritsFrom": "System",
+      "hasWidget": "System",
+      "isTemplateFor": "System",
+      "current": "System",
+      "uses": "Validation",
+      "hasStateMachine": "Apps",
+      "isOfDataType": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Attribute",
+    "attributes": {
+      "template": "STRING",
+      "site": "STRING",
+      "areaID": "STRING",
+      "select": "STRING",
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "FLOAT",
+      "name": "STRING",
+      "uuid": "STRING",
+      "datatype": "STRING",
+      "locked": "BOOLEAN",
+      "group": "STRING",
+      "changedAt": "DATE_TIME",
+      "options": "STRING"
+    },
+    "relationships": {
+      "hasValue": "System",
+      "hasLabel": "System",
+      "needs": "System",
+      "current": "System",
+      "from": "Apps",
+      "has": "System",
+      "isOfDataType": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Usage",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uID": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "type": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "Company",
+      "in": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "RelationType",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "logging": "BOOLEAN",
+      "uuid": "STRING",
+      "type": "STRING",
+      "cardinality": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "startsAt": "System",
+      "hasAttribute": "System",
+      "hasStyle": "System",
+      "endsAt": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Column",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "mergedBy": "STRING",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "mergedAt": "STRING",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "mergedOn": "STRING",
+      "changedAt.second": "INTEGER",
+      "drag": "BOOLEAN",
+      "width": "INTEGER",
+      "edit": "BOOLEAN",
+      "render": "STRING",
+      "aggregation": "LIST",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "hidden": "BOOLEAN",
+      "textarea": "STRING",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "checkbox": "BOOLEAN",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "locked": "BOOLEAN",
+      "group": "BOOLEAN",
+      "filter": "BOOLEAN",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "for": "System",
+      "hasLabel": "System",
+      "current": "System",
+      "hasRow": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "ContextBox",
+    "attributes": {
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "format": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "raises": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Setting",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "hideDeactivatedUIElements": "BOOLEAN",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "value": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "maintainedBy": "System",
+      "current": "System",
+      "uses": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Logo",
+    "attributes": {
+      "name": "STRING",
+      "value": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "CodeLocMarker",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "codeLocId": "STRING",
+      "createdBy": "STRING",
+      "location": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "coding": "FLOAT"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Section",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "mergedBy": "STRING",
+      "changedAt.day": "INTEGER",
+      "test_code": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "creatededBy": "STRING",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "mergedAt": "STRING",
+      "tests": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "test_cypher": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "mergedOn": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "css": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "hasLanguageProfile": "Apps",
+      "hasFieldSet": "System",
+      "in": "System",
+      "hasTranslation": "Section",
+      "has": "System",
+      "hasType": "Apps",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "FieldSet",
+    "attributes": {
+      "mergedBy": "STRING",
+      "mergedOn": "STRING",
+      "width": "INTEGER",
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "mergedAt": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasLabel": "System",
+      "hasField": "System",
+      "current": "System",
+      "has": "System",
+      "isOfDataType": "System",
+      "backup": "System",
+      "hasSection": "System"
+    }
+  },
+  {
+    "label": "DataType",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "value": "INTEGER",
+      "format": "STRING",
+      "uuid": "STRING",
+      "type": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Start",
+    "attributes": {
+      "id": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Group",
+    "attributes": {
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "format": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "for": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Permission",
+    "attributes": {
+      "update": "STRING",
+      "migration": "STRING",
+      "approve": "STRING",
+      "link": "STRING",
+      "merge": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "activate": "STRING",
+      "pattern": "STRING",
+      "createdBy": "STRING",
+      "browse": "STRING",
+      "description": "STRING",
+      "admin": "BOOLEAN",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "delete": "STRING",
+      "read": "STRING",
+      "deactivated": "STRING",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "deactivate": "STRING",
+      "nodeType": "STRING",
+      "comment": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "System",
+      "forEvent": "System",
+      "current": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "NodeType",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "logging": "BOOLEAN",
+      "type": "STRING",
+      "log": "BOOLEAN",
+      "createdAt.day": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasValue": "System",
+      "hasAttribute": "System",
+      "usesCounter": "System",
+      "extends": "System",
+      "hasStyle": "System",
+      "has": "System",
+      "inheritsFrom": "System",
+      "hasWidget": "System",
+      "isTemplateFor": "System",
+      "current": "System",
+      "uses": "Validation",
+      "hasStateMachine": "Apps",
+      "isOfDataType": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Graph",
+    "attributes": {
+      "showRelationDirection": "BOOLEAN",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher_old": "STRING",
+      "changedAt.day": "INTEGER",
+      "animate": "BOOLEAN",
+      "spacing": "FLOAT",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "randomize": "BOOLEAN",
+      "fit": "BOOLEAN",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "layout": "STRING",
+      "name": "STRING",
+      "grabbable": "BOOLEAN",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "changedAt.second": "INTEGER",
+      "label": "BOOLEAN",
+      "fontSize": "STRING",
+      "database": "STRING",
+      "changedAt.hour": "INTEGER",
+      "createdBy": "STRING",
+      "selectable": "BOOLEAN",
+      "sequence": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "showRelationType": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasStyle": "System",
+      "current": "System",
+      "has": "System",
+      "x": "System"
+    }
+  },
+  {
+    "label": "Role",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "admin": "BOOLEAN",
+      "name": "STRING",
+      "deactivated": "BOOLEAN",
+      "locked": "STRING",
+      "uuid": "STRING",
+      "changedAt": "STRING"
+    },
+    "relationships": {
+      "hasGiven": "System",
+      "hasPermission": "Permission",
+      "current": "System",
+      "includes": "System",
+      "has": "System",
+      "hasAccessTo": "System",
+      "hasType": "Apps",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Config_AR",
+    "attributes": {
+      "id": "INTEGER",
+      "changedBy": "STRING",
+      "asaPrimaryKey": "STRING",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Area",
+    "attributes": {
+      "changedBy": "STRING",
+      "postalCode": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "street": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "city": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "contains": "Area",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Value",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasLabel": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Pose",
+    "attributes": {
+      "label": "BOOLEAN",
+      "changedBy": "STRING",
+      "w": "FLOAT",
+      "id": "INTEGER",
+      "selected": "STRING",
+      "locMethod": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "poseType": "STRING",
+      "markerCorner": "STRING",
+      "uuid": "STRING",
+      "qualityValue": "FLOAT",
+      "y": "FLOAT",
+      "changedAt": "DATE_TIME",
+      "x": "FLOAT"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ProcessTag",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "usesResource": "ObjectTag"
+    }
+  },
+  {
+    "label": "Application",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "INTEGER",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "type": "STRING",
+      "administration": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "hasContact": "Apps",
+      "raises": "System",
+      "hasLabel": "System",
+      "maintains": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Document",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING indexed",
+      "ID": "STRING indexed",
+      "documentNumber": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "relatedTo": "Apps",
+      "replacedBy": "Document",
+      "maintainedBy": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "DocumentType",
+    "attributes": {
+      "name": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ObjectTag",
+    "attributes": {
+      "id": "INTEGER",
+      "changedBy": "STRING",
+      "content": "STRING",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "undergoes": "ProcessTag",
+      "hasPose": "Pose"
+    }
+  },
+  {
+    "label": "Patch",
+    "attributes": {
+      "json": "STRING",
+      "name": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Option",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "code": "STRING",
+      "createdAt.day": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.month": "INTEGER",
+      "default": "BOOLEAN",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Method",
+    "attributes": {
+      "class": "STRING",
+      "label": "STRING",
+      "code": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "changedAt": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "MenuItem",
+    "attributes": {
+      "id": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Style",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "nodeTitle": "STRING",
+      "code": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasColor": "System",
+      "hasShape": "System",
+      "hasFont": "System",
+      "current": "System",
+      "hasTitle": "System",
+      "hasIcon": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "User",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "FLOAT",
+      "createdAt.year": "INTEGER",
+      "surName": "STRING",
+      "givenName": "STRING",
+      "password": "STRING",
+      "imported": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "userId": "INTEGER",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "deactivated": "STRING",
+      "xing": "STRING",
+      "[object Object]": "STRING",
+      "question": "STRING",
+      "firstName": "STRING",
+      "internal": "STRING",
+      "key": "STRING",
+      "lastName": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "answer": "STRING",
+      "image": "STRING",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "email": "STRING",
+      "admin": "BOOLEAN",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "requested": "Apps",
+      "worksOn": "Scenario",
+      "current": "System",
+      "plays": "System",
+      "finished": "Apps",
+      "started": "Apps",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Shape",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Counter",
+    "attributes": {
+      "format": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "start": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "prefix": "STRING",
+      "name": "STRING",
+      "padded": "BOOLEAN",
+      "counter_cypher": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "end": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "SideBarItem",
+    "attributes": {
+      "id": "INTEGER",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "N2Neo4j",
+    "attributes": {
+      "id": "INTEGER",
+      "dbId": "INTEGER",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Report",
+    "attributes": {
+      "generic": "STRING",
+      "database_old": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "cypher_old": "STRING",
+      "width": "INTEGER",
+      "state": "STRING",
+      "database": "STRING",
+      "content": "STRING",
+      "changedBy": "STRING",
+      "title": "STRING",
+      "height": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "columnDefs": "STRING",
+      "name": "STRING",
+      "deactivated": "STRING",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "changedAt": "STRING"
+    },
+    "relationships": {
+      "with": "System",
+      "hasStyle": "System",
+      "uses": "System"
+    }
+  },
+  {
+    "label": "xApplication",
+    "attributes": {
+      "id": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "EnumItem",
+    "attributes": {
+      "id": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "State",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "code": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "nextState": "State",
+      "allows": "System",
+      "hasColor": "System",
+      "hasLabel": "System"
+    }
+  },
+  {
+    "label": "Approval",
+    "attributes": {
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "deactivated": "BOOLEAN",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "replacedBy": "System",
+      "current": "System",
+      "has": "System",
+      "hasState": "State"
+    }
+  },
+  {
+    "label": "Component",
+    "attributes": {
+      "index": "INTEGER",
+      "activeTo": "DATE_TIME",
+      "type": "STRING",
+      "abbreviation": "STRING",
+      "material": "STRING",
+      "version": "INTEGER",
+      "content": "STRING",
+      "changedBy": "STRING",
+      "id": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING indexed",
+      "company": "STRING",
+      "ID": "STRING",
+      "quantity": "INTEGER",
+      "cID": "STRING indexed",
+      "kbl_id": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "activeFrom": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "is": "Component",
+      "usedAs": "Usage",
+      "contains": "Apps",
+      "in": "Apps",
+      "has": "Apps",
+      "hasType": "Apps",
+      "hasActual": "Apps",
+      "basedOn": "Component",
+      "usedIn": "Apps",
+      "current": "System",
+      "hasVersion": "Component",
+      "hasModel": "Apps"
+    }
+  },
+  {
+    "label": "Service",
+    "attributes": {
+      "params": "STRING",
+      "url": "STRING",
+      "content": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "method": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "CRM",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "TagType",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "CRM",
+    "attributes": {
+      "content": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "preview": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING",
+      "questionType": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "CRM",
+      "relevantFor": "CRM",
+      "current": "System",
+      "has": "CRM"
+    }
+  },
+  {
+    "label": "BusinessType",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "preview": "STRING",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "has": "CRM"
+    }
+  },
+  {
+    "label": "ValueChain",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "sequence": "INTEGER",
+      "description": "STRING",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Industry",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "sequence": "INTEGER",
+      "description": "STRING",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "BusinessChallenge",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "relevantFor": "CRM",
+      "has": "CRM"
+    }
+  },
+  {
+    "label": "Issue",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "CRM",
+      "has": "CRM"
+    }
+  },
+  {
+    "label": "Question",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "questionType": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "CRM"
+    }
+  },
+  {
+    "label": "Solution",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Product",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "content": "STRING",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "CRM",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Font",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Target",
+    "attributes": {
+      "name": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Persona",
+    "attributes": {
+      "id": "INTEGER",
+      "changedBy": "STRING",
+      "description": "STRING",
+      "name": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Scenario",
+    "attributes": {
+      "data": "STRING",
+      "params": "STRING",
+      "properties": "STRING"
+    },
+    "relationships": {
+      "hides": "Service",
+      "hasFilter": "CRM"
+    }
+  },
+  {
+    "label": "Filter",
+    "attributes": {
+      "cypher": "STRING",
+      "name": "STRING",
+      "database": "STRING"
+    },
+    "relationships": {
+      "with": "System",
+      "raises": "System"
+    }
+  },
+  {
+    "label": "Layout",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasColumn": "System",
+      "current": "System",
+      "hasRow": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Row",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "File",
+    "attributes": {
+      "fileTypeExtension": "STRING",
+      "fileType": "STRING",
+      "hash": "STRING",
+      "width": "FLOAT",
+      "uploadPath": "STRING",
+      "originalName": "STRING",
+      "absolutePath": "STRING",
+      "code": "STRING",
+      "version": "INTEGER",
+      "extension": "STRING",
+      "createdOn": "INTEGER",
+      "changedBy": "STRING",
+      "fileSize": "FLOAT",
+      "height": "FLOAT",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "directory": "STRING",
+      "createdAt": "DATE_TIME",
+      "colorSpace": "STRING",
+      "name": "STRING",
+      "fileName": "STRING",
+      "uuid": "STRING",
+      "mimeType": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "isOf": "System",
+      "attachedTo": "Apps",
+      "is": "Image",
+      "relatedTo": "Apps",
+      "replaces": "File",
+      "needs": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Wdget",
+    "attributes": {
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "BaseNode",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Module",
+    "attributes": {
+      "type": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "timestamp": "INTEGER",
+      "createdBy": "STRING",
+      "admin": "BOOLEAN",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "sequence": "INTEGER",
+      "name": "STRING",
+      "uuid": "STRING",
+      "administration": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "raises": "System",
+      "hasLabel": "System",
+      "hasMenu": "System",
+      "maintains": "System",
+      "current": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Version",
+    "attributes": {
+      "graph": "STRING",
+      "createdBy": "STRING",
+      "activeTo": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "company": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "abbreviation": "STRING",
+      "activeFrom": "STRING",
+      "version": "STRING"
+    },
+    "relationships": {
+      "basedOn": "Component",
+      "next": "Version",
+      "usedAs": "Usage",
+      "current": "System",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "Test",
+    "attributes": {
+      "timezone": "STRING",
+      "description": "STRING",
+      "name": "INTEGER",
+      "data": "STRING",
+      "image": "STRING",
+      "timeFormat": "STRING",
+      "dateFormat": "STRING",
+      "language": "STRING",
+      "uuid": "STRING",
+      "showDisabled": "BOOLEAN"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Gallery",
+    "attributes": {
+      "changedBy": "STRING",
+      "cypher": "STRING",
+      "cypher_old": "STRING",
+      "height": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "width": "INTEGER",
+      "uuid": "STRING",
+      "type": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "UNIQUE IMPORT LABEL",
+    "attributes": {
+      "UNIQUE IMPORT ID": "INTEGER",
+      "timestamp": "DATE_TIME",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "labels": "STRING",
+      "action": "STRING",
+      "code": "STRING",
+      "properties": "STRING",
+      "user": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "AccessControl",
+    "attributes": {
+      "lastName": "STRING",
+      "answer": "STRING",
+      "image": "STRING",
+      "password": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "validTo": "STRING",
+      "createdBy": "STRING",
+      "email": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "ID": "STRING",
+      "[object Object]": "STRING",
+      "deactivated": "STRING",
+      "question": "STRING",
+      "uuid": "STRING",
+      "firstName": "STRING",
+      "changedAt": "DATE_TIME",
+      "key": "STRING"
+    },
+    "relationships": {
+      "hasGiven": "System",
+      "replacedBy": "System",
+      "for": "System",
+      "worksOn": "Scenario",
+      "plays": "System",
+      "finished": "Apps",
+      "includes": "System",
+      "has": "System",
+      "hasType": "Apps",
+      "requested": "Apps",
+      "current": "System",
+      "started": "Apps",
+      "hasAccessTo": "System",
+      "backup": "System",
+      "hasState": "State"
+    }
+  },
+  {
+    "label": "Validation",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "condition": "STRING",
+      "createdAt": "DATE_TIME",
+      "regex": "STRING",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "required": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "System",
+      "hasLabel": "System",
+      "next": "State",
+      "throws": "System",
+      "current": "System",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Message",
+    "attributes": {
+      "name": "STRING",
+      "code": "INTEGER",
+      "uuid": "STRING",
+      "type": "STRING"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Image",
+    "attributes": {
+      "orientation": "STRING",
+      "keywords": "STRING indexed",
+      "copyrightStatus": "BOOLEAN",
+      "copyright": "STRING indexed",
+      "changedBy": "STRING",
+      "author": "STRING indexed",
+      "title": "STRING indexed",
+      "source": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING indexed",
+      "createdAt": "DATE_TIME",
+      "colorSpace": "STRING",
+      "name": "STRING indexed",
+      "ID": "STRING indexed",
+      "uuid": "STRING",
+      "credit": "STRING indexed",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "relatedTo": "Apps",
+      "replacedBy": "Image",
+      "maintainedBy": "System",
+      "current": "System",
+      "under": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ComponentType",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "uses": "Apps"
+    }
+  },
+  {
+    "label": "Apps",
+    "attributes": {
+      "originalName": "STRING",
+      "fixed": "BOOLEAN",
+      "city": "STRING",
+      "validTo": "DATE_TIME",
+      "desiredQuantity": "FLOAT",
+      "postalCode": "STRING",
+      "expires": "DATE_TIME",
+      "oldkey": "STRING",
+      "checkDate": "STRING",
+      "import": "STRING",
+      "quantity": "FLOAT",
+      "mappingType": "STRING",
+      "confirmedQuantity": "FLOAT",
+      "mimeType": "STRING",
+      "orientation": "STRING",
+      "fixedDate": "BOOLEAN",
+      "companyName": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "start": "DATE_TIME",
+      "uuid": "STRING unique indexed",
+      "segments": "LIST",
+      "createdAt.second": "INTEGER",
+      "desiredDeliveryDate": "DATE_TIME",
+      "createdAt.year": "INTEGER",
+      "date": "STRING",
+      "controlledComponents": "LIST",
+      "version": "INTEGER",
+      "changedBy": "STRING",
+      "title": "STRING",
+      "isUom": "BOOLEAN",
+      "createdAt": "DATE_TIME",
+      "command": "STRING",
+      "documentIndex": "STRING",
+      "dueDate": "STRING",
+      "end": "DATE_TIME",
+      "fileType": "STRING",
+      "description_richtext": "STRING",
+      "copyrightStatus": "BOOLEAN",
+      "absolutePath": "STRING",
+      "extension": "STRING",
+      "oldNumber": "STRING",
+      "contactedCavity": "LIST",
+      "sequence": "INTEGER",
+      "directory": "STRING",
+      "refNr": "STRING",
+      "z": "FLOAT",
+      "deliveryAddress": "STRING",
+      "activeFrom": "DATE_TIME",
+      "y": "FLOAT",
+      "changedAt": "DATE_TIME",
+      "x": "FLOAT",
+      "planDate": "STRING",
+      "phone": "STRING",
+      "countryName": "STRING",
+      "location": "STRING",
+      "referencedComponents": "LIST",
+      "initialLanguage": "STRING",
+      "type": "STRING",
+      "createdAt.day": "INTEGER",
+      "height": "FLOAT",
+      "priority": "STRING",
+      "description": "STRING",
+      "listOfDemandsName": "STRING",
+      "ID": "STRING indexed",
+      "value": "FLOAT",
+      "gender": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cID": "STRING",
+      "key": "STRING",
+      "lastName": "STRING",
+      "text": "STRING",
+      "index": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "hash": "STRING",
+      "wire": "STRING",
+      "IP": "STRING",
+      "mandatory": "BOOLEAN",
+      "width": "FLOAT",
+      "code": "STRING",
+      "script": "STRING",
+      "createdOn": "DATE_TIME",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "default": "BOOLEAN",
+      "email": "STRING",
+      "company": "STRING",
+      "fileName": "STRING",
+      "validFrom": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "uID": "STRING",
+      "id": "INTEGER",
+      "fileSize": "FLOAT",
+      "author": "STRING",
+      "findings": "STRING",
+      "name": "STRING indexed",
+      "positionOnWire": "FLOAT",
+      "refcode": "STRING",
+      "confirmedDeliveryDate": "DATE_TIME",
+      "languageNeutral": "BOOLEAN",
+      "firstName": "STRING",
+      "activeTo": "DATE_TIME",
+      "componentName": "STRING",
+      "objectives": "STRING",
+      "channel": "STRING",
+      "associatedParts": "LIST"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "to": "Section",
+      "affects": "Component",
+      "for": "System",
+      "worksOn": "Apps",
+      "relevantFor": "Company",
+      "withWire": "Component",
+      "contains": "Apps",
+      "by": "Apps",
+      "has": "System",
+      "comprises": "Apps",
+      "of": "Component",
+      "nextAtomValue": "Apps",
+      "on": "Apps",
+      "hasModel": "Apps",
+      "canBe": "Apps",
+      "hasTranslation": "Apps",
+      "startsAt": "Apps",
+      "isOf": "System",
+      "replaces": "File",
+      "generates": "System",
+      "canBeFulfilledBy": "Apps",
+      "reviewedBy": "Apps",
+      "hasType": "Apps",
+      "attachedTo": "Apps",
+      "withName": "Apps",
+      "hasColor": "System",
+      "forView": "Apps",
+      "nextStep": "Apps",
+      "causes": "Apps",
+      "next": "Apps",
+      "endsAt": "Apps",
+      "usedAs": "Usage",
+      "derivedFrom": "Apps",
+      "maintainedBy": "System",
+      "implementedBy": "Apps",
+      "hasLanguageProfile": "Apps",
+      "through": "Apps",
+      "from": "Company",
+      "includes": "Apps",
+      "worksFor": "Company",
+      "according": "Apps",
+      "allows": "System",
+      "coveredBy": "Apps",
+      "hasTask": "Apps",
+      "current": "System",
+      "usedIn": "Apps",
+      "isOfDataType": "System",
+      "relatedTo": "Apps",
+      "is": "Option",
+      "with": "Apps",
+      "hasLabel": "System",
+      "attends": "System",
+      "takesPlaceIn": "Apps",
+      "in": "System",
+      "nextAtom": "Apps",
+      "maps": "Apps",
+      "hasActual": "Apps",
+      "publishedBy": "Company",
+      "produces": "Component",
+      "uses": "Apps",
+      "runs": "System",
+      "processedBy": "Apps"
+    }
+  },
+  {
+    "label": "PropertySet",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "with": "Apps"
+    }
+  },
+  {
+    "label": "Property",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "property": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "nextAtom": "Apps",
+      "hasLabel": "System",
+      "maintainedBy": "System",
+      "isOfDataType": "System"
+    }
+  },
+  {
+    "label": "DataAtom",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "createdAt.day": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "isUom": "BOOLEAN",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "nextAtom": "Apps",
+      "canHave": "Apps",
+      "hasLabel": "System",
+      "isOfDataType_old": "System",
+      "from": "Apps",
+      "canBe": "Apps",
+      "isOfDataType": "System"
+    }
+  },
+  {
+    "label": "MaterialGroup",
+    "attributes": {
+      "id": "INTEGER",
+      "description": "STRING",
+      "name": "STRING",
+      "cID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "TreeGrid",
+    "attributes": {
+      "limit": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher": "STRING",
+      "rowSelection": "STRING",
+      "cypher_old": "STRING",
+      "changedAt.day": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "changedAt.second": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "level": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasLabel": "System",
+      "hasColumn": "System",
+      "current": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "Type",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "refcode": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING indexed",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "to": "System",
+      "for": "System",
+      "hasLabel": "System",
+      "calledFrom": "System",
+      "uses": "Apps",
+      "from": "System"
+    }
+  },
+  {
+    "label": "Text",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "initialLanguage": "STRING",
+      "languageNeutral": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "hasLanguageProfile": "Apps",
+      "hasTranslation": "Apps"
+    }
+  },
+  {
+    "label": "Language",
+    "attributes": {
+      "changedBy": "STRING",
+      "iso639_3": "STRING",
+      "iso639_1": "STRING",
+      "languageForUI": "BOOLEAN",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "representedBy": "System",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Translation",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "test_code": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "tests": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "test_cypher": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "language": "STRING",
+      "uuid": "STRING",
+      "css": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "in": "System",
+      "hasType": "Apps",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "LanguageProfile",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "includes": "System"
+    }
+  },
+  {
+    "label": "Uom",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "UomSet",
+    "attributes": {
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "OptionSet",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "has": "Option"
+    }
+  },
+  {
+    "label": "View",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "format": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "uses": "System",
+      "has": "Section"
+    }
+  },
+  {
+    "label": "LicensingAgreement",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "web": "LIST",
+      "singlePublishing": "LIST",
+      "uuid": "STRING",
+      "socialmedia": "LIST",
+      "print": "LIST",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "grantedBy": "Company",
+      "for": "System"
+    }
+  },
+  {
+    "label": "StateMachine",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "nextState": "State",
+      "forNodeType": "System"
+    }
+  },
+  {
+    "label": "Requirement",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "mandatory": "BOOLEAN",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "with": "Apps",
+      "relevantFor": "Company",
+      "canBeFulfilledBy": "Apps",
+      "maintainedBy": "System",
+      "current": "System",
+      "hasTask": "Apps",
+      "derivedFrom": "Apps",
+      "has": "System",
+      "reviewedBy": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Mapping",
+    "attributes": {
+      "changedBy": "STRING",
+      "cypher": "STRING",
+      "cypher_old": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "mappingType": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "withName": "Apps",
+      "maps": "Apps",
+      "forUom": "Apps",
+      "forView": "Apps",
+      "uses": "Apps",
+      "runs": "System"
+    }
+  },
+  {
+    "label": "WriteDataAtom",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "writes": "Apps"
+    }
+  },
+  {
+    "label": "Objective",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Process",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "takesPlaceIn": "Apps",
+      "nextStep": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Stage",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "stageType": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "plannedFor": "Apps",
+      "has": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Task",
+    "attributes": {
+      "content": "STRING",
+      "changedBy": "STRING",
+      "oldNumber": "STRING",
+      "createdBy": "STRING",
+      "priority": "STRING",
+      "createdAt": "DATE_TIME",
+      "oldkey": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "refNr": "STRING",
+      "uuid": "STRING",
+      "dueDate": "STRING",
+      "changedAt": "DATE_TIME",
+      "key": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System",
+      "causes": "Apps",
+      "comprises": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Term",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "_key": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "language": "STRING",
+      "uuid": "STRING",
+      "initialLanguage": "STRING",
+      "languageNeutral": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "inGroup": "Group",
+      "hasLanguageProfile": "Apps",
+      "in": "System",
+      "hasTranslation": "Apps",
+      "backup": "Apps"
+    }
+  },
+  {
+    "label": "Activity",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "date": "DATE_TIME",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Date",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "planDate": "STRING",
+      "fixedDate": "BOOLEAN",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "effectiveDate": "STRING",
+      "fixed": "BOOLEAN",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "PropertyValue",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "value": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "nextAtomValue": "Apps",
+      "for": "Apps"
+    }
+  },
+  {
+    "label": "DataAtomValue",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "value": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "nextAtomValue": "Apps",
+      "is": "Apps",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Template",
+    "attributes": {
+      "template": "STRING",
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "style": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "for": "System",
+      "current": "System",
+      "uses": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Rule",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "UserStory",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System",
+      "causes": "Apps"
+    }
+  },
+  {
+    "label": "Function",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "params": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "method": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "FunctionalPart",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "undefined": "Component",
+      "current": "System",
+      "has": "System",
+      "canBeImplementedBy": "Component"
+    }
+  },
+  {
+    "label": "FunctionalSystem",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "covers": "Apps"
+    }
+  },
+  {
+    "label": "EN",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "language": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "in": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "DE",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "test_code": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "type": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "tests": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "test_cypher": "STRING",
+      "createdAt.minute": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "language": "STRING",
+      "uuid": "STRING",
+      "css": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "in": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "en",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "de",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ZH",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "language": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "in": "System"
+    }
+  },
+  {
+    "label": "FR",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "language": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "in": "System"
+    }
+  },
+  {
+    "label": "Parameter",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "_key": "STRING",
+      "direction": "STRING",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "relationTypeName": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "nodeTypeName": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "filter": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "from": "System",
+      "has": "System",
+      "backup": "System"
+    }
+  },
+  {
+    "label": "FileType",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "extensions": "LIST",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "for": "System",
+      "current": "System",
+      "canUse": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "TransformationProfile",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Transformation",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "command": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "generates": "System",
+      "in": "Apps"
+    }
+  },
+  {
+    "label": "Conversion",
+    "attributes": {
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "cypher": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "BOM",
+    "attributes": {
+      "changedBy": "STRING",
+      "validTo": "DATE_TIME",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "validFrom": "STRING",
+      "quantity": "FLOAT",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "version": "STRING"
+    },
+    "relationships": {
+      "processedBy": "Apps",
+      "in": "Apps",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "BOMElement",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "quantity": "FLOAT",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "in": "Apps"
+    }
+  },
+  {
+    "label": "Environment",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "uses": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Download",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "FixedAsset",
+    "attributes": {
+      "content": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdBy": "STRING",
+      "assetType": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "serialNumber": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "current": "System",
+      "underlies": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "MaterialDeclaration",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "url": "STRING"
+    },
+    "relationships": {
+      "covers": "Apps"
+    }
+  },
+  {
+    "label": "ComplianceGroup",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "contains": "Apps"
+    }
+  },
+  {
+    "label": "Substance",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "ecNumber": "STRING",
+      "name": "STRING",
+      "casNumber": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ListOfDemands",
+    "attributes": {
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "version": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Demand",
+    "attributes": {
+      "createdBy": "STRING",
+      "uom": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "value": "STRING",
+      "uuid": "STRING",
+      "operator": "STRING"
+    },
+    "relationships": {
+      "listedIn": "Apps",
+      "for": "Apps"
+    }
+  },
+  {
+    "label": "Proof",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "url": "STRING"
+    },
+    "relationships": {
+      "covers": "Apps"
+    }
+  },
+  {
+    "label": "DemandApproval",
+    "attributes": {
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "approved": "BOOLEAN",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "approves": "Apps",
+      "basedOn": "Apps"
+    }
+  },
+  {
+    "label": "ComplianceCheck",
+    "attributes": {
+      "changedBy": "STRING",
+      "componentName": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "listOfDemandsName": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "checkDate": "STRING",
+      "uuid": "STRING",
+      "companyName": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "according": "Apps"
+    }
+  },
+  {
+    "label": "Backup",
+    "attributes": {
+      "_key": "STRING",
+      "type": "STRING",
+      "password": "STRING",
+      "validTo": "STRING",
+      "desiredQuantity": "FLOAT",
+      "height": "INTEGER",
+      "description": "STRING",
+      "treeData": "BOOLEAN",
+      "ID": "STRING",
+      "allowPaging": "BOOLEAN",
+      "confirmedQuantity": "FLOAT",
+      "refresh": "STRING",
+      "key": "STRING",
+      "limit": "INTEGER",
+      "lastName": "STRING",
+      "database_old": "STRING",
+      "orientation": "STRING",
+      "width": "INTEGER",
+      "pageSize": "INTEGER",
+      "image": "STRING",
+      "logging": "BOOLEAN",
+      "code": "STRING",
+      "log": "BOOLEAN",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "email": "STRING",
+      "validFrom": "STRING",
+      "uuid": "STRING",
+      "locked": "STRING",
+      "filter": "BOOLEAN",
+      "direction": "STRING",
+      "desiredDeliveryDate": "DATE_TIME",
+      "state": "STRING",
+      "eventType": "STRING",
+      "date": "STRING",
+      "shortcut": "STRING",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "multiLanguage": "STRING",
+      "title": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "confirmedDeliveryDate": "DATE_TIME",
+      "deactivated": "STRING",
+      "xing": "STRING",
+      "firstName": "STRING",
+      "options": "STRING",
+      "cypher": "STRING",
+      "migration": "STRING",
+      "rowSelection": "STRING",
+      "edit": "BOOLEAN",
+      "copyrightStatus": "BOOLEAN",
+      "database": "STRING",
+      "sequence": "INTEGER",
+      "hidden": "BOOLEAN",
+      "channel": "STRING",
+      "deliveryAddress": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "hasAttribute": "System",
+      "raises": "System",
+      "for": "System",
+      "hasColumn": "System",
+      "hasField": "System",
+      "endsAt": "System",
+      "maintainedBy": "System",
+      "plays": "System",
+      "from": "System",
+      "includes": "System",
+      "hasFieldSet": "System",
+      "has": "System",
+      "hasWidget": "System",
+      "of": "Component",
+      "hasShape": "System",
+      "hasMenuItem": "System",
+      "current": "System",
+      "isOfDataType": "System",
+      "backup": "Apps",
+      "hasState": "State",
+      "startsAt": "System",
+      "loads": "System",
+      "relatedTo": "Apps",
+      "with": "System",
+      "replacedBy": "System",
+      "usesCounter": "System",
+      "hasLabel": "System",
+      "extends": "System",
+      "hasStyle": "System",
+      "gets": "System",
+      "canUse": "Apps",
+      "calls": "System",
+      "hasType": "Apps",
+      "hasSection": "System",
+      "hasColor": "System",
+      "publishedBy": "Company",
+      "uses": "System",
+      "runs": "System",
+      "causes": "Apps",
+      "hasAccessTo": "System"
+    }
+  },
+  {
+    "label": "DataItem",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ChangeRequest",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "sequence": "INTEGER",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "affects": "Component",
+      "hasActual": "Apps",
+      "relevantFor": "Company",
+      "coveredBy": "Apps",
+      "hasAuthor": "Apps",
+      "hasModel": "Apps",
+      "has": "Apps",
+      "reviewedBy": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ProcessTemplate",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "id": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Gate",
+    "attributes": {
+      "name": "STRING"
+    },
+    "relationships": {
+      "atDate": "Apps"
+    }
+  },
+  {
+    "label": "Gantt",
+    "attributes": {
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher": "STRING",
+      "changedAt.day": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "changedAt.second": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "editable": "BOOLEAN",
+      "changedBy": "STRING",
+      "changedAt.hour": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasLabel": "System",
+      "hasColumn": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "ServerInstance",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Licence",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ServiceContract",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "for": "System",
+      "current": "System",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Contract",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "validFrom": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "for": "System",
+      "current": "System",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Acceptance",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Timeslot",
+    "attributes": {
+      "changedBy": "STRING",
+      "unit": "STRING",
+      "duration": "FLOAT",
+      "createdBy": "STRING",
+      "start": "DATE_TIME",
+      "createdAt": "DATE_TIME",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "fixed": "BOOLEAN",
+      "changedAt": "DATE_TIME",
+      "end": "DATE_TIME"
+    },
+    "relationships": {
+      "dependsOn": "Apps"
+    }
+  },
+  {
+    "label": "TestCase",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "verifies": "Apps"
+    }
+  },
+  {
+    "label": "Function_SE",
+    "attributes": {
+      "name": "STRING"
+    },
+    "relationships": {
+      "providedBy": "Apps",
+      "allocatedIn": "Apps"
+    }
+  },
+  {
+    "label": "FunctionalPart_SE",
+    "attributes": {
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "allocatedIn": "Apps",
+      "implementedBy": "Apps"
+    }
+  },
+  {
+    "label": "Component_SE",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Rendering",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "data": "STRING",
+      "documentNumber": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "TechnicalDocument",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "data": "STRING",
+      "ID": "STRING",
+      "documentNumber": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "test",
+    "attributes": {
+      "name": "STRING",
+      "params": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Allocation_ImageToRichtextPage",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Diagram",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "cypher": "STRING",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "x_shapes": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "x_connectors": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "for": "System",
+      "hasLabel": "System",
+      "current": "System",
+      "uses": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Link",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "validTo": "STRING",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "createdOn": "DATE_TIME",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "validFrom": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "to": "Section",
+      "hasApproval": "System",
+      "from": "Section",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToRichtextPage",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Section"
+    }
+  },
+  {
+    "label": "Rest",
+    "attributes": {
+      "name": "STRING",
+      "params": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "PageToPage",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Section"
+    }
+  },
+  {
+    "label": "AssetToArea",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "changedAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "changedAt.hour": "INTEGER",
+      "validTo": "STRING",
+      "createdAt.day": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.month": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "name": "STRING",
+      "validFrom": "STRING",
+      "changedAt.minute": "INTEGER",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "to": "Area",
+      "hasApproval": "System",
+      "from": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToComponent",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "createdOn": "DATE_TIME",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "to": "Component",
+      "hasApproval": "System",
+      "from": "Image",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "List",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "createdAt.minute": "INTEGER",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "for": "System",
+      "contains": "Apps",
+      "includes": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Connector",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "content": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Dependency",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "current": "System",
+      "on": "System",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "License",
+    "attributes": {
+      "text": "STRING",
+      "expires": "DATE_TIME",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "uuid": "STRING",
+      "key": "STRING"
+    },
+    "relationships": {
+      "next": "Apps"
+    }
+  },
+  {
+    "label": "Store",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "port": "INTEGER",
+      "changedAt.timeZoneOffsetSeconds": "INTEGER",
+      "changedAt.day": "INTEGER",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdOn.timeZoneOffsetSeconds": "INTEGER",
+      "createdOn.day": "INTEGER",
+      "password": "STRING",
+      "changedAt.nanosecond": "INTEGER",
+      "changedBy": "STRING",
+      "createdAt.day": "INTEGER",
+      "changedAt.month": "INTEGER",
+      "createdOn.nanosecond": "INTEGER",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "createdOn.hour": "INTEGER",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "createdOn.second": "INTEGER",
+      "host": "STRING",
+      "changedAt.year": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "changedAt.second": "INTEGER",
+      "code": "STRING",
+      "database": "STRING",
+      "createdAt.hour": "INTEGER",
+      "changedAt.hour": "INTEGER",
+      "createdOn.month": "INTEGER",
+      "createdOn.timeZoneId": "STRING",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "createdOn.year": "INTEGER",
+      "changedAt.timeZoneId": "STRING",
+      "changedAt.minute": "INTEGER",
+      "createdOn.minute": "INTEGER",
+      "uuid": "STRING",
+      "user": "STRING",
+      "changedAt": "DATE_TIME",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "hasType": "Type"
+    }
+  },
+  {
+    "label": "DiagramToPage",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "ImageToTranslation",
+    "attributes": {
+      "createdAt.timeZoneOffsetSeconds": "INTEGER",
+      "createdAt.timeZoneId": "STRING",
+      "createdAt.second": "INTEGER",
+      "createdAt.year": "INTEGER",
+      "createdAt.day": "INTEGER",
+      "createdOn": "DATE_TIME",
+      "createdAt.hour": "INTEGER",
+      "createdAt.month": "INTEGER",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "createdAt.minute": "INTEGER",
+      "uuid": "STRING",
+      "createdAt.nanosecond": "INTEGER"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "SectionToSection",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Section"
+    }
+  },
+  {
+    "label": "DiagramToTranslation",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "ARE",
+    "attributes": {
+      "name": "STRING",
+      "code": "STRING"
+    },
+    "relationships": {
+      "locatedIn": "Apps",
+      "gets": "Apps",
+      "hasSCCC": "Apps"
+    }
+  },
+  {
+    "label": "P09",
+    "attributes": {
+      "validTo": "STRING",
+      "VAT_ID": "INTEGER",
+      "name": "STRING",
+      "ID": "STRING",
+      "validFrom": "STRING",
+      "value": "INTEGER",
+      "code": "STRING"
+    },
+    "relationships": {
+      "locatedIn": "Apps",
+      "hasContact": "Apps",
+      "hasApplication": "Application",
+      "gets": "Apps",
+      "from": "Apps",
+      "hasSCCC": "Apps",
+      "in": "Apps",
+      "has": "Apps",
+      "hasType": "Apps",
+      "requires": "Apps",
+      "activeIn": "System"
+    }
+  },
+  {
+    "label": "Country",
+    "attributes": {
+      "iso3166_alpha2": "STRING",
+      "name": "STRING"
+    },
+    "relationships": {
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "SystemClientCompanyCode",
+    "attributes": {
+      "name": "STRING",
+      "code": "STRING"
+    },
+    "relationships": {
+      "locatedIn": "Apps"
+    }
+  },
+  {
+    "label": "LegalEntity",
+    "attributes": {
+      "name": "STRING",
+      "ID": "STRING",
+      "code": "STRING"
+    },
+    "relationships": {
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "Registration",
+    "attributes": {
+      "validTo": "STRING",
+      "VAT_ID": "INTEGER",
+      "name": "STRING",
+      "validFrom": "STRING"
+    },
+    "relationships": {
+      "in": "Apps"
+    }
+  },
+  {
+    "label": "ReportingRequirement",
+    "attributes": {
+      "name": "STRING",
+      "ID": "STRING"
+    },
+    "relationships": {
+      "hasType": "Apps",
+      "requires": "Apps"
+    }
+  },
+  {
+    "label": "ElectronicalDocumentTransmission",
+    "attributes": {
+      "name": "STRING",
+      "ID": "STRING"
+    },
+    "relationships": {
+      "activeIn": "System"
+    }
+  },
+  {
+    "label": "RoyaltyPayment",
+    "attributes": {
+      "value": "INTEGER"
+    },
+    "relationships": {
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "StatusReport",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "checkDate": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToFixedAsset",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps"
+    }
+  },
+  {
+    "label": "Upload",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "allowMultipleFiles": "BOOLEAN",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "File",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Accounting",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "month": "STRING",
+      "year": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Period",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "month": "STRING",
+      "year": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "StateRecording",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "checkDate": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "WorkPackage",
+    "attributes": {
+      "content": "STRING",
+      "changedBy": "STRING",
+      "findings": "STRING",
+      "objectives": "STRING",
+      "description_richtext": "STRING",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "hasActual": "Apps",
+      "maintainedBy": "System",
+      "hasTask": "Apps",
+      "includes": "Apps",
+      "causes": "Apps"
+    }
+  },
+  {
+    "label": "TechnicalDrawing",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "documentNumber": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Regulation",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "relatedTo": "Apps",
+      "from": "Company",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToRequirement",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "LimitValue",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "value": "FLOAT",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "for": "Apps",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "Operator",
+    "attributes": {
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Meeting",
+    "attributes": {
+      "content": "STRING",
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "start": "DATE_TIME",
+      "location": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "date": "STRING",
+      "changedAt": "DATE_TIME",
+      "end": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "Apps",
+      "current": "System",
+      "hasTask": "Apps",
+      "has": "System",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Operation",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "WorkStep",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "is": "Apps",
+      "undefined": "Component",
+      "produces": "Apps",
+      "uses": "Apps",
+      "nextStep": "Apps",
+      "has": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Review",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Project",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "startsWith": "Apps",
+      "current": "System",
+      "has": "System",
+      "comprises": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToTask",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "CADModel",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "version": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "maintainedBy": "System"
+    }
+  },
+  {
+    "label": "Note",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "relatedTo": "Apps"
+    }
+  },
+  {
+    "label": "ImageToWorkpackage",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "from": "Image"
+    }
+  },
+  {
+    "label": "Resource",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "usedIn": "Apps"
+    }
+  },
+  {
+    "label": "Person",
+    "attributes": {
+      "position": "STRING",
+      "lastName": "STRING",
+      "phone": "STRING",
+      "countryName": "STRING",
+      "street": "STRING",
+      "city": "STRING",
+      "changedBy": "STRING",
+      "title": "STRING",
+      "postalCode": "STRING",
+      "mobilePhone": "STRING",
+      "createdBy": "STRING",
+      "email": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "gender": "STRING",
+      "uuid": "STRING",
+      "firstName": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "worksOn": "Apps",
+      "attends": "Apps",
+      "at": "Area",
+      "hasTask": "Apps",
+      "worksFor": "Company",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "ImageToChangeRequest",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "DrawingRevision",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "version": "STRING"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "covers": "Apps",
+      "hasModel": "Apps",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "BomList",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "WireList",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ProposedSolution",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "for": "Component",
+      "undefined": "Component",
+      "maintainedBy": "System",
+      "realizedBy": "Apps",
+      "has": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "AEM",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "documentNumber": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "ImageToProposedSolution",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "KBL",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "documentIndex": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "FunctionalArea",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "cavities": "INTEGER",
+      "uuid": "STRING",
+      "script": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "is": "Apps",
+      "contains": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Viewer",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "code": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "FunctionalGeometryModel",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasType": "Apps",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "Occurrence",
+    "attributes": {
+      "index": "INTEGER",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "quantity": "INTEGER",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "is": "Component",
+      "usedIn": "Apps",
+      "contains": "Component",
+      "in": "Apps",
+      "has": "Apps"
+    }
+  },
+  {
+    "label": "MaterialDemand",
+    "attributes": {
+      "desiredDeliveryDate": "DATE_TIME",
+      "date": "STRING",
+      "content": "STRING",
+      "changedBy": "STRING",
+      "desiredQuantity": "FLOAT",
+      "createdBy": "STRING",
+      "description": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "confirmedDeliveryDate": "DATE_TIME",
+      "confirmedQuantity": "FLOAT",
+      "uuid": "STRING",
+      "deliveryAddress": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "of": "Component",
+      "for": "Company",
+      "current": "System",
+      "from": "Company",
+      "causes": "Apps",
+      "has": "System"
+    }
+  },
+  {
+    "label": "Session",
+    "attributes": {
+      "lastLogin": "DATE_TIME",
+      "token": "STRING",
+      "createdAt": "DATE_TIME",
+      "data": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "has": "System"
+    }
+  },
+  {
+    "label": "Workspace",
+    "attributes": {
+      "data": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "imageToNote",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "ImageToMeeting",
+    "attributes": {
+      "createdOn": "DATE_TIME",
+      "createdBy": "STRING",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "Body",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasStyle": "System"
+    }
+  },
+  {
+    "label": "Header",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasStyle": "System"
+    }
+  },
+  {
+    "label": "Footer",
+    "attributes": {
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "hasStyle": "System"
+    }
+  },
+  {
+    "label": "Location",
+    "attributes": {
+      "postalCode": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "street": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "city": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Publication",
+    "attributes": {
+      "changedBy": "STRING",
+      "content": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "date": "DATE_TIME",
+      "channel": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "of": "Document",
+      "publishedBy": "Company",
+      "current": "System",
+      "has": "System"
+    }
+  },
+  {
+    "label": "ChangeRequestGroup",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {
+      "hasApproval": "System",
+      "has": "Apps",
+      "comprises": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "Job",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "WorkUnit",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "IP": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Import",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "contains": "Apps",
+      "from": "File"
+    }
+  },
+  {
+    "label": "Data",
+    "attributes": {
+      "startsAt": "STRING",
+      "segments": "LIST",
+      "wire": "STRING",
+      "endsAt": "STRING",
+      "referencedComponents": "LIST",
+      "type": "STRING",
+      "script": "STRING",
+      "controlledComponents": "LIST",
+      "contactedCavity": "LIST",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "positionOnWire": "FLOAT",
+      "value": "STRING indexed",
+      "import": "STRING",
+      "uuid": "STRING",
+      "associatedParts": "LIST",
+      "key": "STRING indexed"
+    },
+    "relationships": {
+      "is": "Apps"
+    }
+  },
+  {
+    "label": "Topology",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "script": "STRING",
+      "z": "FLOAT",
+      "y": "FLOAT",
+      "x": "FLOAT"
+    },
+    "relationships": {
+      "startsAt": "Apps",
+      "to": "Apps",
+      "with": "Apps",
+      "for": "Apps",
+      "endsAt": "Apps",
+      "on": "Apps",
+      "withWire": "Component",
+      "by": "Apps",
+      "through": "Apps",
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "Signal",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING",
+      "script": "STRING"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Connection",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Apps",
+      "for": "Apps",
+      "withWire": "Component",
+      "by": "Apps",
+      "from": "Apps"
+    }
+  },
+  {
+    "label": "ContactPoint",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "with": "Apps"
+    }
+  },
+  {
+    "label": "CartesianPoint",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "uuid": "STRING",
+      "z": "FLOAT",
+      "y": "FLOAT",
+      "x": "FLOAT"
+    },
+    "relationships": {}
+  },
+  {
+    "label": "Node",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "on": "Apps"
+    }
+  },
+  {
+    "label": "Segment",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "ID": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "startsAt": "Apps",
+      "endsAt": "Apps"
+    }
+  },
+  {
+    "label": "Routing",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "through": "Apps"
+    }
+  },
+  {
+    "label": "SectionToImage",
+    "attributes": {
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "to": "Section",
+      "from": "Image"
+    }
+  },
+  {
+    "label": "Snapshot",
+    "attributes": {
+      "graph": "STRING",
+      "createdBy": "STRING",
+      "createdAt": "DATE_TIME",
+      "name": "STRING",
+      "uuid": "STRING"
+    },
+    "relationships": {
+      "next": "Version",
+      "current": "Version",
+      "has": "Version"
+    }
+  },
+  {
+    "label": "Configuration",
+    "attributes": {
+      "changedBy": "STRING",
+      "createdBy": "STRING",
+      "activeTo": "DATE_TIME",
+      "createdAt": "DATE_TIME",
+      "description": "STRING",
+      "name": "STRING",
+      "ID": "STRING",
+      "uuid": "STRING",
+      "changedAt": "DATE_TIME",
+      "activeFrom": "DATE_TIME",
+      "version": "INTEGER"
+    },
+    "relationships": {
+      "usedAs": "Usage",
+      "hasVersion": "Component",
+      "has": "Apps",
+      "hasType": "Apps"
+    }
+  },
+  {
+    "label": "CableHarness",
+    "attributes": {
+      "id": "STRING",
+      "status": "STRING"
+    },
+    "relationships": {
+      "CONTAINS": "Component"
+    }
+  }
+]

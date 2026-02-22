@@ -1,0 +1,49 @@
+Detected Sub-Schemas: (Refined from comm_3)
+============================================================
+
+Community #1 (8 nodes):
+------------------------------------------------------------
+Component, CableHarness, Occurrence, Connection, Topology, FunctionalPart, ProposedSolution, WorkStep
+
+Community #2 (2 nodes):
+------------------------------------------------------------
+Snapshot, Version
+
+Community #3 (2 nodes):
+------------------------------------------------------------
+Configuration, Usage
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 8      | 8               | 0.2857    | C3:2, C2:1
+C2           | 2      | 2               | 1.0000    | C1:1, C3:1
+C3           | 2      | 1               | 1.0000    | C1:2, C2:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #3: 2 connections
+Community #3 ↔ Community #1: 2 connections
+Community #1 ↔ Community #2: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #2 ↔ Community #3: 1 connections
+Community #3 ↔ Community #2: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 8):
+Component, CableHarness, Occurrence, Connection, Topology, FunctionalPart, ProposedSolution, WorkStep
+
+Community #2 (Size: 2):
+Snapshot, Version
+
+Community #3 (Size: 2):
+Configuration, Usage

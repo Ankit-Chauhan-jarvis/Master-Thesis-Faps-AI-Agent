@@ -1,0 +1,57 @@
+Detected Sub-Schemas: (Refined from comm_5_sub1)
+============================================================
+
+Community #1 (3 nodes):
+------------------------------------------------------------
+Requirement, Company, Regulation
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+ChangeRequest
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+LicensingAgreement
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+MaterialDemand
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 3      | 2               | 0.6667    | C3:1, C2:1, C4:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #3: 1 connections
+Community #1 ↔ Community #2: 1 connections
+Community #1 ↔ Community #4: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 3):
+Requirement, Company, Regulation
+
+Community #2 (Size: 1):
+ChangeRequest
+
+Community #3 (Size: 1):
+LicensingAgreement
+
+Community #4 (Size: 1):
+MaterialDemand

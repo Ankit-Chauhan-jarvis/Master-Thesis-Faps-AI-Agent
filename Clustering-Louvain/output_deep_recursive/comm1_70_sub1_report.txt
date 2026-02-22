@@ -1,0 +1,166 @@
+Detected Sub-Schemas: (Refined from comm1_70_sub1)
+============================================================
+
+Community #1 (8 nodes):
+------------------------------------------------------------
+Style, FR, RelationType, List, Template, Icon, System, Header
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+Action
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+Context
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+Form
+
+Community #5 (1 nodes):
+------------------------------------------------------------
+Session
+
+Community #6 (1 nodes):
+------------------------------------------------------------
+Label
+
+Community #7 (1 nodes):
+------------------------------------------------------------
+Report
+
+Community #8 (1 nodes):
+------------------------------------------------------------
+Connector
+
+Community #9 (1 nodes):
+------------------------------------------------------------
+Dependency
+
+Community #10 (1 nodes):
+------------------------------------------------------------
+TreeGrid
+
+Community #11 (1 nodes):
+------------------------------------------------------------
+Navigation
+
+Community #12 (1 nodes):
+------------------------------------------------------------
+Module
+
+Community #13 (1 nodes):
+------------------------------------------------------------
+Gantt
+
+Community #14 (1 nodes):
+------------------------------------------------------------
+Solution
+
+Community #15 (1 nodes):
+------------------------------------------------------------
+Review
+
+Community #16 (1 nodes):
+------------------------------------------------------------
+Filter
+
+Community #17 (1 nodes):
+------------------------------------------------------------
+Column
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 8      | 8               | 0.2857    | C6:1, C3:1, C11:1, C4:1, C2:1, C17:1, C7:1, C14:1, C16:1, C12:1, C10:1, C13:1, C8:1, C9:1, C15:1, C5:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+C5           | 1      | 0               | 0.0000    | C1:1
+C6           | 1      | 0               | 0.0000    | C1:1
+C7           | 1      | 0               | 0.0000    | C1:1
+C8           | 1      | 0               | 0.0000    | C1:1
+C9           | 1      | 0               | 0.0000    | C1:1
+C10          | 1      | 0               | 0.0000    | C1:1
+C11          | 1      | 0               | 0.0000    | C1:1
+C12          | 1      | 0               | 0.0000    | C1:1
+C13          | 1      | 0               | 0.0000    | C1:1
+C14          | 1      | 0               | 0.0000    | C1:1
+C15          | 1      | 0               | 0.0000    | C1:1
+C16          | 1      | 0               | 0.0000    | C1:1
+C17          | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #6: 1 connections
+Community #1 ↔ Community #3: 1 connections
+Community #1 ↔ Community #11: 1 connections
+Community #1 ↔ Community #4: 1 connections
+Community #1 ↔ Community #2: 1 connections
+Community #1 ↔ Community #17: 1 connections
+Community #1 ↔ Community #7: 1 connections
+Community #1 ↔ Community #14: 1 connections
+Community #1 ↔ Community #16: 1 connections
+Community #1 ↔ Community #12: 1 connections
+Community #1 ↔ Community #10: 1 connections
+Community #1 ↔ Community #13: 1 connections
+Community #1 ↔ Community #8: 1 connections
+Community #1 ↔ Community #9: 1 connections
+Community #1 ↔ Community #15: 1 connections
+Community #1 ↔ Community #5: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+Community #5 ↔ Community #1: 1 connections
+Community #6 ↔ Community #1: 1 connections
+Community #7 ↔ Community #1: 1 connections
+Community #8 ↔ Community #1: 1 connections
+Community #9 ↔ Community #1: 1 connections
+Community #10 ↔ Community #1: 1 connections
+Community #11 ↔ Community #1: 1 connections
+Community #12 ↔ Community #1: 1 connections
+Community #13 ↔ Community #1: 1 connections
+Community #14 ↔ Community #1: 1 connections
+Community #15 ↔ Community #1: 1 connections
+Community #16 ↔ Community #1: 1 connections
+Community #17 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 8):
+Style, FR, RelationType, List, Template, Icon, System, Header
+
+Community #2 (Size: 1):
+Action
+
+Community #3 (Size: 1):
+Context
+
+Community #4 (Size: 1):
+Form
+
+Community #5 (Size: 1):
+Session
+
+Community #6 (Size: 1):
+Label
+
+Community #7 (Size: 1):
+Report
+
+Community #8 (Size: 1):
+Connector
+
+Community #9 (Size: 1):
+Dependency
+
+Community #10 (Size: 1):
+TreeGrid

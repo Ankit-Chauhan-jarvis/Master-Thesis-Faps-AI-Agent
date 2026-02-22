@@ -1,0 +1,159 @@
+Detected Sub-Schemas: (Refined from comm_2_sub1)
+============================================================
+
+Community #1 (8 nodes):
+------------------------------------------------------------
+Attribute, Action, UserInterface, Function_SE, Country, StatusReport, TestCase, Apps
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+Node
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+ImageToFixedAsset
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+Transformation
+
+Community #5 (1 nodes):
+------------------------------------------------------------
+Diagram
+
+Community #6 (1 nodes):
+------------------------------------------------------------
+Proof
+
+Community #7 (1 nodes):
+------------------------------------------------------------
+DrawingRevision
+
+Community #8 (1 nodes):
+------------------------------------------------------------
+WorkPackage
+
+Community #9 (1 nodes):
+------------------------------------------------------------
+Query
+
+Community #10 (1 nodes):
+------------------------------------------------------------
+FixedAsset
+
+Community #11 (1 nodes):
+------------------------------------------------------------
+FunctionalArea
+
+Community #12 (1 nodes):
+------------------------------------------------------------
+Environment
+
+Community #13 (1 nodes):
+------------------------------------------------------------
+Setting
+
+Community #14 (1 nodes):
+------------------------------------------------------------
+Demand
+
+Community #15 (1 nodes):
+------------------------------------------------------------
+MaterialDeclaration
+
+Community #16 (1 nodes):
+------------------------------------------------------------
+DemandApproval
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 8      | 8               | 0.2857    | C9:1, C13:1, C4:1, C12:1, C10:1, C15:1, C14:1, C6:1, C16:1, C5:1, C3:1, C8:1, C7:1, C11:1, C2:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+C5           | 1      | 0               | 0.0000    | C1:1
+C6           | 1      | 0               | 0.0000    | C1:1
+C7           | 1      | 0               | 0.0000    | C1:1
+C8           | 1      | 0               | 0.0000    | C1:1
+C9           | 1      | 0               | 0.0000    | C1:1
+C10          | 1      | 0               | 0.0000    | C1:1
+C11          | 1      | 0               | 0.0000    | C1:1
+C12          | 1      | 0               | 0.0000    | C1:1
+C13          | 1      | 0               | 0.0000    | C1:1
+C14          | 1      | 0               | 0.0000    | C1:1
+C15          | 1      | 0               | 0.0000    | C1:1
+C16          | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #9: 1 connections
+Community #1 ↔ Community #13: 1 connections
+Community #1 ↔ Community #4: 1 connections
+Community #1 ↔ Community #12: 1 connections
+Community #1 ↔ Community #10: 1 connections
+Community #1 ↔ Community #15: 1 connections
+Community #1 ↔ Community #14: 1 connections
+Community #1 ↔ Community #6: 1 connections
+Community #1 ↔ Community #16: 1 connections
+Community #1 ↔ Community #5: 1 connections
+Community #1 ↔ Community #3: 1 connections
+Community #1 ↔ Community #8: 1 connections
+Community #1 ↔ Community #7: 1 connections
+Community #1 ↔ Community #11: 1 connections
+Community #1 ↔ Community #2: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+Community #5 ↔ Community #1: 1 connections
+Community #6 ↔ Community #1: 1 connections
+Community #7 ↔ Community #1: 1 connections
+Community #8 ↔ Community #1: 1 connections
+Community #9 ↔ Community #1: 1 connections
+Community #10 ↔ Community #1: 1 connections
+Community #11 ↔ Community #1: 1 connections
+Community #12 ↔ Community #1: 1 connections
+Community #13 ↔ Community #1: 1 connections
+Community #14 ↔ Community #1: 1 connections
+Community #15 ↔ Community #1: 1 connections
+Community #16 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 8):
+Attribute, Action, UserInterface, Function_SE, Country, StatusReport, TestCase, Apps
+
+Community #2 (Size: 1):
+Node
+
+Community #3 (Size: 1):
+ImageToFixedAsset
+
+Community #4 (Size: 1):
+Transformation
+
+Community #5 (Size: 1):
+Diagram
+
+Community #6 (Size: 1):
+Proof
+
+Community #7 (Size: 1):
+DrawingRevision
+
+Community #8 (Size: 1):
+WorkPackage
+
+Community #9 (Size: 1):
+Query
+
+Community #10 (Size: 1):
+FixedAsset

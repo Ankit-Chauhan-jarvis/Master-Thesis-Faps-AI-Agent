@@ -1,0 +1,379 @@
+Detected Sub-Schemas: (Refined from comm1_70)
+============================================================
+
+Community #1 (24 nodes):
+------------------------------------------------------------
+Action, Context, Style, Form, Header, FR, Session, Label, RelationType, Report
+Connector, Dependency, List, TreeGrid, Navigation, Module, Template, Gantt, Solution, Filter
+Review, Icon, System, Column
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+Event
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+UserInterface
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+Translation
+
+Community #5 (1 nodes):
+------------------------------------------------------------
+Text
+
+Community #6 (1 nodes):
+------------------------------------------------------------
+EN
+
+Community #7 (1 nodes):
+------------------------------------------------------------
+Button
+
+Community #8 (1 nodes):
+------------------------------------------------------------
+Parameter
+
+Community #9 (1 nodes):
+------------------------------------------------------------
+ElectronicalDocumentTransmission
+
+Community #10 (1 nodes):
+------------------------------------------------------------
+Element
+
+Community #11 (1 nodes):
+------------------------------------------------------------
+Layout
+
+Community #12 (1 nodes):
+------------------------------------------------------------
+Graph
+
+Community #13 (1 nodes):
+------------------------------------------------------------
+Wdget
+
+Community #14 (1 nodes):
+------------------------------------------------------------
+LanguageProfile
+
+Community #15 (1 nodes):
+------------------------------------------------------------
+Counter
+
+Community #16 (1 nodes):
+------------------------------------------------------------
+Color
+
+Community #17 (1 nodes):
+------------------------------------------------------------
+Menu
+
+Community #18 (1 nodes):
+------------------------------------------------------------
+ContextBox
+
+Community #19 (1 nodes):
+------------------------------------------------------------
+DE
+
+Community #20 (1 nodes):
+------------------------------------------------------------
+DataAtomValue
+
+Community #21 (1 nodes):
+------------------------------------------------------------
+CADModel
+
+Community #22 (1 nodes):
+------------------------------------------------------------
+Footer
+
+Community #23 (1 nodes):
+------------------------------------------------------------
+ZH
+
+Community #24 (1 nodes):
+------------------------------------------------------------
+Property
+
+Community #25 (1 nodes):
+------------------------------------------------------------
+Font
+
+Community #26 (1 nodes):
+------------------------------------------------------------
+Trigger
+
+Community #27 (1 nodes):
+------------------------------------------------------------
+Log
+
+Community #28 (1 nodes):
+------------------------------------------------------------
+Note
+
+Community #29 (1 nodes):
+------------------------------------------------------------
+Function
+
+Community #30 (1 nodes):
+------------------------------------------------------------
+FieldSet
+
+Community #31 (1 nodes):
+------------------------------------------------------------
+DataType
+
+Community #32 (1 nodes):
+------------------------------------------------------------
+BaseNode
+
+Community #33 (1 nodes):
+------------------------------------------------------------
+Value
+
+Community #34 (1 nodes):
+------------------------------------------------------------
+Test
+
+Community #35 (1 nodes):
+------------------------------------------------------------
+Language
+
+Community #36 (1 nodes):
+------------------------------------------------------------
+Row
+
+Community #37 (1 nodes):
+------------------------------------------------------------
+ChangeRequestGroup
+
+Community #38 (1 nodes):
+------------------------------------------------------------
+Shape
+
+Community #39 (1 nodes):
+------------------------------------------------------------
+MenuItem
+
+Community #40 (1 nodes):
+------------------------------------------------------------
+Gallery
+
+Community #41 (1 nodes):
+------------------------------------------------------------
+Rule
+
+Community #42 (1 nodes):
+------------------------------------------------------------
+Body
+
+Community #43 (1 nodes):
+------------------------------------------------------------
+Message
+
+Community #44 (1 nodes):
+------------------------------------------------------------
+Diagram
+
+Community #45 (1 nodes):
+------------------------------------------------------------
+Method
+
+Community #46 (1 nodes):
+------------------------------------------------------------
+Logo
+
+Community #47 (1 nodes):
+------------------------------------------------------------
+Grid
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 24     | 24              | 0.0870    | C2:1, C3:1, C16:1, C17:1, C7:1, C10:1, C26:1, C27:1, C47:1, C18:1, C46:1, C30:1, C31:1, C12:1, C33:1, C45:1, C39:1, C38:1, C15:1, C25:1, C11:1, C36:1, C13:1, C32:1, C34:1, C40:1, C43:1, C24:1, C5:1, C35:1, C4:1, C14:1, C20:1, C41:1, C29:1, C6:1, C19:1, C23:1, C8:1, C44:1, C9:1, C21:1, C28:1, C42:1, C22:1, C37:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+C5           | 1      | 0               | 0.0000    | C1:1
+C6           | 1      | 0               | 0.0000    | C1:1
+C7           | 1      | 0               | 0.0000    | C1:1
+C8           | 1      | 0               | 0.0000    | C1:1
+C9           | 1      | 0               | 0.0000    | C1:1
+C10          | 1      | 0               | 0.0000    | C1:1
+C11          | 1      | 0               | 0.0000    | C1:1
+C12          | 1      | 0               | 0.0000    | C1:1
+C13          | 1      | 0               | 0.0000    | C1:1
+C14          | 1      | 0               | 0.0000    | C1:1
+C15          | 1      | 0               | 0.0000    | C1:1
+C16          | 1      | 0               | 0.0000    | C1:1
+C17          | 1      | 0               | 0.0000    | C1:1
+C18          | 1      | 0               | 0.0000    | C1:1
+C19          | 1      | 0               | 0.0000    | C1:1
+C20          | 1      | 0               | 0.0000    | C1:1
+C21          | 1      | 0               | 0.0000    | C1:1
+C22          | 1      | 0               | 0.0000    | C1:1
+C23          | 1      | 0               | 0.0000    | C1:1
+C24          | 1      | 0               | 0.0000    | C1:1
+C25          | 1      | 0               | 0.0000    | C1:1
+C26          | 1      | 0               | 0.0000    | C1:1
+C27          | 1      | 0               | 0.0000    | C1:1
+C28          | 1      | 0               | 0.0000    | C1:1
+C29          | 1      | 0               | 0.0000    | C1:1
+C30          | 1      | 0               | 0.0000    | C1:1
+C31          | 1      | 0               | 0.0000    | C1:1
+C32          | 1      | 0               | 0.0000    | C1:1
+C33          | 1      | 0               | 0.0000    | C1:1
+C34          | 1      | 0               | 0.0000    | C1:1
+C35          | 1      | 0               | 0.0000    | C1:1
+C36          | 1      | 0               | 0.0000    | C1:1
+C37          | 1      | 0               | 0.0000    | C1:1
+C38          | 1      | 0               | 0.0000    | C1:1
+C39          | 1      | 0               | 0.0000    | C1:1
+C40          | 1      | 0               | 0.0000    | C1:1
+C41          | 1      | 0               | 0.0000    | C1:1
+C42          | 1      | 0               | 0.0000    | C1:1
+C43          | 1      | 0               | 0.0000    | C1:1
+C44          | 1      | 0               | 0.0000    | C1:1
+C45          | 1      | 0               | 0.0000    | C1:1
+C46          | 1      | 0               | 0.0000    | C1:1
+C47          | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #2: 1 connections
+Community #1 ↔ Community #3: 1 connections
+Community #1 ↔ Community #16: 1 connections
+Community #1 ↔ Community #17: 1 connections
+Community #1 ↔ Community #7: 1 connections
+Community #1 ↔ Community #10: 1 connections
+Community #1 ↔ Community #26: 1 connections
+Community #1 ↔ Community #27: 1 connections
+Community #1 ↔ Community #47: 1 connections
+Community #1 ↔ Community #18: 1 connections
+Community #1 ↔ Community #46: 1 connections
+Community #1 ↔ Community #30: 1 connections
+Community #1 ↔ Community #31: 1 connections
+Community #1 ↔ Community #12: 1 connections
+Community #1 ↔ Community #33: 1 connections
+Community #1 ↔ Community #45: 1 connections
+Community #1 ↔ Community #39: 1 connections
+Community #1 ↔ Community #38: 1 connections
+Community #1 ↔ Community #15: 1 connections
+Community #1 ↔ Community #25: 1 connections
+Community #1 ↔ Community #11: 1 connections
+Community #1 ↔ Community #36: 1 connections
+Community #1 ↔ Community #13: 1 connections
+Community #1 ↔ Community #32: 1 connections
+Community #1 ↔ Community #34: 1 connections
+Community #1 ↔ Community #40: 1 connections
+Community #1 ↔ Community #43: 1 connections
+Community #1 ↔ Community #24: 1 connections
+Community #1 ↔ Community #5: 1 connections
+Community #1 ↔ Community #35: 1 connections
+Community #1 ↔ Community #4: 1 connections
+Community #1 ↔ Community #14: 1 connections
+Community #1 ↔ Community #20: 1 connections
+Community #1 ↔ Community #41: 1 connections
+Community #1 ↔ Community #29: 1 connections
+Community #1 ↔ Community #6: 1 connections
+Community #1 ↔ Community #19: 1 connections
+Community #1 ↔ Community #23: 1 connections
+Community #1 ↔ Community #8: 1 connections
+Community #1 ↔ Community #44: 1 connections
+Community #1 ↔ Community #9: 1 connections
+Community #1 ↔ Community #21: 1 connections
+Community #1 ↔ Community #28: 1 connections
+Community #1 ↔ Community #42: 1 connections
+Community #1 ↔ Community #22: 1 connections
+Community #1 ↔ Community #37: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+Community #5 ↔ Community #1: 1 connections
+Community #6 ↔ Community #1: 1 connections
+Community #7 ↔ Community #1: 1 connections
+Community #8 ↔ Community #1: 1 connections
+Community #9 ↔ Community #1: 1 connections
+Community #10 ↔ Community #1: 1 connections
+Community #11 ↔ Community #1: 1 connections
+Community #12 ↔ Community #1: 1 connections
+Community #13 ↔ Community #1: 1 connections
+Community #14 ↔ Community #1: 1 connections
+Community #15 ↔ Community #1: 1 connections
+Community #16 ↔ Community #1: 1 connections
+Community #17 ↔ Community #1: 1 connections
+Community #18 ↔ Community #1: 1 connections
+Community #19 ↔ Community #1: 1 connections
+Community #20 ↔ Community #1: 1 connections
+Community #21 ↔ Community #1: 1 connections
+Community #22 ↔ Community #1: 1 connections
+Community #23 ↔ Community #1: 1 connections
+Community #24 ↔ Community #1: 1 connections
+Community #25 ↔ Community #1: 1 connections
+Community #26 ↔ Community #1: 1 connections
+Community #27 ↔ Community #1: 1 connections
+Community #28 ↔ Community #1: 1 connections
+Community #29 ↔ Community #1: 1 connections
+Community #30 ↔ Community #1: 1 connections
+Community #31 ↔ Community #1: 1 connections
+Community #32 ↔ Community #1: 1 connections
+Community #33 ↔ Community #1: 1 connections
+Community #34 ↔ Community #1: 1 connections
+Community #35 ↔ Community #1: 1 connections
+Community #36 ↔ Community #1: 1 connections
+Community #37 ↔ Community #1: 1 connections
+Community #38 ↔ Community #1: 1 connections
+Community #39 ↔ Community #1: 1 connections
+Community #40 ↔ Community #1: 1 connections
+Community #41 ↔ Community #1: 1 connections
+Community #42 ↔ Community #1: 1 connections
+Community #43 ↔ Community #1: 1 connections
+Community #44 ↔ Community #1: 1 connections
+Community #45 ↔ Community #1: 1 connections
+Community #46 ↔ Community #1: 1 connections
+Community #47 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 24):
+Action, Context, Style, Form, Header, FR, Session, Label, RelationType, Report
++ 14 more nodes
+
+Community #2 (Size: 1):
+Event
+
+Community #3 (Size: 1):
+UserInterface
+
+Community #4 (Size: 1):
+Translation
+
+Community #5 (Size: 1):
+Text
+
+Community #6 (Size: 1):
+EN
+
+Community #7 (Size: 1):
+Button
+
+Community #8 (Size: 1):
+Parameter
+
+Community #9 (Size: 1):
+ElectronicalDocumentTransmission
+
+Community #10 (Size: 1):
+Element

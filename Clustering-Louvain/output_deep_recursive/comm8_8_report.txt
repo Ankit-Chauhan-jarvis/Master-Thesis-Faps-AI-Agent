@@ -1,0 +1,37 @@
+Detected Sub-Schemas: (Refined from comm8_8)
+============================================================
+
+Community #1 (4 nodes):
+------------------------------------------------------------
+NodeType, Validation, Schema, Field
+
+Community #2 (4 nodes):
+------------------------------------------------------------
+Approval, Backup, StateMachine, State
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 4      | 3               | 0.5000    | C2:1
+C2           | 4      | 4               | 0.6667    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #2: 1 connections
+Community #2 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 4):
+NodeType, Validation, Schema, Field
+
+Community #2 (Size: 4):
+Approval, Backup, StateMachine, State

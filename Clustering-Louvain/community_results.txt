@@ -1,0 +1,507 @@
+Detected Sub-Schemas:
+==================================================
+
+Community #1 (74 nodes):
+----------------------------------------
+  Acceptance
+  BaseNode
+  Body
+  Button
+  CADModel
+  Color
+  Column
+  Connector
+  Context
+  ContextBox
+  Contract
+  Counter
+  DE
+  DataAtomValue
+  DataType
+  Dependency
+  DrawingRevision
+  EN
+  ElectronicalDocumentTransmission
+  Element
+  Event
+  FR
+  FieldSet
+  Filter
+  Font
+  Footer
+  Form
+  Function
+  Gallery
+  Gantt
+  Graph
+  Grid
+  Group
+  Header
+  Icon
+  LanguageProfile
+  Layout
+  LimitValue
+  Log
+  Logo
+  Mapping
+  Menu
+  MenuItem
+  Message
+  Method
+  Module
+  Navigation
+  Note
+  Parameter
+  Permission
+  Property
+  Query
+  RelationType
+  Report
+  Review
+  Role
+  Row
+  Rule
+  Session
+  Setting
+  Shape
+  Solution
+  Style
+  System
+  Term
+  Test
+  Text
+  Transformation
+  TreeGrid
+  Trigger
+  Value
+  Wdget
+  WorkPackage
+  ZH
+
+Community #2 (71 nodes):
+----------------------------------------
+  ARE
+  Action
+  Activity
+  Application
+  Apps
+  Attribute
+  BOM
+  BOMElement
+  ChangeRequestGroup
+  ComplianceCheck
+  ComplianceGroup
+  ComponentType
+  ContactPoint
+  Conversion
+  Country
+  Data
+  DataAtom
+  Demand
+  DemandApproval
+  Diagram
+  Environment
+  FileType
+  FixedAsset
+  Function_SE
+  FunctionalArea
+  FunctionalGeometryModel
+  FunctionalPart_SE
+  FunctionalSystem
+  Gate
+  ImageToFixedAsset
+  Label
+  Language
+  LegalEntity
+  License
+  List
+  MaterialDeclaration
+  Meeting
+  Node
+  Option
+  OptionSet
+  P09
+  Process
+  Project
+  Proof
+  PropertySet
+  PropertyValue
+  Registration
+  ReportingRequirement
+  Resource
+  Routing
+  RoyaltyPayment
+  Segment
+  ServiceContract
+  Stage
+  StateRecording
+  StatusReport
+  Substance
+  SystemClientCompanyCode
+  Task
+  TechnicalDocument
+  TechnicalDrawing
+  Template
+  TestCase
+  Timeslot
+  Translation
+  UomSet
+  UserInterface
+  UserStory
+  Widget
+  Workflow
+  WriteDataAtom
+
+Community #3 (22 nodes):
+----------------------------------------
+  DiagramToPage
+  DiagramToTranslation
+  File
+  Image
+  ImageToChangeRequest
+  ImageToComponent
+  ImageToMeeting
+  ImageToProposedSolution
+  ImageToRequirement
+  ImageToRichtextPage
+  ImageToTask
+  ImageToTranslation
+  ImageToWorkpackage
+  Import
+  Link
+  PageToPage
+  Section
+  SectionToImage
+  SectionToSection
+  Upload
+  View
+  imageToNote
+
+Community #4 (12 nodes):
+----------------------------------------
+  CableHarness
+  Component
+  Configuration
+  Connection
+  FunctionalPart
+  Occurrence
+  ProposedSolution
+  Snapshot
+  Topology
+  Usage
+  Version
+  WorkStep
+
+Community #5 (11 nodes):
+----------------------------------------
+  Area
+  AssetToArea
+  ChangeRequest
+  Company
+  Document
+  LicensingAgreement
+  MaterialDemand
+  Person
+  Publication
+  Regulation
+  Requirement
+
+Community #6 (10 nodes):
+----------------------------------------
+  AccessControl
+  BusinessChallenge
+  BusinessType
+  CRM
+  Issue
+  Product
+  Question
+  Scenario
+  Service
+  User
+
+Community #7 (8 nodes):
+----------------------------------------
+  Approval
+  Backup
+  Field
+  NodeType
+  Schema
+  State
+  StateMachine
+  Validation
+
+Community #8 (3 nodes):
+----------------------------------------
+  ObjectTag
+  Pose
+  ProcessTag
+
+Community #9 (2 nodes):
+----------------------------------------
+  Store
+  Type
+
+Community #10 (1 nodes):
+----------------------------------------
+  ContextItem
+
+Community #11 (1 nodes):
+----------------------------------------
+  UsageType
+
+Community #12 (1 nodes):
+----------------------------------------
+  CodeLocMarker
+
+Community #13 (1 nodes):
+----------------------------------------
+  Start
+
+Community #14 (1 nodes):
+----------------------------------------
+  Config_AR
+
+Community #15 (1 nodes):
+----------------------------------------
+  DocumentType
+
+Community #16 (1 nodes):
+----------------------------------------
+  Patch
+
+Community #17 (1 nodes):
+----------------------------------------
+  SideBarItem
+
+Community #18 (1 nodes):
+----------------------------------------
+  N2Neo4j
+
+Community #19 (1 nodes):
+----------------------------------------
+  xApplication
+
+Community #20 (1 nodes):
+----------------------------------------
+  EnumItem
+
+Community #21 (1 nodes):
+----------------------------------------
+  TagType
+
+Community #22 (1 nodes):
+----------------------------------------
+  ValueChain
+
+Community #23 (1 nodes):
+----------------------------------------
+  Industry
+
+Community #24 (1 nodes):
+----------------------------------------
+  Target
+
+Community #25 (1 nodes):
+----------------------------------------
+  Persona
+
+Community #26 (1 nodes):
+----------------------------------------
+  UNIQUE IMPORT LABEL
+
+Community #27 (1 nodes):
+----------------------------------------
+  MaterialGroup
+
+Community #28 (1 nodes):
+----------------------------------------
+  Uom
+
+Community #29 (1 nodes):
+----------------------------------------
+  Objective
+
+Community #30 (1 nodes):
+----------------------------------------
+  Date
+
+Community #31 (1 nodes):
+----------------------------------------
+  en
+
+Community #32 (1 nodes):
+----------------------------------------
+  de
+
+Community #33 (1 nodes):
+----------------------------------------
+  TransformationProfile
+
+Community #34 (1 nodes):
+----------------------------------------
+  Download
+
+Community #35 (1 nodes):
+----------------------------------------
+  ListOfDemands
+
+Community #36 (1 nodes):
+----------------------------------------
+  DataItem
+
+Community #37 (1 nodes):
+----------------------------------------
+  ProcessTemplate
+
+Community #38 (1 nodes):
+----------------------------------------
+  ServerInstance
+
+Community #39 (1 nodes):
+----------------------------------------
+  Licence
+
+Community #40 (1 nodes):
+----------------------------------------
+  Component_SE
+
+Community #41 (1 nodes):
+----------------------------------------
+  Rendering
+
+Community #42 (1 nodes):
+----------------------------------------
+  test
+
+Community #43 (1 nodes):
+----------------------------------------
+  Allocation_ImageToRichtextPage
+
+Community #44 (1 nodes):
+----------------------------------------
+  Rest
+
+Community #45 (1 nodes):
+----------------------------------------
+  Accounting
+
+Community #46 (1 nodes):
+----------------------------------------
+  Period
+
+Community #47 (1 nodes):
+----------------------------------------
+  Operator
+
+Community #48 (1 nodes):
+----------------------------------------
+  Operation
+
+Community #49 (1 nodes):
+----------------------------------------
+  BomList
+
+Community #50 (1 nodes):
+----------------------------------------
+  WireList
+
+Community #51 (1 nodes):
+----------------------------------------
+  AEM
+
+Community #52 (1 nodes):
+----------------------------------------
+  KBL
+
+Community #53 (1 nodes):
+----------------------------------------
+  Viewer
+
+Community #54 (1 nodes):
+----------------------------------------
+  Workspace
+
+Community #55 (1 nodes):
+----------------------------------------
+  Location
+
+Community #56 (1 nodes):
+----------------------------------------
+  Job
+
+Community #57 (1 nodes):
+----------------------------------------
+  WorkUnit
+
+Community #58 (1 nodes):
+----------------------------------------
+  Signal
+
+Community #59 (1 nodes):
+----------------------------------------
+  CartesianPoint
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 74     | 76              | 0.0281    | C5:9, C7:8, C2:43, C3:7, C6:5, C4:4, C9:1
+C2           | 71     | 72              | 0.0290    | C5:9, C1:43, C7:4, C4:9, C3:14, C6:2, C9:1
+C3           | 22     | 25              | 0.1082    | C1:7, C2:14, C4:1
+C4           | 12     | 15              | 0.2273    | C5:3, C2:9, C1:4, C7:1, C3:1
+C5           | 11     | 12              | 0.2182    | C2:9, C1:9, C4:3, C7:1
+C6           | 10     | 11              | 0.2444    | C2:2, C1:5, C7:1
+C7           | 8      | 8               | 0.2857    | C1:8, C6:1, C2:4, C4:1, C5:1
+C8           | 3      | 2               | 0.6667    | 
+C9           | 2      | 1               | 1.0000    | C1:1, C2:1
+C10          | 1      | 0               | 0.0000    | 
+C11          | 1      | 0               | 0.0000    | 
+C12          | 1      | 0               | 0.0000    | 
+C13          | 1      | 0               | 0.0000    | 
+C14          | 1      | 0               | 0.0000    | 
+C15          | 1      | 0               | 0.0000    | 
+C16          | 1      | 0               | 0.0000    | 
+C17          | 1      | 0               | 0.0000    | 
+C18          | 1      | 0               | 0.0000    | 
+C19          | 1      | 0               | 0.0000    | 
+C20          | 1      | 0               | 0.0000    | 
+C21          | 1      | 0               | 0.0000    | 
+C22          | 1      | 0               | 0.0000    | 
+C23          | 1      | 0               | 0.0000    | 
+C24          | 1      | 0               | 0.0000    | 
+C25          | 1      | 0               | 0.0000    | 
+C26          | 1      | 0               | 0.0000    | 
+C27          | 1      | 0               | 0.0000    | 
+C28          | 1      | 0               | 0.0000    | 
+C29          | 1      | 0               | 0.0000    | 
+C30          | 1      | 0               | 0.0000    | 
+C31          | 1      | 0               | 0.0000    | 
+C32          | 1      | 0               | 0.0000    | 
+C33          | 1      | 0               | 0.0000    | 
+C34          | 1      | 0               | 0.0000    | 
+C35          | 1      | 0               | 0.0000    | 
+C36          | 1      | 0               | 0.0000    | 
+C37          | 1      | 0               | 0.0000    | 
+C38          | 1      | 0               | 0.0000    | 
+C39          | 1      | 0               | 0.0000    | 
+C40          | 1      | 0               | 0.0000    | 
+C41          | 1      | 0               | 0.0000    | 
+C42          | 1      | 0               | 0.0000    | 
+C43          | 1      | 0               | 0.0000    | 
+C44          | 1      | 0               | 0.0000    | 
+C45          | 1      | 0               | 0.0000    | 
+C46          | 1      | 0               | 0.0000    | 
+C47          | 1      | 0               | 0.0000    | 
+C48          | 1      | 0               | 0.0000    | 
+C49          | 1      | 0               | 0.0000    | 
+C50          | 1      | 0               | 0.0000    | 
+C51          | 1      | 0               | 0.0000    | 
+C52          | 1      | 0               | 0.0000    | 
+C53          | 1      | 0               | 0.0000    | 
+C54          | 1      | 0               | 0.0000    | 
+C55          | 1      | 0               | 0.0000    | 
+C56          | 1      | 0               | 0.0000    | 
+C57          | 1      | 0               | 0.0000    | 
+C58          | 1      | 0               | 0.0000    | 
+C59          | 1      | 0               | 0.0000    | 

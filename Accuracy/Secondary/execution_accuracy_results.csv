@@ -1,0 +1,16 @@
+strategy,model,total,correct,execution_accuracy
+strategy-1,openai/gpt-oss-20b,8,0,0.0
+strategy-1,moonshotai/kimi-k2-instruct-0905,8,0,0.0
+strategy-1,meta-llama/llama-4-maverick-17b-128e-instruct,8,0,0.0
+strategy-1,llama-3.3-70b-versatile,8,0,0.0
+strategy-1,groq/compound-mini,8,0,0.0
+strategy-2,openai/gpt-oss-20b,8,1,0.125
+strategy-2,moonshotai/kimi-k2-instruct-0905,8,0,0.0
+strategy-2,meta-llama/llama-4-maverick-17b-128e-instruct,8,0,0.0
+strategy-2,llama-3.3-70b-versatile,8,0,0.0
+strategy-2,groq/compound-mini,8,0,0.0
+strategy-3,openai/gpt-oss-20b,8,7,0.875
+strategy-3,moonshotai/kimi-k2-instruct-0905,8,5,0.625
+strategy-3,meta-llama/llama-4-maverick-17b-128e-instruct,8,4,0.5
+strategy-3,llama-3.3-70b-versatile,8,5,0.625
+strategy-3,groq/compound-mini,8,7,0.875

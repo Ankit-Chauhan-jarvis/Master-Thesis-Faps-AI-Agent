@@ -1,0 +1,67 @@
+Detected Sub-Schemas: (Refined from comm_7_sub1)
+============================================================
+
+Community #1 (2 nodes):
+------------------------------------------------------------
+CRM, BusinessChallenge
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+BusinessType
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+Issue
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+Question
+
+Community #5 (1 nodes):
+------------------------------------------------------------
+Product
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 2      | 2               | 1.0000    | C2:1, C3:1, C4:1, C5:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+C5           | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #2: 1 connections
+Community #1 ↔ Community #3: 1 connections
+Community #1 ↔ Community #4: 1 connections
+Community #1 ↔ Community #5: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+Community #5 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 2):
+CRM, BusinessChallenge
+
+Community #2 (Size: 1):
+BusinessType
+
+Community #3 (Size: 1):
+Issue
+
+Community #4 (Size: 1):
+Question
+
+Community #5 (Size: 1):
+Product

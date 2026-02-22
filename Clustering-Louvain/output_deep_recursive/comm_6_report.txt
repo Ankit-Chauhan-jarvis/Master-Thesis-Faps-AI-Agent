@@ -1,0 +1,87 @@
+Detected Sub-Schemas: (Refined from comm_6)
+============================================================
+
+Community #1 (4 nodes):
+------------------------------------------------------------
+SectionToSection, SectionToImage, Section, DiagramToPage
+
+Community #2 (1 nodes):
+------------------------------------------------------------
+Link
+
+Community #3 (1 nodes):
+------------------------------------------------------------
+DiagramToTranslation
+
+Community #4 (1 nodes):
+------------------------------------------------------------
+View
+
+Community #5 (1 nodes):
+------------------------------------------------------------
+ImageToTranslation
+
+Community #6 (1 nodes):
+------------------------------------------------------------
+PageToPage
+
+Community #7 (1 nodes):
+------------------------------------------------------------
+ImageToRichtextPage
+
+
+Community Cohesion Analysis:
+============================================================
+Community    | Nodes  | Internal Edges  | Density  | Connections to Other Communities
+--------------------------------------------------------------------------------
+C1           | 4      | 4               | 0.6667    | C4:1, C2:1, C7:1, C6:1, C5:1, C3:1
+C2           | 1      | 0               | 0.0000    | C1:1
+C3           | 1      | 0               | 0.0000    | C1:1
+C4           | 1      | 0               | 0.0000    | C1:1
+C5           | 1      | 0               | 0.0000    | C1:1
+C6           | 1      | 0               | 0.0000    | C1:1
+C7           | 1      | 0               | 0.0000    | C1:1
+
+
+Key Integration Points (Bridge Relationships):
+============================================================
+
+Top Bridge Relationships (>=10 connections):
+------------------------------------------------------------
+Community #1 ↔ Community #4: 1 connections
+Community #1 ↔ Community #2: 1 connections
+Community #1 ↔ Community #7: 1 connections
+Community #1 ↔ Community #6: 1 connections
+Community #1 ↔ Community #5: 1 connections
+Community #1 ↔ Community #3: 1 connections
+Community #2 ↔ Community #1: 1 connections
+Community #3 ↔ Community #1: 1 connections
+Community #4 ↔ Community #1: 1 connections
+Community #5 ↔ Community #1: 1 connections
+Community #6 ↔ Community #1: 1 connections
+Community #7 ↔ Community #1: 1 connections
+
+
+Community Structure Overview:
+============================================================
+
+Community #1 (Size: 4):
+SectionToSection, SectionToImage, Section, DiagramToPage
+
+Community #2 (Size: 1):
+Link
+
+Community #3 (Size: 1):
+DiagramToTranslation
+
+Community #4 (Size: 1):
+View
+
+Community #5 (Size: 1):
+ImageToTranslation
+
+Community #6 (Size: 1):
+PageToPage
+
+Community #7 (Size: 1):
+ImageToRichtextPage

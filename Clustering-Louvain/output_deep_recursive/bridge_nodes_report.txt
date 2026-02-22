@@ -1,0 +1,19 @@
+=== Top Bridge Node Analysis ===
+A bridge node is a single node connecting multiple communities. These are crucial for understanding the relationships between sub-schemas.
+
+Node Label | Degree | Communities Connected
+----------------------------------------------
+System     | 136    | C2, C35, C6, C39, C8, C10, C12, C13, C17, C22, C27
+Apps       | 127    | C3, C35, C6, C39, C8, C10, C12, C13, C17, C21, C22, C27
+Component  | 18     | C2, C3, C35, C6, C8
+Image      | 15     | C2, C3, C10
+Section    | 13     | C2, C3
+Company    | 11     | C2, C3, C27, C6
+State      | 8      | C3, C22
+File       | 7      | C2, C3
+Version    | 7      | C2, C3
+Validation | 6      | C2, C3
+Area       | 6      | C2, C3
+Usage      | 5      | C2, C8
+Document   | 5      | C2, C3
+Backup     | 5      | C2, C3, C27, C8
