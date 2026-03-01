@@ -1,0 +1,5690 @@
+# --- Custom Scalar Definitions ---
+scalar DateTime
+
+# --- Union Type Definitions ---
+union AEM_Acceptance_Apps_BomList_CADModel_Document_File_KBL_Regulation_Rendering_Requirement_Task_TechnicalDocument_TechnicalDrawing_WireList_WorkPackage = AEM | Acceptance | Apps | BomList | CADModel | Document | File | KBL | Regulation | Rendering | Requirement | Task | TechnicalDocument | TechnicalDrawing | WireList | WorkPackage
+union AEM_Apps_BOM_BOMElement_BomList_Component_Connection_KBL_Log_Occurrence_Operator_Option_P09_Property_PropertyValue_ProposedSolution_Registration_Rendering_ReportingRequirement_Snapshot_Stage_StatusReport_System_TechnicalDocument_TechnicalDrawing_Topology_Uom_Version_WireList_WorkPackage = AEM | Apps | BOM | BOMElement | BomList | Component | Connection | KBL | Log | Occurrence | Operator | Option | P09 | Property | PropertyValue | ProposedSolution | Registration | Rendering | ReportingRequirement | Snapshot | Stage | StatusReport | System | TechnicalDocument | TechnicalDrawing | Topology | Uom | Version | WireList | WorkPackage
+union AEM_Apps_BomList_CADModel_Document_File_KBL_Regulation_Rendering_Requirement_Task_TechnicalDocument_TechnicalDrawing_WireList_WorkPackage = AEM | Apps | BomList | CADModel | Document | File | KBL | Regulation | Rendering | Requirement | Task | TechnicalDocument | TechnicalDrawing | WireList | WorkPackage
+union AEM_Apps_BomList_KBL_PropertyValue_ProposedSolution_TechnicalDocument_TechnicalDrawing_WireList = AEM | Apps | BomList | KBL | PropertyValue | ProposedSolution | TechnicalDocument | TechnicalDrawing | WireList
+union ARE_Apps_Backup_Company_ContactPoint_Diagram_File_FixedAsset_Image_NodeType_OptionSet_P09_Schema_Section_System_Topology_Uom = ARE | Apps | Backup | Company | ContactPoint | Diagram | File | FixedAsset | Image | NodeType | OptionSet | P09 | Schema | Section | System | Topology | Uom
+union ARE_Apps_P09 = ARE | Apps | P09
+union AccessControl_Action_Apps_Attribute_Backup_Button_Column_Context_DataType_Element_Event_Field_FieldSet_Form_Function_Graph_Grid_Icon_Label_Layout_Menu_NodeType_Parameter_Permission_Query_RelationType_Role_Schema_Section_System_Term_TreeGrid_Type_UserInterface_Widget_Workflow = AccessControl | Action | Apps | Attribute | Backup | Button | Column | Context | DataType | Element | Event | Field | FieldSet | Form | Function | Graph | Grid | Icon | Label | Layout | Menu | NodeType | Parameter | Permission | Query | RelationType | Role | Schema | Section | System | Term | TreeGrid | Type | UserInterface | Widget | Workflow
+union AccessControl_Approval_Backup_System = AccessControl | Approval | Backup | System
+union AccessControl_Approval_System = AccessControl | Approval | System
+union AccessControl_Apps_Attribute_Backup_Company_Element_Event_Menu_Module_NodeType_Role_Schema_System_Upload_UserInterface_Widget_WorkPackage_Workflow = AccessControl | Apps | Attribute | Backup | Company | Element | Event | Menu | Module | NodeType | Role | Schema | System | Upload | UserInterface | Widget | WorkPackage | Workflow
+union AccessControl_Apps_Backup_Element_Event_Function_Layout_Role_System_Type_UserInterface_Workflow = AccessControl | Apps | Backup | Element | Event | Function | Layout | Role | System | Type | UserInterface | Workflow
+union AccessControl_Backup_Element_Event_Menu_Module_Role_System_Workflow = AccessControl | Backup | Element | Event | Menu | Module | Role | System | Workflow
+union AccessControl_Backup_Permission_System = AccessControl | Backup | Permission | System
+union AccessControl_Backup_Role_System = AccessControl | Backup | Role | System
+union AccessControl_Event_Permission_Role_System_Workflow = AccessControl | Event | Permission | Role | System | Workflow
+union AccessControl_Method_System = AccessControl | Method | System
+union AccessControl_Permission_Role_System = AccessControl | Permission | Role | System
+union AccessControl_Role_System = AccessControl | Role | System
+union Action_Apps_Backup_Button_Context_Element_Event_Function_Graph_Grid_Icon_Label_Layout_Menu_NodeType_Parameter_Query_RelationType_Schema_System_TreeGrid_Type_UserInterface_Widget_Workflow = Action | Apps | Backup | Button | Context | Element | Event | Function | Graph | Grid | Icon | Label | Layout | Menu | NodeType | Parameter | Query | RelationType | Schema | System | TreeGrid | Type | UserInterface | Widget | Workflow
+union Action_Backup_Button_Context_Element_Event_Function_Layout_Menu_Parameter_Query_System_UserInterface_Workflow = Action | Backup | Button | Context | Element | Event | Function | Layout | Menu | Parameter | Query | System | UserInterface | Workflow
+union Action_Backup_Parameter_System_Workflow = Action | Backup | Parameter | System | Workflow
+union Action_Backup_Query_System_Workflow = Action | Backup | Query | System | Workflow
+union Action_Function_Service_System_UserInterface_Workflow = Action | Function | Service | System | UserInterface | Workflow
+union Action_Parameter_System_Workflow = Action | Parameter | System | Workflow
+union Action_Query_System_Workflow = Action | Query | System | Workflow
+union Activity_Apps = Activity | Apps
+union Activity_Apps_Backup_ChangeRequest_Company_Component_FunctionalPart_Meeting_Person_ProposedSolution_Requirement_System_Task_WorkPackage = Activity | Apps | Backup | ChangeRequest | Company | Component | FunctionalPart | Meeting | Person | ProposedSolution | Requirement | System | Task | WorkPackage
+union Activity_Apps_Backup_ChangeRequest_Meeting_Person_ProposedSolution_Requirement_System_Task = Activity | Apps | Backup | ChangeRequest | Meeting | Person | ProposedSolution | Requirement | System | Task
+union Activity_Apps_ChangeRequest_Company_Component_FunctionalPart_Meeting_ProposedSolution_Requirement_Task_WorkPackage = Activity | Apps | ChangeRequest | Company | Component | FunctionalPart | Meeting | ProposedSolution | Requirement | Task | WorkPackage
+union Activity_Apps_Requirement = Activity | Apps | Requirement
+union Application_Apps_P09 = Application | Apps | P09
+union Application_Module_System_Workflow = Application | Module | System | Workflow
+union Apps_Area = Apps | Area
+union Apps_Area_ChangeRequest_Component_Configuration_ContactPoint_DE_EN_FixedAsset_Meeting_NodeType_Note_ProposedSolution_Requirement_Schema_Section_System_Task_Topology_Translation_Uom = Apps | Area | ChangeRequest | Component | Configuration | ContactPoint | DE | EN | FixedAsset | Meeting | NodeType | Note | ProposedSolution | Requirement | Schema | Section | System | Task | Topology | Translation | Uom
+union Apps_Area_ChangeRequest_Component_Configuration_DE_EN_FixedAsset_Meeting_Note_ProposedSolution_Requirement_Section_Task_Translation = Apps | Area | ChangeRequest | Component | Configuration | DE | EN | FixedAsset | Meeting | Note | ProposedSolution | Requirement | Section | Task | Translation
+union Apps_Area_Component_Connector_Data_Diagram_Document_FunctionalArea_Image_Occurrence_Shape_Substance_Term_Text_Type = Apps | Area | Component | Connector | Data | Diagram | Document | FunctionalArea | Image | Occurrence | Shape | Substance | Term | Text | Type
+union Apps_Area_Location = Apps | Area | Location
+union Apps_Attribute_Backup_Company_Component_File_NodeType_Property_Schema_Signal_Substance_System_Topology_WorkPackage = Apps | Attribute | Backup | Company | Component | File | NodeType | Property | Schema | Signal | Substance | System | Topology | WorkPackage
+union Apps_Attribute_Backup_Company_Event_Schema_System_Upload_UserInterface_Widget_WorkPackage_Workflow = Apps | Attribute | Backup | Company | Event | Schema | System | Upload | UserInterface | Widget | WorkPackage | Workflow
+union Apps_Attribute_Column_Field_FieldSet_Icon_Label_Schema_Section_System_Term_UserInterface = Apps | Attribute | Column | Field | FieldSet | Icon | Label | Schema | Section | System | Term | UserInterface
+union Apps_BOM_BOMElement_Component_Occurrence = Apps | BOM | BOMElement | Component | Occurrence
+union Apps_BOM_Connection_Log_PropertyValue_Rendering_System_TechnicalDocument_TechnicalDrawing_Topology_Uom = Apps | BOM | Connection | Log | PropertyValue | Rendering | System | TechnicalDocument | TechnicalDrawing | Topology | Uom
+union Apps_BOM_Log_System = Apps | BOM | Log | System
+union Apps_BOM_Uom = Apps | BOM | Uom
+union Apps_Backup_Company_List_NodeType_OptionSet_RelationType_Schema_System = Apps | Backup | Company | List | NodeType | OptionSet | RelationType | Schema | System
+union Apps_Backup_Dependency_File_Log_NodeType_Person_PropertyValue_Schema_Section_Session_Setting_Style_System_UNIQUE IMPORT LABEL_Viewer_Workflow_Workspace = Apps | Backup | Dependency | File | Log | NodeType | Person | PropertyValue | Schema | Section | Session | Setting | Style | System | UNIQUE IMPORT LABEL | Viewer | Workflow | Workspace
+union Apps_Backup_Diagram_FixedAsset_Image_Section_System = Apps | Backup | Diagram | FixedAsset | Image | Section | System
+union Apps_Backup_Image_System = Apps | Backup | Image | System
+union Apps_Backup_List_NodeType_RelationType_Schema_System = Apps | Backup | List | NodeType | RelationType | Schema | System
+union Apps_Backup_Log_Person_Session_Setting_System = Apps | Backup | Log | Person | Session | Setting | System
+union Apps_Backup_Meeting_System = Apps | Backup | Meeting | System
+union Apps_Backup_NodeType_RelationType_Schema_System_Type = Apps | Backup | NodeType | RelationType | Schema | System | Type
+union Apps_Backup_Review_System = Apps | Backup | Review | System
+union Apps_Backup_Section_System_UserInterface = Apps | Backup | Section | System | UserInterface
+union Apps_BomList_KBL_TechnicalDocument_TechnicalDrawing_WireList = Apps | BomList | KBL | TechnicalDocument | TechnicalDrawing | WireList
+union Apps_BomList_PropertyValue_TechnicalDocument_TechnicalDrawing_WireList = Apps | BomList | PropertyValue | TechnicalDocument | TechnicalDrawing | WireList
+union Apps_CADModel = Apps | CADModel
+union Apps_CartesianPoint_Component_Configuration_Connection_ContactPoint_DataAtom_FunctionalArea_Image_Node_Occurrence_Operation_Option_Routing_Segment_Topology_Uom_Usage_Version = Apps | CartesianPoint | Component | Configuration | Connection | ContactPoint | DataAtom | FunctionalArea | Image | Node | Occurrence | Operation | Option | Routing | Segment | Topology | Uom | Usage | Version
+union Apps_CartesianPoint_Component_Configuration_Connection_ContactPoint_FunctionalArea_Node_Occurrence_Routing_Segment_Topology_Usage_Version = Apps | CartesianPoint | Component | Configuration | Connection | ContactPoint | FunctionalArea | Node | Occurrence | Routing | Segment | Topology | Usage | Version
+union Apps_CartesianPoint_Topology = Apps | CartesianPoint | Topology
+union Apps_ChangeRequest = Apps | ChangeRequest
+union Apps_ChangeRequestGroup = Apps | ChangeRequestGroup
+union Apps_ChangeRequestGroup_ListOfDemands_Requirement_UserStory = Apps | ChangeRequestGroup | ListOfDemands | Requirement | UserStory
+union Apps_ChangeRequest_Requirement = Apps | ChangeRequest | Requirement
+union Apps_ChangeRequest_Task = Apps | ChangeRequest | Task
+union Apps_Company = Apps | Company
+union Apps_Company_NodeType_RelationType_Schema_System = Apps | Company | NodeType | RelationType | Schema | System
+union Apps_Component = Apps | Component
+union Apps_Component_Configuration = Apps | Component | Configuration
+union Apps_Component_Configuration_FunctionalGeometryModel_MaterialDeclaration_Proof = Apps | Component | Configuration | FunctionalGeometryModel | MaterialDeclaration | Proof
+union Apps_Component_DataItem = Apps | Component | DataItem
+union Apps_Component_Document = Apps | Component | Document
+union Apps_Component_FunctionalArea_LimitValue_Occurrence_Property = Apps | Component | FunctionalArea | LimitValue | Occurrence | Property
+union Apps_Component_FunctionalArea_Occurrence = Apps | Component | FunctionalArea | Occurrence
+union Apps_Component_FunctionalArea_Version = Apps | Component | FunctionalArea | Version
+union Apps_Component_Occurrence = Apps | Component | Occurrence
+union Apps_Component_Operation_Requirement = Apps | Component | Operation | Requirement
+union Apps_Component_SE = Apps | Component_SE
+union Apps_Component_SE_FunctionalPart_SE = Apps | Component_SE | FunctionalPart_SE
+union Apps_Component_Version = Apps | Component | Version
+union Apps_Connection_Topology_Uom = Apps | Connection | Topology | Uom
+union Apps_Connector_Diagram_Document_Image_Shape_Term_Text_Type = Apps | Connector | Diagram | Document | Image | Shape | Term | Text | Type
+union Apps_ContactPoint_Topology = Apps | ContactPoint | Topology
+union Apps_Contract_ServiceContract = Apps | Contract | ServiceContract
+union Apps_Country = Apps | Country
+union Apps_Country_Environment_Language_System_TransformationProfile_Uom_UserInterface = Apps | Country | Environment | Language | System | TransformationProfile | Uom | UserInterface
+union Apps_DE_EN_FR_Section_Term_Translation_ZH = Apps | DE | EN | FR | Section | Term | Translation | ZH
+union Apps_DE_EN_FR_Term_Translation_ZH = Apps | DE | EN | FR | Term | Translation | ZH
+union Apps_DE_EN_Language_System_Term_Translation_UserInterface = Apps | DE | EN | Language | System | Term | Translation | UserInterface
+union Apps_DE_EN_Section_Translation = Apps | DE | EN | Section | Translation
+union Apps_DE_EN_Term_Translation = Apps | DE | EN | Term | Translation
+union Apps_DE_Section_Translation = Apps | DE | Section | Translation
+union Apps_Data = Apps | Data
+union Apps_DataAtom = Apps | DataAtom
+union Apps_DataAtomValue = Apps | DataAtomValue
+union Apps_DataAtom_Option_Uom = Apps | DataAtom | Option | Uom
+union Apps_Date = Apps | Date
+union Apps_Demand = Apps | Demand
+union Apps_Diagram = Apps | Diagram
+union Apps_Diagram_Environment_Language_Layout_PropertySet_System_Template_UserInterface_Validation_View = Apps | Diagram | Environment | Language | Layout | PropertySet | System | Template | UserInterface | Validation | View
+union Apps_Diagram_Environment_Language_Layout_System_Template_UserInterface_View = Apps | Diagram | Environment | Language | Layout | System | Template | UserInterface | View
+union Apps_Diagram_Environment_List_PropertySet_Resource_System_Template_UserInterface_WriteDataAtom = Apps | Diagram | Environment | List | PropertySet | Resource | System | Template | UserInterface | WriteDataAtom
+union Apps_Diagram_List_Template = Apps | Diagram | List | Template
+union Apps_Document = Apps | Document
+union Apps_Document_Image = Apps | Document | Image
+union Apps_Download = Apps | Download
+union Apps_DrawingRevision = Apps | DrawingRevision
+union Apps_EN_Term_Text_Translation = Apps | EN | Term | Text | Translation
+union Apps_ElectronicalDocumentTransmission_P09 = Apps | ElectronicalDocumentTransmission | P09
+union Apps_Environment = Apps | Environment
+union Apps_Environment_Language_System_UserInterface_View = Apps | Environment | Language | System | UserInterface | View
+union Apps_File = Apps | File
+union Apps_FileType_System_Type = Apps | FileType | System | Type
+union Apps_File_Log_System_Viewer = Apps | File | Log | System | Viewer
+union Apps_FixedAsset = Apps | FixedAsset
+union Apps_FunctionalArea = Apps | FunctionalArea
+union Apps_FunctionalGeometryModel = Apps | FunctionalGeometryModel
+union Apps_FunctionalPart_Operation = Apps | FunctionalPart | Operation
+union Apps_FunctionalPart_SE = Apps | FunctionalPart_SE
+union Apps_Group = Apps | Group
+union Apps_Icon_System_Term_UserInterface = Apps | Icon | System | Term | UserInterface
+union Apps_Image = Apps | Image
+union Apps_LanguageProfile = Apps | LanguageProfile
+union Apps_Language_List_System_UserInterface_WorkPackage = Apps | Language | List | System | UserInterface | WorkPackage
+union Apps_License = Apps | License
+union Apps_License_Snapshot_State_Version = Apps | License | Snapshot | State | Version
+union Apps_LicensingAgreement = Apps | LicensingAgreement
+union Apps_LimitValue = Apps | LimitValue
+union Apps_List = Apps | List
+union Apps_ListOfDemands = Apps | ListOfDemands
+union Apps_Log_PropertyValue_StatusReport_System = Apps | Log | PropertyValue | StatusReport | System
+union Apps_Log_PropertyValue_System = Apps | Log | PropertyValue | System
+union Apps_Log_ProposedSolution_System = Apps | Log | ProposedSolution | System
+union Apps_Log_Section_Style_System = Apps | Log | Section | Style | System
+union Apps_Log_Section_Style_System_UNIQUE IMPORT LABEL = Apps | Log | Section | Style | System | UNIQUE IMPORT LABEL
+union Apps_Log_Snapshot_State_System_Version = Apps | Log | Snapshot | State | System | Version
+union Apps_Log_Stage_System_WorkPackage = Apps | Log | Stage | System | WorkPackage
+union Apps_Log_State_System = Apps | Log | State | System
+union Apps_MaterialDeclaration_Proof = Apps | MaterialDeclaration | Proof
+union Apps_Meeting = Apps | Meeting
+union Apps_Node_Topology = Apps | Node | Topology
+union Apps_Note = Apps | Note
+union Apps_Operation = Apps | Operation
+union Apps_Operator_Uom = Apps | Operator | Uom
+union Apps_Option = Apps | Option
+union Apps_OptionSet = Apps | OptionSet
+union Apps_Option_Property = Apps | Option | Property
+union Apps_P09_Registration = Apps | P09 | Registration
+union Apps_P09_ReportingRequirement = Apps | P09 | ReportingRequirement
+union Apps_P09_RoyaltyPayment = Apps | P09 | RoyaltyPayment
+union Apps_P09_System = Apps | P09 | System
+union Apps_P09_SystemClientCompanyCode = Apps | P09 | SystemClientCompanyCode
+union Apps_Person = Apps | Person
+union Apps_Process = Apps | Process
+union Apps_Property = Apps | Property
+union Apps_PropertySet = Apps | PropertySet
+union Apps_PropertySet_Validation = Apps | PropertySet | Validation
+union Apps_PropertyValue = Apps | PropertyValue
+union Apps_Property_Uom = Apps | Property | Uom
+union Apps_ProposedSolution = Apps | ProposedSolution
+union Apps_Regulation_Requirement = Apps | Regulation | Requirement
+union Apps_Requirement = Apps | Requirement
+union Apps_Requirement_UserStory = Apps | Requirement | UserStory
+union Apps_Resource = Apps | Resource
+union Apps_Review = Apps | Review
+union Apps_Routing_Topology = Apps | Routing | Topology
+union Apps_Section = Apps | Section
+union Apps_Segment_Topology = Apps | Segment | Topology
+union Apps_Signal_Topology = Apps | Signal | Topology
+union Apps_Snapshot_Version = Apps | Snapshot | Version
+union Apps_State = Apps | State
+union Apps_StateMachine = Apps | StateMachine
+union Apps_Substance = Apps | Substance
+union Apps_System_Template_UserInterface_Validation = Apps | System | Template | UserInterface | Validation
+union Apps_Task = Apps | Task
+union Apps_Term_Text = Apps | Term | Text
+union Apps_Timeslot = Apps | Timeslot
+union Apps_Transformation = Apps | Transformation
+union Apps_TransformationProfile = Apps | TransformationProfile
+union Apps_Type = Apps | Type
+union Apps_Uom = Apps | Uom
+union Apps_Upload = Apps | Upload
+union Apps_Usage = Apps | Usage
+union Apps_Validation = Apps | Validation
+union Apps_View = Apps | View
+union Apps_WorkPackage = Apps | WorkPackage
+union Apps_WorkStep = Apps | WorkStep
+union Apps_WorkUnit = Apps | WorkUnit
+union Apps_WriteDataAtom = Apps | WriteDataAtom
+union Attribute_Backup_Schema_System = Attribute | Backup | Schema | System
+union Attribute_Context_DataType_Form_Graph_Grid_Schema_System_TreeGrid_UserInterface_Widget = Attribute | Context | DataType | Form | Graph | Grid | Schema | System | TreeGrid | UserInterface | Widget
+union Attribute_Context_Form_Graph_Grid_Schema_System_TreeGrid_UserInterface_Widget = Attribute | Context | Form | Graph | Grid | Schema | System | TreeGrid | UserInterface | Widget
+union Attribute_Label_Schema_System_UserInterface = Attribute | Label | Schema | System | UserInterface
+union Attribute_Schema_System = Attribute | Schema | System
+union Backup_Body_Context_Diagram_Filter_Footer_Form_Gallery_Gantt_Graph_Grid_Header_Report_Rule_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget_Workflow = Backup | Body | Context | Diagram | Filter | Footer | Form | Gallery | Gantt | Graph | Grid | Header | Report | Rule | System | TreeGrid | Upload | UserInterface | View | Wdget | Widget | Workflow
+union Backup_Button_Context_ContextBox_Element_Event_Form_Graph_Grid_Menu_Navigation_System_UserInterface_Widget_Workflow = Backup | Button | Context | ContextBox | Element | Event | Form | Graph | Grid | Menu | Navigation | System | UserInterface | Widget | Workflow
+union Backup_Button_Element_System_Workflow = Backup | Button | Element | System | Workflow
+union Backup_Column_Field_FieldSet_System_UserInterface = Backup | Column | Field | FieldSet | System | UserInterface
+union Backup_Context_Diagram_Filter_Form_Gallery_Gantt_Graph_Grid_Report_Rule_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget_Workflow = Backup | Context | Diagram | Filter | Form | Gallery | Gantt | Graph | Grid | Report | Rule | System | TreeGrid | Upload | UserInterface | View | Wdget | Widget | Workflow
+union Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Menu_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget = Backup | Context | Diagram | Form | Gallery | Gantt | Graph | Grid | Menu | System | TreeGrid | Upload | UserInterface | View | Wdget | Widget
+union Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Report_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget = Backup | Context | Diagram | Form | Gallery | Gantt | Graph | Grid | Report | System | TreeGrid | Upload | UserInterface | View | Wdget | Widget
+union Backup_Element_Event_Method_System_Workflow = Backup | Element | Event | Method | System | Workflow
+union Backup_Element_Event_System_Workflow = Backup | Element | Event | System | Workflow
+union Backup_Event_Method_System_Workflow = Backup | Event | Method | System | Workflow
+union Backup_Event_System_Workflow = Backup | Event | System | Workflow
+union Backup_FieldSet_Section_System_UserInterface = Backup | FieldSet | Section | System | UserInterface
+union Backup_FieldSet_System_UserInterface = Backup | FieldSet | System | UserInterface
+union Backup_Field_System_UserInterface = Backup | Field | System | UserInterface
+union Backup_Grid_System_UserInterface_Widget = Backup | Grid | System | UserInterface | Widget
+union Backup_Label_NodeType_Schema_System_UserInterface = Backup | Label | NodeType | Schema | System | UserInterface
+union Backup_Label_System_UserInterface = Backup | Label | System | UserInterface
+union Backup_Log_Setting_System = Backup | Log | Setting | System
+union Backup_NodeType_RelationType_Schema_System = Backup | NodeType | RelationType | Schema | System
+union Backup_NodeType_Schema_System = Backup | NodeType | Schema | System
+union Backup_Schema_System_Value = Backup | Schema | System | Value
+union Backup_Section_System_UserInterface = Backup | Section | System | UserInterface
+union Backup_Style_System_UserInterface = Backup | Style | System | UserInterface
+union Backup_System = Backup | System
+union Body_Footer_Form_Grid_Header_Report_System_UserInterface_Widget = Body | Footer | Form | Grid | Header | Report | System | UserInterface | Widget
+union Body_Footer_Header_Report_System_UserInterface_Widget = Body | Footer | Header | Report | System | UserInterface | Widget
+union BusinessChallenge_CRM = BusinessChallenge | CRM
+union BusinessChallenge_CRM_Condition_Issue_Log_Solution_System = BusinessChallenge | CRM | Condition | Issue | Log | Solution | System
+union BusinessType_CRM_Industry_Question_Solution_ValueChain = BusinessType | CRM | Industry | Question | Solution | ValueChain
+union BusinessType_CRM_Industry_ValueChain = BusinessType | CRM | Industry | ValueChain
+union Button_Element_Menu_System_Workflow = Button | Element | Menu | System | Workflow
+union Button_Menu_System_Workflow = Button | Menu | System | Workflow
+union Button_System_Workflow = Button | System | Workflow
+union CRM_Condition_Issue = CRM | Condition | Issue
+union CRM_Industry_Persona_Target_ValueChain = CRM | Industry | Persona | Target | ValueChain
+union CRM_Product_Service = CRM | Product | Service
+union CRM_Question = CRM | Question
+union CRM_Solution = CRM | Solution
+union Color_Column_System_UserInterface = Color | Column | System | UserInterface
+union Color_System_UserInterface = Color | System | UserInterface
+union Column_Label_Section_System_UserInterface = Column | Label | Section | System | UserInterface
+union Column_System_UserInterface = Column | System | UserInterface
+union ContextBox_System_UserInterface_Widget = ContextBox | System | UserInterface | Widget
+union Context_Form_Graph_Grid_System_UserInterface_Widget = Context | Form | Graph | Grid | System | UserInterface | Widget
+union Context_System_Workflow = Context | System | Workflow
+union Counter_Schema_System = Counter | Schema | System
+union DataType_Schema_System = DataType | Schema | System
+union Dependency_Log_System_Workflow = Dependency | Log | System | Workflow
+union Element_System_Workflow = Element | System | Workflow
+union Event_Graph_Grid_Label_System_TreeGrid_UserInterface_Widget_Workflow = Event | Graph | Grid | Label | System | TreeGrid | UserInterface | Widget | Workflow
+union Event_Icon_Label_System_UserInterface_Workflow = Event | Icon | Label | System | UserInterface | Workflow
+union Event_Label_System_UserInterface_Workflow = Event | Label | System | UserInterface | Workflow
+union Event_System_Workflow = Event | System | Workflow
+union FieldSet_System_UserInterface = FieldSet | System | UserInterface
+union Field_System_UserInterface = Field | System | UserInterface
+union FileType_System = FileType | System
+union Filter_Graph_Rule_System_UserInterface_Widget_Workflow = Filter | Graph | Rule | System | UserInterface | Widget | Workflow
+union Font_System_UserInterface = Font | System | UserInterface
+union Form_System_UserInterface_Widget = Form | System | UserInterface | Widget
+union Grid_System_UserInterface_Widget = Grid | System | UserInterface | Widget
+union Icon_System_UNIQUE IMPORT LABEL_UserInterface = Icon | System | UNIQUE IMPORT LABEL | UserInterface
+union Icon_System_UserInterface = Icon | System | UserInterface
+union Label_System_UserInterface = Label | System | UserInterface
+union Language_System_UserInterface = Language | System | UserInterface
+union Layout_System_UserInterface = Layout | System | UserInterface
+union Log_NodeType_Schema_System = Log | NodeType | Schema | System
+union Log_System = Log | System
+union Log_System_UNIQUE IMPORT LABEL = Log | System | UNIQUE IMPORT LABEL
+union Logo_Setting_System = Logo | Setting | System
+union Menu_System_Workflow = Menu | System | Workflow
+union Message_System_UserInterface = Message | System | UserInterface
+union Module_System_Workflow = Module | System | Workflow
+union Navigation_System_Workflow = Navigation | System | Workflow
+union NodeType_Schema_System = NodeType | Schema | System
+union RelationType_Schema_System = RelationType | Schema | System
+union Row_System_UserInterface = Row | System | UserInterface
+union Rule_System_Workflow = Rule | System | Workflow
+union Schema_System_Validation = Schema | System | Validation
+union Schema_System_Value = Schema | System | Value
+union Section_System_UserInterface = Section | System | UserInterface
+union Session_System_Workspace = Session | System | Workspace
+union Shape_System_UserInterface = Shape | System | UserInterface
+union Style_System_UserInterface = Style | System | UserInterface
+union System_Template_UserInterface = System | Template | UserInterface
+union System_Upload_UserInterface_Widget = System | Upload | UserInterface | Widget
+
+# --- Node Type Definitions ---
+type AEM {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    documentIndex: String
+    documentNumber: String
+    name: String
+    uuid: String
+}
+
+type ARE {
+    code: String
+    name: String
+    gets: [Apps_P09_RoyaltyPayment]
+    hasSCCC: [Apps_P09_SystemClientCompanyCode]
+    locatedIn: [Apps_Country]
+}
+
+type Acceptance {
+    ID: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+}
+
+type AccessControl {
+    ID: String
+    [object_Object]: String
+    _key: String
+    admin: String
+    answer: String
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    deactivated: Boolean
+    description: String
+    email: String
+    firstName: String
+    givenName: String
+    id: String
+    image: String
+    imported: String
+    internal: String
+    key: String
+    lastName: String
+    locked: String
+    name: String
+    password: String
+    question: String
+    surName: String
+    userId: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    xing: String
+    backup: [AccessControl_Event_Permission_Role_System_Workflow]
+    current: [Log_System]
+    finished: [Apps_Upload]
+    for: [AccessControl_Backup_Element_Event_Menu_Module_Role_System_Workflow]
+    has: [Apps_Backup_Log_Person_Session_Setting_System]
+    hasAccessTo: [Application_Module_System_Workflow]
+    hasGiven: [AccessControl_Backup_Permission_System]
+    hasPermission: [Permission]
+    hasState: [Apps_State]
+    hasType: [Apps_Type]
+    includes: [AccessControl_Role_System]
+    plays: [AccessControl_Backup_Role_System]
+    replacedBy: [AccessControl_Approval_Backup_System]
+    requested: [Apps_Download]
+    started: [Apps_Upload]
+    worksOn: [Scenario]
+}
+
+type Accounting {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    month: String
+    name: String
+    uuid: String
+    year: String
+}
+
+type Action {
+    ID: String
+    _key: String
+    action: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    counter_cypher: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    cypher: String
+    cypher_link: String
+    cypher_new: String
+    cypher_old: String
+    cypher_unlink: String
+    description: String
+    direction: String
+    disabled: String
+    filter: String
+    fontSize: String
+    format: String
+    id: String
+    method: String
+    name: String
+    nodeTypeName: String
+    params: String
+    relationTypeName: String
+    sequence: String
+    store: String
+    type: String
+    update: String
+    url: String
+    uuid: String
+    backup: [Apps_Backup_NodeType_RelationType_Schema_System_Type]
+    current: [Log_System]
+    from: [Apps_Backup_List_NodeType_RelationType_Schema_System]
+    has: [Log_System]
+    hasType: [Apps_Type]
+}
+
+type Activity {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    date: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+}
+
+type Allocation_ImageToRichtextPage {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Application {
+    administration: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    sequence: String
+    type: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasContact: [Apps_Person]
+    hasLabel: [Label_System_UserInterface]
+    maintains: [NodeType_Schema_System]
+    raises: [Event_System_Workflow]
+}
+
+type Approval {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    deactivated: Boolean
+    description: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    current: [Log_System]
+    has: [Log_System]
+    hasState: [Apps_State]
+    replacedBy: [AccessControl_Approval_Backup_System]
+}
+
+type Apps {
+    ID: String
+    IP: String
+    VAT_ID: String
+    _key: String
+    abbreviation: String
+    absolutePath: String
+    activeFrom: String
+    activeTo: String
+    approved: Boolean
+    assetType: String
+    associatedParts: String
+    author: String
+    cID: String
+    casNumber: String
+    cavities: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    channel: String
+    checkDate: String
+    city: String
+    code: String
+    colorSpace: String
+    command: String
+    company: String
+    companyName: String
+    componentName: String
+    confirmedDeliveryDate: DateTime
+    confirmedQuantity: String
+    contactedCavity: String
+    content: String
+    controlledComponents: String
+    copyright: String
+    copyrightStatus: Boolean
+    countryName: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    createdOn.day: String
+    createdOn.hour: String
+    createdOn.minute: String
+    createdOn.month: String
+    createdOn.nanosecond: String
+    createdOn.second: String
+    createdOn.timeZoneId: String
+    createdOn.timeZoneOffsetSeconds: String
+    createdOn.year: String
+    credit: String
+    css: String
+    cypher: String
+    cypher_old: String
+    data: String
+    database: String
+    date: String
+    default: Boolean
+    deliveryAddress: String
+    description: String
+    description_richtext: String
+    desiredDeliveryDate: DateTime
+    desiredQuantity: String
+    directory: String
+    documentIndex: String
+    documentNumber: String
+    dueDate: String
+    duration: String
+    ecNumber: String
+    effectiveDate: String
+    email: String
+    end: DateTime
+    endsAt: String
+    expires: DateTime
+    extension: String
+    fileName: String
+    fileSize: String
+    fileType: String
+    findings: String
+    firstName: String
+    fixed: Boolean
+    fixedDate: Boolean
+    gender: String
+    graph: String
+    hash: String
+    height: String
+    host: String
+    id: String
+    import: String
+    index: String
+    initialLanguage: String
+    isUom: Boolean
+    iso3166_alpha2: String
+    kbl_id: String
+    key: String
+    keywords: String
+    language: String
+    languageNeutral: String
+    lastName: String
+    listOfDemandsName: String
+    location: String
+    mandatory: Boolean
+    mappingType: String
+    mimeType: String
+    mobilePhone: String
+    month: String
+    name: String
+    objectives: String
+    oldNumber: String
+    oldkey: String
+    operator: String
+    orientation: String
+    originalName: String
+    password: String
+    phone: String
+    planDate: String
+    port: String
+    position: String
+    positionOnWire: String
+    postalCode: String
+    print: String
+    priority: String
+    property: String
+    quantity: String
+    refNr: String
+    refcode: String
+    referencedComponents: String
+    regex: String
+    required: Boolean
+    script: String
+    segments: String
+    sequence: String
+    serialNumber: String
+    singlePublishing: String
+    socialmedia: String
+    source: String
+    stageType: String
+    start: DateTime
+    startsAt: String
+    street: String
+    test_code: String
+    test_cypher: String
+    tests: String
+    text: String
+    title: String
+    type: String
+    uID: String
+    unit: String
+    uom: String
+    uploadPath: String
+    url: String
+    user: String
+    uuid: String
+    validFrom: String
+    validTo: DateTime
+    value: String
+    version: String
+    web: String
+    width: String
+    wire: String
+    x: String
+    x_connectors: String
+    x_shapes: String
+    y: String
+    year: String
+    z: String
+    according: [Apps_ListOfDemands]
+    activeIn: [Apps_P09_System]
+    affects: [Apps_Component_Operation_Requirement]
+    allocatedIn: [Apps_Component_SE_FunctionalPart_SE]
+    allows: [AccessControl_Method_System]
+    approves: [Apps_Demand]
+    at: [Apps_Area_Location]
+    atDate: [Apps_Date]
+    attachedTo: [AEM_Apps_BomList_CADModel_Document_File_KBL_Regulation_Rendering_Requirement_Task_TechnicalDocument_TechnicalDrawing_WireList_WorkPackage]
+    attends: [Apps_Backup_Meeting_System]
+    backup: [Apps_DE_EN_Language_System_Term_Translation_UserInterface]
+    basedOn: [Apps_Component_Configuration_FunctionalGeometryModel_MaterialDeclaration_Proof]
+    by: [Apps_Routing_Topology]
+    calledFrom: [NodeType_Schema_System]
+    canBe: [Apps_Uom]
+    canBeFulfilledBy: [Apps_FunctionalPart_Operation]
+    canBeImplementedBy: [Apps_Component]
+    canHave: [Apps_Uom]
+    causes: [Activity_Apps_Requirement]
+    comprises: [Apps_ChangeRequest_Task]
+    contains: [Apps_Area_Component_Connector_Data_Diagram_Document_FunctionalArea_Image_Occurrence_Shape_Substance_Term_Text_Type]
+    coveredBy: [Apps_ChangeRequest]
+    covers: [Apps_ChangeRequestGroup_ListOfDemands_Requirement_UserStory]
+    current: [Apps_Log_Snapshot_State_System_Version]
+    dependsOn: [Apps_Timeslot]
+    derivedFrom: [Apps_Regulation_Requirement]
+    endsAt: [Apps_Node_Topology]
+    for: [Apps_Attribute_Backup_Company_Component_File_NodeType_Property_Schema_Signal_Substance_System_Topology_WorkPackage]
+    forNodeType: [NodeType_Schema_System]
+    forUom: [Apps_Uom]
+    forView: [Apps_View]
+    from: [ARE_Apps_Backup_Company_ContactPoint_Diagram_File_FixedAsset_Image_NodeType_OptionSet_P09_Schema_Section_System_Topology_Uom]
+    generates: [Apps_FileType_System_Type]
+    gets: [Apps_P09_RoyaltyPayment]
+    grantedBy: [Apps_Company]
+    has: [AEM_Apps_BOM_BOMElement_BomList_Component_Connection_KBL_Log_Occurrence_Operator_Option_P09_Property_PropertyValue_ProposedSolution_Registration_Rendering_ReportingRequirement_Snapshot_Stage_StatusReport_System_TechnicalDocument_TechnicalDrawing_Topology_Uom_Version_WireList_WorkPackage]
+    hasActual: [Apps_DrawingRevision]
+    hasApplication: [Application_Apps_P09]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    hasAuthor: [Apps_Person]
+    hasColor: [Color_System_UserInterface]
+    hasContact: [Apps_Person]
+    hasLabel: [Label_System_UserInterface]
+    hasLanguageProfile: [Apps_LanguageProfile]
+    hasModel: [Apps_CADModel]
+    hasSCCC: [Apps_P09_SystemClientCompanyCode]
+    hasTask: [Apps_Task]
+    hasTranslation: [Apps_DE_EN_FR_Section_Term_Translation_ZH]
+    hasType: [Apps_Type]
+    hasVersion: [Apps_Component_Version]
+    implementedBy: [Apps_Component_SE]
+    in: [Apps_Country_Environment_Language_System_TransformationProfile_Uom_UserInterface]
+    inGroup: [Apps_Group]
+    includes: [Apps_Language_List_System_UserInterface_WorkPackage]
+    is: [Apps_CartesianPoint_Component_Configuration_Connection_ContactPoint_DataAtom_FunctionalArea_Image_Node_Occurrence_Operation_Option_Routing_Segment_Topology_Uom_Usage_Version]
+    isOf: [FileType_System]
+    isOfDataType: [DataType_Schema_System]
+    isOfDataType_old: [DataType_Schema_System]
+    listedIn: [Apps_ListOfDemands]
+    locatedIn: [Apps_Country]
+    maintainedBy: [AccessControl_Role_System]
+    maps: [Apps_Option_Property]
+    needs: [Apps_Transformation]
+    next: [Apps_License_Snapshot_State_Version]
+    nextAtom: [Apps_DataAtom]
+    nextAtomValue: [Apps_DataAtomValue]
+    nextState: [Apps_State]
+    nextStep: [Apps_WorkStep]
+    of: [Apps_Component_Document]
+    on: [Apps_CartesianPoint_Topology]
+    plannedFor: [Apps_Timeslot]
+    processedBy: [Apps_Process]
+    produces: [Apps_Component_DataItem]
+    providedBy: [Apps_FunctionalPart_SE]
+    publishedBy: [Apps_Company]
+    realizedBy: [Apps_ChangeRequest]
+    relatedTo: [Activity_Apps_Backup_ChangeRequest_Company_Component_FunctionalPart_Meeting_Person_ProposedSolution_Requirement_System_Task_WorkPackage]
+    relevantFor: [Apps_Company]
+    replacedBy: [Apps_Document_Image]
+    replaces: [Apps_File]
+    representedBy: [AccessControl_Role_System]
+    requires: [Apps_ElectronicalDocumentTransmission_P09]
+    reviewedBy: [Apps_Backup_Review_System]
+    runs: [Action_Query_System_Workflow]
+    startsAt: [Apps_Node_Topology]
+    startsWith: [Apps_Timeslot]
+    takesPlaceIn: [Apps_WorkUnit]
+    through: [Apps_Segment_Topology]
+    to: [Apps_Area_ChangeRequest_Component_Configuration_ContactPoint_DE_EN_FixedAsset_Meeting_NodeType_Note_ProposedSolution_Requirement_Schema_Section_System_Task_Topology_Translation_Uom]
+    undefined: [Apps_Component]
+    under: [Apps_LicensingAgreement]
+    underlies: [Apps_Contract_ServiceContract]
+    usedAs: [Apps_Usage]
+    usedIn: [Apps_WorkStep]
+    uses: [Apps_Diagram_Environment_List_PropertySet_Resource_System_Template_UserInterface_WriteDataAtom]
+    verifies: [Apps_Requirement]
+    with: [Apps_Component_FunctionalArea_LimitValue_Occurrence_Property]
+    withName: [Apps_Term_Text]
+    withWire: [Apps_Component_Occurrence]
+    worksFor: [Apps_Company]
+    worksOn: [Apps_WorkPackage]
+    writes: [Apps_DataAtom]
+}
+
+type Area {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    city: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    postalCode: String
+    street: String
+    uuid: String
+    contains: [Apps_Area]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+}
+
+type AssetToArea {
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    from: [Apps_FixedAsset]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    to: [Apps_Area]
+}
+
+type Attribute {
+    areaID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    datatype: String
+    description: String
+    group: String
+    id: String
+    locked: String
+    name: String
+    options: String
+    select: String
+    sequence: String
+    site: String
+    template: String
+    type: String
+    uuid: String
+    backup: [DataType_Schema_System]
+    current: [Log_System]
+    from: [Apps_OptionSet]
+    has: [Log_System]
+    hasLabel: [Label_System_UserInterface]
+    hasValue: [Backup_Schema_System_Value]
+    isOfDataType: [DataType_Schema_System]
+    needs: [Schema_System_Validation]
+}
+
+type BOM {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    quantity: String
+    uuid: String
+    validFrom: String
+    validTo: DateTime
+    version: String
+    has: [Apps_BOM_BOMElement_Component_Occurrence]
+    in: [Apps_Uom]
+    processedBy: [Apps_Process]
+}
+
+type BOMElement {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    quantity: String
+    uuid: String
+    in: [Apps_Uom]
+}
+
+type Backup {
+    ID: String
+    _key: String
+    allowPaging: Boolean
+    changedAt: DateTime
+    changedBy: String
+    channel: String
+    code: String
+    confirmedDeliveryDate: DateTime
+    confirmedQuantity: String
+    content: String
+    copyrightStatus: Boolean
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    database: String
+    database_old: String
+    date: String
+    deactivated: String
+    deliveryAddress: String
+    description: String
+    desiredDeliveryDate: DateTime
+    desiredQuantity: String
+    direction: String
+    edit: Boolean
+    email: String
+    eventType: String
+    filter: Boolean
+    firstName: String
+    height: String
+    hidden: Boolean
+    id: String
+    image: String
+    key: String
+    lastName: String
+    limit: String
+    locked: String
+    log: Boolean
+    logging: Boolean
+    migration: String
+    multiLanguage: String
+    name: String
+    options: String
+    orientation: String
+    pageSize: String
+    password: String
+    refresh: String
+    rowSelection: String
+    sequence: String
+    shortcut: String
+    state: String
+    title: String
+    treeData: Boolean
+    type: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    width: String
+    xing: String
+    backup: [AccessControl_Apps_Backup_Element_Event_Function_Layout_Role_System_Type_UserInterface_Workflow]
+    calls: [Action_Function_Service_System_UserInterface_Workflow]
+    canUse: [Apps_TransformationProfile]
+    causes: [Activity_Apps]
+    current: [Log_System]
+    endsAt: [Backup_NodeType_Schema_System]
+    extends: [NodeType_Schema_System]
+    for: [Apps_Attribute_Backup_Company_Event_Schema_System_Upload_UserInterface_Widget_WorkPackage_Workflow]
+    from: [Apps_Company_NodeType_RelationType_Schema_System]
+    gets: [Action_Parameter_System_Workflow]
+    has: [Backup_Log_Setting_System]
+    hasAccessTo: [Module_System_Workflow]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    hasAttribute: [Attribute_Backup_Schema_System]
+    hasColor: [Color_System_UserInterface]
+    hasColumn: [Column_System_UserInterface]
+    hasField: [Backup_Field_System_UserInterface]
+    hasFieldSet: [Backup_FieldSet_System_UserInterface]
+    hasLabel: [Backup_Label_System_UserInterface]
+    hasMenuItem: [Button_Element_Menu_System_Workflow]
+    hasSection: [Backup_Section_System_UserInterface]
+    hasShape: [Shape_System_UserInterface]
+    hasState: [Apps_State]
+    hasStyle: [Style_System_UserInterface]
+    hasType: [Apps_Type]
+    hasWidget: [Context_Form_Graph_Grid_System_UserInterface_Widget]
+    includes: [AccessControl_Role_System]
+    isOfDataType: [DataType_Schema_System]
+    loads: [Backup_Button_Element_System_Workflow]
+    maintainedBy: [AccessControl_Role_System]
+    of: [Apps_Component_Document]
+    plays: [AccessControl_Backup_Role_System]
+    publishedBy: [Apps_Company]
+    raises: [Backup_Event_System_Workflow]
+    relatedTo: [Apps_ChangeRequest]
+    replacedBy: [AccessControl_Approval_Backup_System]
+    runs: [Action_Backup_Query_System_Workflow]
+    startsAt: [NodeType_Schema_System]
+    uses: [Apps_Diagram_Environment_Language_Layout_System_Template_UserInterface_View]
+    usesCounter: [Counter_Schema_System]
+    with: [Backup_Grid_System_UserInterface_Widget]
+}
+
+type BaseNode {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Body {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasStyle: [Style_System_UserInterface]
+}
+
+type BomList {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    documentIndex: String
+    name: String
+    uuid: String
+}
+
+type BusinessChallenge {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    id: String
+    name: String
+    sequence: String
+    has: [CRM_Condition_Issue]
+    relevantFor: [CRM_Industry_Persona_Target_ValueChain]
+}
+
+type BusinessType {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    preview: String
+    sequence: String
+    uuid: String
+    has: [BusinessChallenge_CRM]
+}
+
+type Button {
+    _key: String
+    breadcrumb: String
+    changedAt: String
+    changedBy: String
+    confirm: Boolean
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    description: String
+    firstName: String
+    format: String
+    icon: String
+    id: String
+    name: String
+    sequence: String
+    shortcut: String
+    type: String
+    uuid: String
+    backup: [Event_Icon_Label_System_UserInterface_Workflow]
+    current: [Log_System]
+    has: [Log_System]
+    hasIcon: [Icon_System_UNIQUE IMPORT LABEL_UserInterface]
+    hasLabel: [Backup_Label_System_UserInterface]
+    raises: [Backup_Event_Method_System_Workflow]
+    raises_deactivated: [Event_System_Workflow]
+    runs: [Action_Query_System_Workflow]
+    uses: [Layout_System_UserInterface]
+}
+
+type CADModel {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    version: String
+    hasApproval: [AccessControl_Approval_System]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type CRM {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    preview: String
+    questionType: String
+    sequence: String
+    uuid: String
+    current: [Log_System]
+    for: [BusinessType_CRM_Industry_Question_Solution_ValueChain]
+    has: [BusinessChallenge_CRM_Condition_Issue_Log_Solution_System]
+    relevantFor: [CRM_Industry_Persona_Target_ValueChain]
+}
+
+type CartesianPoint {
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+    x: String
+    y: String
+    z: String
+}
+
+type ChangeRequest {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    sequence: String
+    uuid: String
+    affects: [Apps_Component_Operation_Requirement]
+    coveredBy: [Apps_ChangeRequest]
+    has: [AEM_Apps_BomList_KBL_PropertyValue_ProposedSolution_TechnicalDocument_TechnicalDrawing_WireList]
+    hasActual: [Apps_DrawingRevision]
+    hasApproval: [AccessControl_Approval_System]
+    hasAuthor: [Apps_Person]
+    hasModel: [Apps_CADModel]
+    hasType: [Apps_Type]
+    relevantFor: [Apps_Company]
+    reviewedBy: [Apps_Backup_Review_System]
+}
+
+type ChangeRequestGroup {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    comprises: [Apps_ChangeRequest]
+    has: [Apps_PropertyValue]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+}
+
+type CodeLocMarker {
+    changedAt: DateTime
+    changedBy: String
+    codeLocId: String
+    coding: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    location: String
+    name: String
+    uuid: String
+}
+
+type Color {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    hex: String
+    id: String
+    name: String
+    selected: Boolean
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Column {
+    _key: String
+    aggregation: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    checkbox: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    drag: String
+    edit: String
+    filter: String
+    group: String
+    hidden: String
+    id: String
+    locked: Boolean
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    name: String
+    render: String
+    sequence: String
+    textarea: String
+    uuid: String
+    width: String
+    backup: [Attribute_Label_Schema_System_UserInterface]
+    current: [Log_System]
+    for: [Attribute_Backup_Schema_System]
+    has: [Log_System]
+    hasLabel: [Label_System_UserInterface]
+    hasRow: [Row_System_UserInterface]
+}
+
+type Company {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    representedBy: [AccessControl_Role_System]
+    uses: [Apps_Environment]
+}
+
+type ComplianceCheck {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    checkDate: String
+    companyName: String
+    componentName: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    listOfDemandsName: String
+    name: String
+    uuid: String
+    according: [Apps_ListOfDemands]
+    hasApproval: [AccessControl_Approval_System]
+}
+
+type ComplianceGroup {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    contains: [Apps_Substance]
+}
+
+type Component {
+    ID: String
+    abbreviation: String
+    activeFrom: String
+    activeTo: String
+    cID: String
+    changedAt: DateTime
+    changedBy: String
+    company: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    index: String
+    kbl_id: String
+    name: String
+    quantity: String
+    type: String
+    uuid: String
+    version: String
+    basedOn: [Apps_Component_Configuration]
+    contains: [Apps_Component_FunctionalArea_Occurrence]
+    current: [Log_System]
+    has: [Apps_BOM_Connection_Log_PropertyValue_Rendering_System_TechnicalDocument_TechnicalDrawing_Topology_Uom]
+    hasActual: [Apps_DrawingRevision]
+    hasApproval: [AccessControl_Approval_System]
+    hasModel: [Apps_CADModel]
+    hasType: [Apps_Type]
+    hasVersion: [Apps_Component_Version]
+    in: [Apps_Uom]
+    is: [Apps_Component_Version]
+    usedAs: [Apps_Usage]
+    usedIn: [Apps_WorkStep]
+}
+
+type ComponentType {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    uuid: String
+    uses: [Apps_PropertySet]
+}
+
+type Component_SE {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Condition {
+}
+
+type Config_AR {
+    asaPrimaryKey: String
+    changedAt: DateTime
+    changedBy: String
+    id: String
+    name: String
+}
+
+type Configuration {
+    ID: String
+    activeFrom: DateTime
+    activeTo: DateTime
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    version: String
+    has: [Apps_BOM_Uom]
+    hasType: [Apps_Type]
+    hasVersion: [Apps_Component_Version]
+    usedAs: [Apps_Usage]
+}
+
+type Connection {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    by: [Apps_Routing_Topology]
+    for: [Apps_Signal_Topology]
+    from: [Apps_ContactPoint_Topology]
+    to: [Apps_ContactPoint_Topology]
+    withWire: [Apps_Component_Occurrence]
+}
+
+type Connector {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type ContactPoint {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    with: [Apps_Component_FunctionalArea_Occurrence]
+}
+
+type Context {
+    browse: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    direction: String
+    id: String
+    name: String
+    sequence: String
+    triggered: String
+    type: String
+    uuid: String
+    backup: [Event_Label_System_UserInterface_Workflow]
+    current: [Log_System]
+    has: [Log_System]
+    hasContextBoxItem: [Context_System_Workflow]
+    hasLabel: [Backup_Label_System_UserInterface]
+    raises: [Backup_Event_System_Workflow]
+}
+
+type ContextBox {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    format: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    raises: [Event_System_Workflow]
+}
+
+type ContextItem {
+    counter: String
+    format: String
+    id: String
+    name: String
+    uuid: String
+}
+
+type Contract {
+    ID: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    content: String
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+}
+
+type Conversion {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    id: String
+    name: String
+    uuid: String
+    from: [Apps_Uom]
+    to: [Apps_Uom]
+}
+
+type Counter {
+    changedAt: DateTime
+    changedBy: String
+    counter_cypher: String
+    createdAt: DateTime
+    createdBy: String
+    current: String
+    description: String
+    end: String
+    format: String
+    id: String
+    name: String
+    padded: Boolean
+    prefix: String
+    start: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Country {
+    iso3166_alpha2: String
+    name: String
+    has: [Apps_P09_ReportingRequirement]
+}
+
+type DE {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    css: String
+    cypher: String
+    description: String
+    id: String
+    language: String
+    name: String
+    test_code: String
+    test_cypher: String
+    tests: String
+    type: String
+    uuid: String
+    backup: [Language_System_UserInterface]
+    hasApproval: [AccessControl_Approval_System]
+    in: [Language_System_UserInterface]
+}
+
+type Data {
+    associatedParts: String
+    contactedCavity: String
+    controlledComponents: String
+    createdAt: DateTime
+    createdBy: String
+    endsAt: String
+    import: String
+    key: String
+    positionOnWire: String
+    referencedComponents: String
+    script: String
+    segments: String
+    startsAt: String
+    type: String
+    uuid: String
+    value: String
+    wire: String
+    is: [Apps_CartesianPoint_Component_Configuration_Connection_ContactPoint_FunctionalArea_Node_Occurrence_Routing_Segment_Topology_Usage_Version]
+}
+
+type DataAtom {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    id: String
+    isUom: Boolean
+    name: String
+    type: String
+    uuid: String
+    canBe: [Apps_Uom]
+    canHave: [Apps_Uom]
+    from: [Apps_OptionSet]
+    hasLabel: [Label_System_UserInterface]
+    isOfDataType: [DataType_Schema_System]
+    isOfDataType_old: [DataType_Schema_System]
+    nextAtom: [Apps_DataAtom]
+}
+
+type DataAtomValue {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    value: String
+    current: [Log_System]
+    has: [Log_System]
+    is: [Apps_DataAtom_Option_Uom]
+    nextAtomValue: [Apps_DataAtomValue]
+}
+
+type DataItem {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type DataType {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    format: String
+    id: String
+    name: String
+    type: String
+    uuid: String
+    value: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+}
+
+type Date {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    effectiveDate: String
+    fixed: Boolean
+    fixedDate: Boolean
+    id: String
+    planDate: String
+    uuid: String
+}
+
+type Demand {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    operator: String
+    uom: String
+    uuid: String
+    value: String
+    for: [Apps_Substance]
+    listedIn: [Apps_ListOfDemands]
+}
+
+type DemandApproval {
+    approved: Boolean
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    approves: [Apps_Demand]
+    basedOn: [Apps_MaterialDeclaration_Proof]
+}
+
+type Dependency {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasType: [Apps_Type]
+    on: [Element_System_Workflow]
+}
+
+type Diagram {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    description: String
+    name: String
+    uuid: String
+    x_connectors: String
+    x_shapes: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasLabel: [Label_System_UserInterface]
+    hasType: [Apps_Type]
+    uses: [Apps_Diagram_List_Template]
+}
+
+type DiagramToPage {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Diagram]
+    to: [Apps_DE_Section_Translation]
+}
+
+type DiagramToTranslation {
+    changedAt: DateTime
+    changedBy: String
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Diagram]
+    to: [Apps_DE_EN_Section_Translation]
+}
+
+type Document {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    documentIndex: String
+    documentNumber: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+    relatedTo: [Activity_Apps_ChangeRequest_Company_Component_FunctionalPart_Meeting_ProposedSolution_Requirement_Task_WorkPackage]
+    replacedBy: [Apps_Document]
+}
+
+type DocumentType {
+    name: String
+}
+
+type Download {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+}
+
+type DrawingRevision {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    version: String
+    covers: [Apps_ChangeRequestGroup]
+    has: [Apps_BomList_KBL_TechnicalDocument_TechnicalDrawing_WireList]
+    hasApproval: [AccessControl_Approval_System]
+    hasModel: [Apps_CADModel]
+}
+
+type EN {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    id: String
+    language: String
+    name: String
+    type: String
+    uuid: String
+    backup: [Language_System_UserInterface]
+    hasApproval: [AccessControl_Approval_System]
+    in: [Language_System_UserInterface]
+}
+
+type ElectronicalDocumentTransmission {
+    ID: String
+    name: String
+    activeIn: [Apps_P09_System]
+}
+
+type Element {
+    _key: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: String
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    description: String
+    format: String
+    height: String
+    id: String
+    migration: String
+    modal: String
+    name: String
+    rowSelection: String
+    sequence: String
+    triggered: String
+    type: String
+    uuid: String
+    widget: String
+    width: String
+    backup: [Event_Graph_Grid_Label_System_TreeGrid_UserInterface_Widget_Workflow]
+    current: [Log_System]
+    has: [Dependency_Log_System_Workflow]
+    hasLabel: [Label_System_UserInterface]
+    hasMenuItem: [Button_System_Workflow]
+    loads: [Menu_System_Workflow]
+    raises: [Backup_Event_System_Workflow]
+    raises_deactivated: [Event_System_Workflow]
+    with: [Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Report_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget]
+}
+
+type EnumItem {
+    id: String
+    name: String
+    uuid: String
+}
+
+type Environment {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+    uses: [Apps_List]
+}
+
+type Event {
+    _key: String
+    breadcrumb: String
+    case: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    class: String
+    confirm: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    ctrl: Boolean
+    cypher: String
+    deactivated: String
+    description: String
+    eventType: String
+    id: String
+    label: String
+    limit: String
+    locked: String
+    migration: String
+    name: String
+    refresh: String
+    sequence: String
+    shift: Boolean
+    type: String
+    type_rel: String
+    uuid: String
+    widget: String
+    backup: [Action_Backup_Button_Context_Element_Event_Function_Layout_Menu_Parameter_Query_System_UserInterface_Workflow]
+    calls: [Action_Function_Service_System_UserInterface_Workflow]
+    current: [Log_System]
+    enabledBy: [Action_Query_System_Workflow]
+    gets: [Action_Backup_Parameter_System_Workflow]
+    has: [Log_System]
+    hasColumn: [Column_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    hasRelation: [RelationType_Schema_System]
+    hasSource: [NodeType_Schema_System]
+    hasTarget: [NodeType_Schema_System]
+    loads: [Backup_Button_Context_ContextBox_Element_Event_Form_Graph_Grid_Menu_Navigation_System_UserInterface_Widget_Workflow]
+    raises: [Backup_Element_Event_System_Workflow]
+    relation: [Form_System_UserInterface_Widget]
+    runs: [Action_Backup_Query_System_Workflow]
+    triggers: [AccessControl_Method_System]
+    uses: [Layout_System_UserInterface]
+    with: [Filter_Graph_Rule_System_UserInterface_Widget_Workflow]
+    with_deactivated: [Rule_System_Workflow]
+}
+
+type FR {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    language: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    in: [Language_System_UserInterface]
+}
+
+type Field {
+    changedAt: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    deactivated: String
+    description: String
+    height: String
+    hidden: String
+    id: String
+    locked: String
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    migration: String
+    name: String
+    type: String
+    uuid: String
+    backup: [Attribute_Label_Schema_System_UserInterface]
+    current: [Log_System]
+    for: [Attribute_Backup_Schema_System]
+    has: [Log_System]
+    hasLabel: [Label_System_UserInterface]
+    isOfDataType: [DataType_Schema_System]
+    uses: [Apps_Validation]
+}
+
+type FieldSet {
+    changedAt: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    name: String
+    type: String
+    uuid: String
+    width: String
+    backup: [Field_System_UserInterface]
+    current: [Log_System]
+    has: [Log_System]
+    hasField: [Backup_Field_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    hasSection: [Section_System_UserInterface]
+    isOfDataType: [DataType_Schema_System]
+}
+
+type File {
+    absolutePath: String
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    colorSpace: String
+    createdAt: DateTime
+    createdBy: String
+    createdOn: String
+    description: String
+    directory: String
+    extension: String
+    fileName: String
+    fileSize: String
+    fileType: String
+    fileTypeExtension: String
+    hash: String
+    height: String
+    mimeType: String
+    name: String
+    originalName: String
+    uploadPath: String
+    uuid: String
+    version: String
+    width: String
+    attachedTo: [AEM_Acceptance_Apps_BomList_CADModel_Document_File_KBL_Regulation_Rendering_Requirement_Task_TechnicalDocument_TechnicalDrawing_WireList_WorkPackage]
+    hasType: [Apps_Type]
+    is: [Apps_Image]
+    isOf: [FileType_System]
+    needs: [Apps_Transformation]
+    relatedTo: [Apps_ChangeRequest_Requirement]
+    replaces: [Apps_File]
+}
+
+type FileType {
+    ID: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    extensions: String
+    id: String
+    name: String
+    uuid: String
+    canUse: [Apps_TransformationProfile]
+    current: [Log_System]
+    for: [System_Upload_UserInterface_Widget]
+    has: [Apps_File_Log_System_Viewer]
+    hasType: [Apps_Type]
+}
+
+type Filter {
+    cypher: String
+    database: String
+    name: String
+    raises: [Event_System_Workflow]
+    with: [Action_Parameter_System_Workflow]
+}
+
+type FixedAsset {
+    ID: String
+    assetType: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    serialNumber: String
+    uuid: String
+    current: [Log_System]
+    has: [Apps_Log_PropertyValue_StatusReport_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    underlies: [Apps_Contract_ServiceContract]
+}
+
+type Font {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Footer {
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasStyle: [Style_System_UserInterface]
+}
+
+type Form {
+    _key: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: String
+    cypher: String
+    cypher_old: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    height: String
+    hex: String
+    id: String
+    locked: String
+    migration: String
+    name: String
+    sequence: String
+    type: String
+    uuid: String
+    width: String
+    backup: [Section_System_UserInterface]
+    current: [Log_System]
+    has: [Log_System]
+    hasContextBox: [ContextBox_System_UserInterface_Widget]
+    hasLabel: [Label_System_UserInterface]
+    hasMenuItem: [Button_System_Workflow]
+    hasSection: [Apps_Backup_Section_System_UserInterface]
+    raises: [Event_System_Workflow]
+}
+
+type Function {
+    _key: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    method: String
+    name: String
+    params: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Function_SE {
+    name: String
+    allocatedIn: [Apps_FunctionalPart_SE]
+    providedBy: [Apps_FunctionalPart_SE]
+}
+
+type FunctionalArea {
+    ID: String
+    cavities: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    kbl_id: String
+    name: String
+    script: String
+    uuid: String
+    basedOn: [Apps_FunctionalGeometryModel]
+    contains: [Apps_FunctionalArea]
+    has: [Apps_PropertyValue]
+    hasType: [Apps_Type]
+    is: [Apps_FunctionalArea]
+}
+
+type FunctionalGeometryModel {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    has: [Apps_PropertyValue]
+    hasType: [Apps_Type]
+}
+
+type FunctionalPart {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    canBeImplementedBy: [Apps_Component]
+    current: [Log_System]
+    has: [Apps_Log_ProposedSolution_System]
+    undefined: [Apps_Component]
+}
+
+type FunctionalPart_SE {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    allocatedIn: [Apps_Component_SE]
+    implementedBy: [Apps_Component_SE]
+}
+
+type FunctionalSystem {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    covers: [Apps_Requirement_UserStory]
+}
+
+type Gallery {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    cypher_old: String
+    description: String
+    height: String
+    name: String
+    type: String
+    uuid: String
+    width: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Gantt {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    description: String
+    editable: Boolean
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasColumn: [Column_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+}
+
+type Gate {
+    name: String
+    atDate: [Apps_Date]
+}
+
+type Graph {
+    animate: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    cypher_old: String
+    database: String
+    description: String
+    fit: Boolean
+    fontSize: String
+    grabbable: String
+    id: String
+    label: String
+    layout: String
+    name: String
+    randomize: String
+    selectable: String
+    sequence: String
+    showRelationDirection: String
+    showRelationType: String
+    spacing: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasStyle: [Style_System_UserInterface]
+    x: [Action_Query_System_Workflow]
+}
+
+type Grid {
+    _key: String
+    allowPaging: Boolean
+    animate: Boolean
+    autoGroupColumnDef: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    columnDefs: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    cypher_new: String
+    cypher_old: String
+    cypher_test: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    filter: String
+    grabbable: Boolean
+    height: String
+    hidden: String
+    id: String
+    label: Boolean
+    layout: String
+    limit: String
+    locked: String
+    migration: String
+    multiLanguage: String
+    name: String
+    package: String
+    pageSize: String
+    randomize: Boolean
+    rowSelection: String
+    selectable: Boolean
+    sequence: String
+    showRelationDirection: Boolean
+    sort: String
+    state: String
+    treeData: Boolean
+    type: String
+    uuid: String
+    width: String
+    backup: [Column_System_UserInterface]
+    current: [Log_System]
+    for: [Attribute_Schema_System]
+    has: [Log_System]
+    hasColor: [Column_System_UserInterface]
+    hasColumn: [Backup_Column_Field_FieldSet_System_UserInterface]
+    hasColumng: [Column_System_UserInterface]
+    hasFieldSet: [Section_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    hasMenuItem: [Button_Menu_System_Workflow]
+    hasStyle: [Style_System_UserInterface]
+    hasWidget: [Grid_System_UserInterface_Widget]
+    loads: [Form_System_UserInterface_Widget]
+    raises: [Event_System_Workflow]
+}
+
+type Group {
+    createdAt: DateTime
+    createdBy: String
+    format: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+}
+
+type Header {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasStyle: [Style_System_UserInterface]
+}
+
+type Icon {
+    UNIQUE_IMPORT_ID: String
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    data: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Image {
+    ID: String
+    author: String
+    changedAt: DateTime
+    changedBy: String
+    colorSpace: String
+    copyright: String
+    copyrightStatus: Boolean
+    createdAt: DateTime
+    createdBy: String
+    credit: String
+    description: String
+    keywords: String
+    name: String
+    orientation: String
+    source: String
+    title: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+    relatedTo: [Activity_Apps_Backup_ChangeRequest_Meeting_Person_ProposedSolution_Requirement_System_Task]
+    replacedBy: [Apps_Image]
+    under: [Apps_LicensingAgreement]
+}
+
+type ImageToChangeRequest {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Backup_Image_System]
+    to: [Apps_ChangeRequest]
+}
+
+type ImageToComponent {
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    description: String
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    to: [Apps_Component_Configuration]
+}
+
+type ImageToFixedAsset {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    to: [Apps_FixedAsset]
+}
+
+type ImageToMeeting {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_Meeting]
+}
+
+type ImageToProposedSolution {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_ProposedSolution]
+}
+
+type ImageToRequirement {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_Requirement]
+}
+
+type ImageToRichtextPage {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    to: [Apps_DE_Section_Translation]
+}
+
+type ImageToTask {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_Task]
+}
+
+type ImageToTranslation {
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_DE_EN_Section_Translation]
+}
+
+type ImageToWorkpackage {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+}
+
+type Import {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    contains: [Apps_Data]
+    from: [Apps_File]
+}
+
+type Industry {
+    changedAt: DateTime
+    changedBy: String
+    description: String
+    id: String
+    name: String
+    sequence: String
+}
+
+type Issue {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    sequence: String
+    uuid: String
+    for: [CRM_Question]
+    has: [CRM_Solution]
+}
+
+type Job {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type KBL {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    documentIndex: String
+    name: String
+    uuid: String
+}
+
+type Label {
+    ID: String
+    ID_old: String
+    _key: String
+    changedAt: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    deactivated: String
+    description: String
+    id: String
+    locked: String
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    migration: String
+    name: String
+    sequence: String
+    title: String
+    type: String
+    uuid: String
+    backup: [Apps_Icon_System_Term_UserInterface]
+    current: [Log_System]
+    extends: [NodeType_Schema_System]
+    for: [Attribute_Schema_System]
+    has: [Log_System]
+    hasColor: [Color_System_UserInterface]
+    hasColumn: [Column_System_UserInterface]
+    hasIcon: [Icon_System_UserInterface]
+    withName: [Apps_EN_Term_Text_Translation]
+}
+
+type Language {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    iso639_1: String
+    iso639_3: String
+    languageForUI: Boolean
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasType: [Apps_Type]
+    representedBy: [Backup_System]
+}
+
+type LanguageProfile {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    includes: [Language_System_UserInterface]
+}
+
+type Layout {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasColumn: [Column_System_UserInterface]
+    hasRow: [Row_System_UserInterface]
+}
+
+type LegalEntity {
+    ID: String
+    code: String
+    name: String
+    has: [Apps_P09_Registration]
+}
+
+type Licence {
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type License {
+    createdAt: DateTime
+    createdBy: String
+    expires: DateTime
+    key: String
+    text: String
+    uuid: String
+    next: [Apps_License]
+}
+
+type LicensingAgreement {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    print: String
+    singlePublishing: String
+    socialmedia: String
+    uuid: String
+    web: String
+    for: [NodeType_Schema_System]
+    grantedBy: [Apps_Company]
+    hasApproval: [AccessControl_Approval_System]
+}
+
+type LimitValue {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    value: String
+    for: [Apps_Property]
+    has: [Apps_Operator_Uom]
+    hasApproval: [AccessControl_Approval_System]
+}
+
+type Link {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    description: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    from: [Apps_Backup_Diagram_FixedAsset_Image_Section_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    to: [Apps_Area_ChangeRequest_Component_Configuration_DE_EN_FixedAsset_Meeting_Note_ProposedSolution_Requirement_Section_Task_Translation]
+}
+
+type List {
+    ID: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    contains: [Apps_Connector_Diagram_Document_Image_Shape_Term_Text_Type]
+    for: [NodeType_Schema_System]
+    hasType: [Apps_Type]
+    includes: [Apps_List]
+}
+
+type ListOfDemands {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    version: String
+}
+
+type Location {
+    ID: String
+    city: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    postalCode: String
+    street: String
+    uuid: String
+}
+
+type Log {
+    UNIQUE_IMPORT_ID: String
+    action: String
+    labels: String
+    properties: String
+    source: String
+    target: String
+    timestamp: DateTime
+    type: String
+    user: String
+    next: [Log_System]
+}
+
+type Logo {
+    name: String
+    uuid: String
+    value: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Mapping {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    cypher_old: String
+    description: String
+    mappingType: String
+    name: String
+    uuid: String
+    forUom: [Apps_Uom]
+    forView: [Apps_View]
+    maps: [Apps_Option_Property]
+    runs: [Action_Query_System_Workflow]
+    uses: [Apps_WriteDataAtom]
+    withName: [Apps_Term_Text]
+}
+
+type MaterialDeclaration {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    url: String
+    uuid: String
+    covers: [Apps_ListOfDemands]
+}
+
+type MaterialDemand {
+    changedAt: DateTime
+    changedBy: String
+    confirmedDeliveryDate: DateTime
+    confirmedQuantity: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    date: String
+    deliveryAddress: String
+    description: String
+    desiredDeliveryDate: DateTime
+    desiredQuantity: String
+    name: String
+    uuid: String
+    causes: [Activity_Apps]
+    current: [Log_System]
+    for: [Apps_Company]
+    from: [Apps_Company]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    of: [Apps_Component]
+}
+
+type MaterialGroup {
+    cID: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+}
+
+type Meeting {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    date: String
+    description: String
+    end: DateTime
+    location: String
+    name: String
+    start: DateTime
+    uuid: String
+    current: [Log_System]
+    for: [Apps_WorkPackage]
+    has: [Log_System]
+    hasTask: [Apps_Task]
+    hasType: [Apps_Type]
+}
+
+type Menu {
+    _key: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    format: String
+    id: String
+    name: String
+    scope: String
+    type: String
+    uuid: String
+    backup: [Event_Label_System_UserInterface_Workflow]
+    current: [Log_System]
+    has: [Log_System]
+    hasLabel: [Backup_Label_System_UserInterface]
+    hasMenuItem: [Button_System_Workflow]
+    raises: [Backup_Event_System_Workflow]
+    raises_deactivated: [Event_System_Workflow]
+}
+
+type MenuItem {
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Message {
+    code: String
+    name: String
+    type: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Method {
+    ID: String
+    changedAt: String
+    changedBy: String
+    class: String
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    label: String
+    locked: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Module {
+    admin: Boolean
+    administration: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    sequence: String
+    timestamp: String
+    type: String
+    uuid: String
+    backup: [Backup_Label_NodeType_Schema_System_UserInterface]
+    current: [Log_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasLabel: [Label_System_UserInterface]
+    hasMenu: [Navigation_System_Workflow]
+    maintains: [Backup_NodeType_Schema_System]
+    raises: [Event_System_Workflow]
+}
+
+type N2Neo4j {
+    dbId: String
+    id: String
+    uuid: String
+}
+
+type Navigation {
+    changedAt: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    type: String
+    uuid: String
+    backup: [Backup_System]
+    current: [Log_System]
+    has: [Log_System]
+    raises: [Event_System_Workflow]
+}
+
+type Node {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+    on: [Apps_CartesianPoint_Topology]
+}
+
+type NodeType {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    id: String
+    log: String
+    logging: Boolean
+    name: String
+    type: String
+    uuid: String
+    backup: [Attribute_Context_Form_Graph_Grid_Schema_System_TreeGrid_UserInterface_Widget]
+    current: [Log_System]
+    extends: [Backup_NodeType_Schema_System]
+    has: [Log_NodeType_Schema_System]
+    hasAttribute: [Attribute_Backup_Schema_System]
+    hasStateMachine: [Apps_StateMachine]
+    hasStyle: [Backup_Style_System_UserInterface]
+    hasValue: [Schema_System_Value]
+    hasWidget: [Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Menu_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget]
+    inheritsFrom: [NodeType_Schema_System]
+    isOfDataType: [DataType_Schema_System]
+    isTemplateFor: [NodeType_Schema_System]
+    uses: [Apps_PropertySet_Validation]
+    usesCounter: [Counter_Schema_System]
+}
+
+type Note {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    relatedTo: [Apps_Meeting]
+}
+
+type ObjectTag {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    id: String
+    name: String
+    hasPose: [Pose]
+    undergoes: [ProcessTag]
+}
+
+type Objective {
+    ID: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Occurrence {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    index: String
+    kbl_id: String
+    name: String
+    quantity: String
+    uuid: String
+    contains: [Apps_Component_Occurrence]
+    has: [Apps_Connection_Topology_Uom]
+    in: [Apps_Uom]
+    is: [Apps_Component_FunctionalArea_Version]
+    usedIn: [Apps_WorkStep]
+}
+
+type Operation {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Operator {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+}
+
+type Option {
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    default: Boolean
+    description: String
+    name: String
+    uuid: String
+}
+
+type OptionSet {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    has: [Apps_Option]
+}
+
+type P09 {
+    ID: String
+    VAT_ID: String
+    code: String
+    name: String
+    validFrom: String
+    validTo: String
+    value: String
+    activeIn: [Apps_P09_System]
+    from: [ARE_Apps_P09]
+    gets: [Apps_P09_RoyaltyPayment]
+    has: [Apps_P09_Registration]
+    hasApplication: [Application_Apps_P09]
+    hasContact: [Apps_Person]
+    hasSCCC: [Apps_P09_SystemClientCompanyCode]
+    hasType: [Apps_Type]
+    in: [Apps_Country]
+    locatedIn: [Apps_Country]
+    requires: [Apps_ElectronicalDocumentTransmission_P09]
+}
+
+type PageToPage {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Section]
+    to: [Apps_Section]
+}
+
+type Parameter {
+    ID: String
+    _key: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    direction: String
+    filter: String
+    id: String
+    name: String
+    nodeTypeName: String
+    relationTypeName: String
+    uuid: String
+    backup: [Backup_NodeType_RelationType_Schema_System]
+    current: [Log_System]
+    from: [Apps_Backup_List_NodeType_RelationType_Schema_System]
+    has: [Log_System]
+}
+
+type Patch {
+    json: String
+    name: String
+}
+
+type Period {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    month: String
+    name: String
+    uuid: String
+    year: String
+}
+
+type Permission {
+    activate: String
+    admin: String
+    approve: String
+    browse: String
+    changedAt: String
+    changedBy: String
+    comment: String
+    createdAt: DateTime
+    createdBy: String
+    deactivate: String
+    deactivated: String
+    delete: String
+    description: String
+    id: String
+    link: String
+    locked: String
+    merge: String
+    migration: String
+    name: String
+    nodeType: String
+    pattern: String
+    read: String
+    update: String
+    uuid: String
+    backup: [Event_System_Workflow]
+    current: [Log_System]
+    for: [AccessControl_Backup_Element_Event_Menu_Module_Role_System_Workflow]
+    forEvent: [Event_System_Workflow]
+    has: [Log_System]
+}
+
+type Person {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    city: String
+    countryName: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    email: String
+    firstName: String
+    gender: String
+    lastName: String
+    mobilePhone: String
+    name: String
+    phone: String
+    position: String
+    postalCode: String
+    street: String
+    title: String
+    uuid: String
+    at: [Apps_Area_Location]
+    attends: [Apps_Backup_Meeting_System]
+    hasTask: [Apps_Task]
+    hasType: [Apps_Type]
+    worksFor: [Apps_Company]
+    worksOn: [Apps_WorkPackage]
+}
+
+type Persona {
+    changedAt: DateTime
+    changedBy: String
+    description: String
+    id: String
+    name: String
+}
+
+type Pose {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    label: Boolean
+    locMethod: String
+    markerCorner: String
+    name: String
+    poseType: String
+    qualityValue: String
+    selected: String
+    uuid: String
+    w: String
+    x: String
+    y: String
+}
+
+type Process {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+    nextStep: [Apps_WorkStep]
+    takesPlaceIn: [Apps_WorkUnit]
+}
+
+type ProcessTag {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    uuid: String
+    usesResource: [ObjectTag]
+}
+
+type ProcessTemplate {
+    ID: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    content: String
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+}
+
+type Product {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    id: String
+    name: String
+    sequence: String
+    current: [Log_System]
+    for: [CRM_Solution]
+    has: [Log_System]
+}
+
+type Project {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    comprises: [Apps_ChangeRequest]
+    current: [Log_System]
+    has: [Apps_Log_Stage_System_WorkPackage]
+    hasType: [Apps_Type]
+    startsWith: [Apps_Timeslot]
+}
+
+type Proof {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    url: String
+    uuid: String
+    covers: [Apps_ListOfDemands]
+}
+
+type Property {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    property: String
+    uuid: String
+    hasLabel: [Label_System_UserInterface]
+    isOfDataType: [DataType_Schema_System]
+    maintainedBy: [AccessControl_Role_System]
+    nextAtom: [Apps_DataAtom]
+}
+
+type PropertySet {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    with: [Apps_Property]
+}
+
+type PropertyValue {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    value: String
+    for: [Apps_Property]
+    hasApproval: [AccessControl_Approval_System]
+    nextAtomValue: [Apps_DataAtomValue]
+}
+
+type ProposedSolution {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    for: [Apps_Component]
+    has: [Apps_BomList_PropertyValue_TechnicalDocument_TechnicalDrawing_WireList]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+    realizedBy: [Apps_ChangeRequest]
+    undefined: [Apps_Component]
+}
+
+type Publication {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    channel: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    date: DateTime
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    of: [Apps_Document]
+    publishedBy: [Apps_Company]
+}
+
+type Query {
+    _key: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    cypher: String
+    cypher_link: String
+    cypher_new: String
+    cypher_old: String
+    cypher_unlink: String
+    description: String
+    disabled: String
+    id: String
+    name: String
+    params: String
+    sequence: String
+    store: String
+    type: String
+    update: String
+    uuid: String
+    backup: [Apps_Type]
+    current: [Log_System]
+    has: [Log_System]
+    hasType: [Apps_Type]
+}
+
+type Question {
+    changedAt: DateTime
+    changedBy: String
+    id: String
+    name: String
+    questionType: String
+    sequence: String
+    for: [BusinessType_CRM_Industry_ValueChain]
+}
+
+type Registration {
+    VAT_ID: String
+    name: String
+    validFrom: String
+    validTo: String
+    in: [Apps_Country]
+}
+
+type Regulation {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    documentIndex: String
+    name: String
+    uuid: String
+    from: [Apps_Company]
+    hasType: [Apps_Type]
+    relatedTo: [Apps_WorkPackage]
+}
+
+type RelationType {
+    cardinality: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    logging: Boolean
+    name: String
+    type: String
+    uuid: String
+    current: [Log_System]
+    endsAt: [Backup_NodeType_Schema_System]
+    has: [Log_System]
+    hasAttribute: [Attribute_Schema_System]
+    hasStyle: [Style_System_UserInterface]
+    startsAt: [Backup_NodeType_Schema_System]
+}
+
+type Rendering {
+    createdAt: DateTime
+    createdBy: String
+    data: String
+    documentIndex: String
+    documentNumber: String
+    name: String
+    uuid: String
+}
+
+type Report {
+    changedAt: String
+    changedBy: String
+    columnDefs: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    cypher_old: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    generic: String
+    height: String
+    locked: String
+    migration: String
+    name: String
+    state: String
+    title: String
+    uuid: String
+    width: String
+    hasStyle: [Style_System_UserInterface]
+    uses: [System_Template_UserInterface]
+    with: [Body_Footer_Header_Report_System_UserInterface_Widget]
+}
+
+type ReportingRequirement {
+    ID: String
+    name: String
+    hasType: [Apps_Type]
+    requires: [Apps_ElectronicalDocumentTransmission_P09]
+}
+
+type Requirement {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    mandatory: Boolean
+    name: String
+    uuid: String
+    canBeFulfilledBy: [Apps_FunctionalPart_Operation]
+    current: [Log_System]
+    derivedFrom: [Apps_Regulation_Requirement]
+    has: [Apps_Log_ProposedSolution_System]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    hasTask: [Apps_Task]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+    relevantFor: [Apps_Company]
+    reviewedBy: [Apps_Review]
+    with: [Apps_LimitValue]
+}
+
+type Resource {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    usedIn: [Apps_WorkStep]
+}
+
+type Rest {
+    name: String
+    params: String
+}
+
+type Review {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type Role {
+    admin: Boolean
+    changedAt: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    deactivated: Boolean
+    description: String
+    id: String
+    locked: String
+    name: String
+    uuid: String
+    backup: [AccessControl_Permission_Role_System]
+    current: [Log_System]
+    has: [Log_System]
+    hasAccessTo: [Application_Module_System_Workflow]
+    hasGiven: [AccessControl_Backup_Permission_System]
+    hasPermission: [Permission]
+    hasType: [Apps_Type]
+    includes: [AccessControl_Role_System]
+}
+
+type Routing {
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+    through: [Apps_Segment_Topology]
+}
+
+type Row {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type RoyaltyPayment {
+    value: String
+    from: [ARE_Apps_P09]
+}
+
+type Rule {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Scenario {
+    data: String
+    params: String
+    properties: String
+    hasFilter: [BusinessChallenge_CRM]
+    hides: [CRM_Product_Service]
+}
+
+type Schema {
+    areaID: String
+    cardinality: String
+    changedAt: DateTime
+    changedBy: String
+    condition: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    current: String
+    datatype: String
+    description: String
+    end: String
+    format: String
+    group: String
+    id: String
+    locked: String
+    log: String
+    logging: Boolean
+    name: String
+    options: String
+    padded: Boolean
+    prefix: String
+    select: String
+    sequence: String
+    site: String
+    start: String
+    template: String
+    type: String
+    uuid: String
+    value: String
+    backup: [Attribute_Context_DataType_Form_Graph_Grid_Schema_System_TreeGrid_UserInterface_Widget]
+    current: [Log_System]
+    endsAt: [Backup_NodeType_Schema_System]
+    extends: [Backup_NodeType_Schema_System]
+    for: [NodeType_Schema_System]
+    from: [Apps_OptionSet]
+    has: [Log_NodeType_Schema_System]
+    hasAttribute: [Attribute_Backup_Schema_System]
+    hasLabel: [Label_System_UserInterface]
+    hasStateMachine: [Apps_StateMachine]
+    hasStyle: [Backup_Style_System_UserInterface]
+    hasValue: [Backup_Schema_System_Value]
+    hasWidget: [Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Menu_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget]
+    inheritsFrom: [NodeType_Schema_System]
+    isOfDataType: [DataType_Schema_System]
+    isTemplateFor: [NodeType_Schema_System]
+    needs: [Schema_System_Validation]
+    startsAt: [Backup_NodeType_Schema_System]
+    throws: [Message_System_UserInterface]
+    uses: [Apps_PropertySet_Validation]
+    usesCounter: [Counter_Schema_System]
+}
+
+type Section {
+    ID: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    creatededBy: String
+    css: String
+    cypher: String
+    description: String
+    id: String
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    name: String
+    test_code: String
+    test_cypher: String
+    tests: String
+    type: String
+    uuid: String
+    backup: [FieldSet_System_UserInterface]
+    current: [Log_System]
+    has: [Log_System]
+    hasFieldSet: [Backup_FieldSet_System_UserInterface]
+    hasLanguageProfile: [Apps_LanguageProfile]
+    hasTranslation: [Apps_DE_EN_Section_Translation]
+    hasType: [Apps_Type]
+    in: [Language_System_UserInterface]
+}
+
+type SectionToImage {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_Section]
+}
+
+type SectionToSection {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Section]
+    to: [Apps_Section]
+}
+
+type Segment {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+    endsAt: [Apps_Node_Topology]
+    startsAt: [Apps_Node_Topology]
+}
+
+type ServerInstance {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Service {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    method: String
+    name: String
+    params: String
+    sequence: String
+    url: String
+    uuid: String
+    current: [Log_System]
+    for: [CRM_Solution]
+    has: [Log_System]
+}
+
+type ServiceContract {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+}
+
+type Session {
+    createdAt: DateTime
+    data: String
+    lastLogin: DateTime
+    token: String
+    uuid: String
+    has: [Session_System_Workspace]
+}
+
+type Setting {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    hideDeactivatedUIElements: Boolean
+    id: String
+    name: String
+    uuid: String
+    value: String
+    current: [Log_System]
+    has: [Apps_Log_PropertyValue_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+    uses: [Apps_Environment_Language_System_UserInterface_View]
+}
+
+type Shape {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type SideBarItem {
+    id: String
+    uuid: String
+}
+
+type Signal {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    script: String
+    uuid: String
+}
+
+type Snapshot {
+    createdAt: DateTime
+    createdBy: String
+    graph: String
+    name: String
+    uuid: String
+    current: [Apps_Snapshot_Version]
+    has: [Apps_Snapshot_Version]
+    next: [Apps_Snapshot_Version]
+}
+
+type Solution {
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    sequence: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Stage {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    stageType: String
+    uuid: String
+    has: [Apps_WorkPackage]
+    hasType: [Apps_Type]
+    plannedFor: [Apps_Timeslot]
+}
+
+type Start {
+    id: String
+    name: String
+    uuid: String
+}
+
+type State {
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    allows: [AccessControl_Method_System]
+    hasColor: [Color_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    nextState: [Apps_State]
+}
+
+type StateMachine {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    forNodeType: [NodeType_Schema_System]
+    hasApproval: [AccessControl_Approval_System]
+    nextState: [Apps_State]
+}
+
+type StateRecording {
+    ID: String
+    checkDate: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+}
+
+type StatusReport {
+    ID: String
+    checkDate: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+}
+
+type Store {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn.day: String
+    createdOn.hour: String
+    createdOn.minute: String
+    createdOn.month: String
+    createdOn.nanosecond: String
+    createdOn.second: String
+    createdOn.timeZoneId: String
+    createdOn.timeZoneOffsetSeconds: String
+    createdOn.year: String
+    database: String
+    description: String
+    host: String
+    name: String
+    password: String
+    port: String
+    user: String
+    uuid: String
+    hasType: [Type]
+}
+
+type Style {
+    changedAt: DateTime
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    nodeTitle: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System_UNIQUE IMPORT LABEL]
+    hasColor: [Color_System_UserInterface]
+    hasFont: [Font_System_UserInterface]
+    hasIcon: [Icon_System_UserInterface]
+    hasShape: [Shape_System_UserInterface]
+    hasTitle: [Attribute_Schema_System]
+}
+
+type Substance {
+    casNumber: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    ecNumber: String
+    name: String
+    uuid: String
+    hasType: [Apps_Type]
+}
+
+type System {
+    ID: String
+    ID_old: String
+    UNIQUE_IMPORT_ID: String
+    [object_Object]: String
+    _key: String
+    action: String
+    admin: Boolean
+    administration: String
+    aggregation: String
+    allowMultipleFiles: Boolean
+    allowPaging: Boolean
+    animate: Boolean
+    answer: String
+    areaID: String
+    autoGroupColumnDef: String
+    breadcrumb: String
+    browse: String
+    cardinality: String
+    case: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    channel: String
+    checkbox: String
+    class: String
+    code: String
+    columnDefs: String
+    condition: String
+    confirm: String
+    confirmedDeliveryDate: DateTime
+    confirmedQuantity: String
+    content: String
+    copyrightStatus: Boolean
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    creatededBy: String
+    ctrl: Boolean
+    current: String
+    cypher: String
+    cypher_link: String
+    cypher_new: String
+    cypher_old: String
+    cypher_test: String
+    cypher_unlink: String
+    data: String
+    database: String
+    database_old: String
+    datatype: String
+    date: String
+    deactivated: String
+    deliveryAddress: String
+    description: String
+    desiredDeliveryDate: DateTime
+    desiredQuantity: String
+    direction: String
+    disabled: String
+    drag: String
+    edit: Boolean
+    editable: Boolean
+    email: String
+    end: String
+    eventType: String
+    extensions: String
+    filter: String
+    firstName: String
+    fit: Boolean
+    fontSize: String
+    format: String
+    givenName: String
+    grabbable: Boolean
+    group: String
+    height: String
+    hex: String
+    hidden: Boolean
+    hideDeactivatedUIElements: Boolean
+    icon: String
+    id: String
+    image: String
+    imported: String
+    internal: String
+    iso639_1: String
+    iso639_3: String
+    key: String
+    label: String
+    labels: String
+    languageForUI: Boolean
+    lastLogin: DateTime
+    lastName: String
+    layout: String
+    level: String
+    limit: String
+    locked: String
+    log: Boolean
+    logging: Boolean
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    method: String
+    migration: String
+    modal: String
+    multiLanguage: String
+    name: String
+    nodeTitle: String
+    nodeTypeName: String
+    options: String
+    orientation: String
+    package: String
+    padded: Boolean
+    pageSize: String
+    params: String
+    password: String
+    prefix: String
+    properties: String
+    question: String
+    randomize: Boolean
+    refresh: String
+    relationTypeName: String
+    render: String
+    rowSelection: String
+    scope: String
+    select: String
+    selectable: Boolean
+    selected: Boolean
+    sequence: String
+    shift: Boolean
+    shortcut: String
+    showRelationDirection: Boolean
+    showRelationType: String
+    site: String
+    sort: String
+    source: String
+    spacing: String
+    start: String
+    state: String
+    store: String
+    style: String
+    surName: String
+    target: String
+    template: String
+    textarea: String
+    timestamp: DateTime
+    title: String
+    token: String
+    treeData: Boolean
+    triggered: String
+    type: String
+    type_rel: String
+    update: String
+    url: String
+    user: String
+    userId: String
+    uuid: String
+    validFrom: String
+    validTo: String
+    value: String
+    widget: String
+    width: String
+    xing: String
+    backup: [AccessControl_Action_Apps_Attribute_Backup_Button_Column_Context_DataType_Element_Event_Field_FieldSet_Form_Function_Graph_Grid_Icon_Label_Layout_Menu_NodeType_Parameter_Permission_Query_RelationType_Role_Schema_Section_System_Term_TreeGrid_Type_UserInterface_Widget_Workflow]
+    calls: [Action_Function_Service_System_UserInterface_Workflow]
+    canUse: [Apps_TransformationProfile]
+    causes: [Activity_Apps]
+    current: [Log_System]
+    enabledBy: [Action_Query_System_Workflow]
+    endsAt: [Backup_NodeType_Schema_System]
+    extends: [Backup_NodeType_Schema_System]
+    finished: [Apps_Upload]
+    for: [AccessControl_Apps_Attribute_Backup_Company_Element_Event_Menu_Module_NodeType_Role_Schema_System_Upload_UserInterface_Widget_WorkPackage_Workflow]
+    from: [Apps_Backup_Company_List_NodeType_OptionSet_RelationType_Schema_System]
+    gets: [Action_Backup_Parameter_System_Workflow]
+    has: [Apps_Backup_Dependency_File_Log_NodeType_Person_PropertyValue_Schema_Section_Session_Setting_Style_System_UNIQUE IMPORT LABEL_Viewer_Workflow_Workspace]
+    hasAccessTo: [Application_Module_System_Workflow]
+    hasApplication: [Application_Apps_P09]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    hasAttribute: [Attribute_Backup_Schema_System]
+    hasColor: [Color_Column_System_UserInterface]
+    hasColumn: [Backup_Column_Field_FieldSet_System_UserInterface]
+    hasColumng: [Column_System_UserInterface]
+    hasContextBox: [ContextBox_System_UserInterface_Widget]
+    hasContextBoxItem: [Context_System_Workflow]
+    hasField: [Backup_Field_System_UserInterface]
+    hasFieldSet: [Backup_FieldSet_Section_System_UserInterface]
+    hasFont: [Font_System_UserInterface]
+    hasGiven: [AccessControl_Backup_Permission_System]
+    hasIcon: [Icon_System_UNIQUE IMPORT LABEL_UserInterface]
+    hasLabel: [Backup_Label_System_UserInterface]
+    hasMenu: [Navigation_System_Workflow]
+    hasMenuItem: [Button_Element_Menu_System_Workflow]
+    hasPermission: [Permission]
+    hasRelation: [RelationType_Schema_System]
+    hasRow: [Row_System_UserInterface]
+    hasSection: [Apps_Backup_Section_System_UserInterface]
+    hasSetting: [Logo_Setting_System]
+    hasShape: [Shape_System_UserInterface]
+    hasSource: [NodeType_Schema_System]
+    hasState: [Apps_State]
+    hasStateMachine: [Apps_StateMachine]
+    hasStyle: [Backup_Style_System_UserInterface]
+    hasTarget: [NodeType_Schema_System]
+    hasTitle: [Attribute_Schema_System]
+    hasType: [Apps_Type]
+    hasValue: [Backup_Schema_System_Value]
+    hasWidget: [Backup_Context_Diagram_Form_Gallery_Gantt_Graph_Grid_Menu_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget]
+    includes: [AccessControl_Role_System]
+    inheritsFrom: [NodeType_Schema_System]
+    isOfDataType: [DataType_Schema_System]
+    isTemplateFor: [NodeType_Schema_System]
+    loads: [Backup_Button_Context_ContextBox_Element_Event_Form_Graph_Grid_Menu_Navigation_System_UserInterface_Widget_Workflow]
+    maintainedBy: [AccessControl_Role_System]
+    maintains: [Backup_NodeType_Schema_System]
+    needs: [Schema_System_Validation]
+    next: [Log_System]
+    of: [Apps_Component_Document]
+    on: [Element_System_Workflow]
+    plays: [AccessControl_Backup_Role_System]
+    publishedBy: [Apps_Company]
+    raises: [Backup_Element_Event_Method_System_Workflow]
+    raises_deactivated: [Event_System_Workflow]
+    relatedTo: [Apps_ChangeRequest]
+    relation: [Form_System_UserInterface_Widget]
+    replacedBy: [AccessControl_Approval_Backup_System]
+    representedBy: [Backup_System]
+    requested: [Apps_Download]
+    runs: [Action_Backup_Query_System_Workflow]
+    started: [Apps_Upload]
+    startsAt: [Backup_NodeType_Schema_System]
+    throws: [Message_System_UserInterface]
+    triggers: [AccessControl_Method_System]
+    uses: [Apps_Diagram_Environment_Language_Layout_PropertySet_System_Template_UserInterface_Validation_View]
+    usesCounter: [Counter_Schema_System]
+    with: [Backup_Body_Context_Diagram_Filter_Footer_Form_Gallery_Gantt_Graph_Grid_Header_Report_Rule_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget_Workflow]
+    withName: [Apps_EN_Term_Text_Translation]
+    with_deactivated: [Rule_System_Workflow]
+    worksOn: [Scenario]
+    x: [Action_Query_System_Workflow]
+}
+
+type SystemClientCompanyCode {
+    code: String
+    name: String
+    locatedIn: [Apps_Country]
+}
+
+type TagType {
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Target {
+    name: String
+}
+
+type Task {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    dueDate: String
+    key: String
+    name: String
+    oldNumber: String
+    oldkey: String
+    priority: String
+    refNr: String
+    uuid: String
+    causes: [Activity_Apps]
+    comprises: [Apps_Task]
+    hasApproval: [AccessControl_Approval_Backup_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type TechnicalDocument {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    data: String
+    description: String
+    documentIndex: String
+    documentNumber: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type TechnicalDrawing {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    documentIndex: String
+    documentNumber: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type Template {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    name: String
+    style: String
+    template: String
+    uuid: String
+    current: [Log_System]
+    for: [NodeType_Schema_System]
+    has: [Log_System]
+    hasType: [Apps_Type]
+    uses: [Apps_List]
+}
+
+type Term {
+    _key: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    initialLanguage: String
+    language: String
+    languageNeutral: String
+    name: String
+    uuid: String
+    backup: [Apps_DE_EN_Language_System_Term_Translation_UserInterface]
+    hasApproval: [AccessControl_Approval_System]
+    hasLanguageProfile: [Apps_LanguageProfile]
+    hasTranslation: [Apps_DE_EN_FR_Term_Translation_ZH]
+    in: [Language_System_UserInterface]
+    inGroup: [Apps_Group]
+}
+
+type Test {
+    data: String
+    dateFormat: String
+    description: String
+    image: String
+    language: String
+    name: String
+    showDisabled: Boolean
+    timeFormat: String
+    timezone: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type TestCase {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+    verifies: [Apps_Requirement]
+}
+
+type Text {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    initialLanguage: String
+    languageNeutral: Boolean
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    hasLanguageProfile: [Apps_LanguageProfile]
+    hasTranslation: [Apps_DE_EN_Term_Translation]
+}
+
+type Timeslot {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    duration: String
+    end: DateTime
+    fixed: Boolean
+    start: DateTime
+    unit: String
+    uuid: String
+    dependsOn: [Apps_Timeslot]
+}
+
+type Topology {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    script: String
+    uuid: String
+    x: String
+    y: String
+    z: String
+    by: [Apps_Routing_Topology]
+    endsAt: [Apps_Node_Topology]
+    for: [Apps_Signal_Topology]
+    from: [Apps_ContactPoint_Topology]
+    on: [Apps_CartesianPoint_Topology]
+    startsAt: [Apps_Node_Topology]
+    through: [Apps_Segment_Topology]
+    to: [Apps_ContactPoint_Topology]
+    with: [Apps_Component_FunctionalArea_Occurrence]
+    withWire: [Apps_Component_Occurrence]
+}
+
+type Transformation {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    command: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    uuid: String
+    generates: [Apps_FileType_System_Type]
+    in: [Apps_TransformationProfile]
+}
+
+type TransformationProfile {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+}
+
+type Translation {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    css: String
+    cypher: String
+    description: String
+    id: String
+    language: String
+    name: String
+    test_code: String
+    test_cypher: String
+    tests: String
+    type: String
+    uuid: String
+    backup: [Language_System_UserInterface]
+    hasApproval: [AccessControl_Approval_System]
+    hasType: [Apps_Type]
+    in: [Language_System_UserInterface]
+}
+
+type TreeGrid {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    cypher: String
+    cypher_old: String
+    description: String
+    id: String
+    level: String
+    limit: String
+    name: String
+    rowSelection: String
+    type: String
+    uuid: String
+    backup: [Label_System_UserInterface]
+    current: [Log_System]
+    has: [Log_System]
+    hasColumn: [Column_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+}
+
+type Trigger {
+    id: String
+    uuid: String
+    hasRelation: [RelationType_Schema_System]
+    hasSource: [NodeType_Schema_System]
+    hasTarget: [NodeType_Schema_System]
+}
+
+type Type {
+    ID: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    code: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    refcode: String
+    uuid: String
+    calledFrom: [NodeType_Schema_System]
+    for: [Backup_NodeType_Schema_System]
+    from: [NodeType_Schema_System]
+    hasLabel: [Label_System_UserInterface]
+    to: [NodeType_Schema_System]
+    uses: [Apps_PropertySet]
+}
+
+type UNIQUE IMPORT LABEL {
+    UNIQUE_IMPORT_ID: String
+    action: String
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    labels: String
+    name: String
+    properties: String
+    timestamp: DateTime
+    user: String
+}
+
+type Uom {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+}
+
+type UomSet {
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    has: [Apps_Property_Uom]
+}
+
+type Upload {
+    allowMultipleFiles: Boolean
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    for: [Apps_File]
+    has: [Log_System]
+}
+
+type Usage {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    type: String
+    uID: String
+    uuid: String
+    for: [Apps_Company]
+    hasType: [Apps_Type]
+    in: [Apps_Environment]
+}
+
+type UsageType {
+    changedAt: DateTime
+    changedBy: String
+    changedOn: String
+    code: String
+    deactivated: String
+    description: String
+    id: String
+    locked: String
+    migration: String
+    name: String
+    step: String
+    uuid: String
+}
+
+type User {
+    [object_Object]: String
+    _key: String
+    admin: Boolean
+    answer: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    deactivated: String
+    description: String
+    email: String
+    firstName: String
+    givenName: String
+    id: String
+    image: String
+    imported: String
+    internal: String
+    key: String
+    lastName: String
+    name: String
+    password: String
+    question: String
+    surName: String
+    userId: String
+    uuid: String
+    xing: String
+    current: [Log_System]
+    finished: [Apps_Upload]
+    has: [Apps_Backup_Log_Person_Session_Setting_System]
+    plays: [AccessControl_Backup_Role_System]
+    requested: [Apps_Download]
+    started: [Apps_Upload]
+    worksOn: [Scenario]
+}
+
+type UserInterface {
+    ID: String
+    ID_old: String
+    UNIQUE_IMPORT_ID: String
+    _key: String
+    aggregation: String
+    allowMultipleFiles: Boolean
+    allowPaging: Boolean
+    animate: Boolean
+    autoGroupColumnDef: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    checkbox: String
+    code: String
+    columnDefs: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: String
+    creatededBy: String
+    cypher: String
+    cypher_new: String
+    cypher_old: String
+    cypher_test: String
+    data: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    drag: String
+    edit: String
+    editable: Boolean
+    filter: String
+    fit: Boolean
+    fontSize: String
+    format: String
+    grabbable: Boolean
+    group: String
+    height: String
+    hex: String
+    hidden: String
+    id: String
+    iso639_1: String
+    iso639_3: String
+    label: Boolean
+    languageForUI: Boolean
+    layout: String
+    level: String
+    limit: String
+    locked: String
+    mergedAt: String
+    mergedBy: String
+    mergedOn: String
+    method: String
+    migration: String
+    multiLanguage: String
+    name: String
+    nodeTitle: String
+    package: String
+    pageSize: String
+    params: String
+    randomize: Boolean
+    render: String
+    rowSelection: String
+    selectable: Boolean
+    selected: Boolean
+    sequence: String
+    showRelationDirection: Boolean
+    showRelationType: String
+    sort: String
+    spacing: String
+    state: String
+    style: String
+    template: String
+    textarea: String
+    title: String
+    treeData: Boolean
+    triggered: String
+    type: String
+    uuid: String
+    widget: String
+    width: String
+    backup: [Apps_Attribute_Column_Field_FieldSet_Icon_Label_Schema_Section_System_Term_UserInterface]
+    current: [Log_System]
+    extends: [NodeType_Schema_System]
+    for: [Attribute_Backup_Schema_System]
+    has: [Apps_Log_Section_Style_System_UNIQUE IMPORT LABEL]
+    hasColor: [Color_Column_System_UserInterface]
+    hasColumn: [Backup_Column_Field_FieldSet_System_UserInterface]
+    hasColumng: [Column_System_UserInterface]
+    hasContextBox: [ContextBox_System_UserInterface_Widget]
+    hasContextBoxItem: [Context_System_Workflow]
+    hasField: [Backup_Field_System_UserInterface]
+    hasFieldSet: [Backup_FieldSet_Section_System_UserInterface]
+    hasFont: [Font_System_UserInterface]
+    hasIcon: [Icon_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    hasMenuItem: [Button_Menu_System_Workflow]
+    hasRow: [Row_System_UserInterface]
+    hasSection: [Apps_Backup_Section_System_UserInterface]
+    hasShape: [Shape_System_UserInterface]
+    hasStyle: [Style_System_UserInterface]
+    hasTitle: [Attribute_Schema_System]
+    hasType: [Apps_Type]
+    hasWidget: [Grid_System_UserInterface_Widget]
+    isOfDataType: [DataType_Schema_System]
+    loads: [Form_System_UserInterface_Widget]
+    raises: [Event_System_Workflow]
+    representedBy: [Backup_System]
+    uses: [Apps_System_Template_UserInterface_Validation]
+    with: [Body_Footer_Form_Grid_Header_Report_System_UserInterface_Widget]
+    withName: [Apps_EN_Term_Text_Translation]
+    x: [Action_Query_System_Workflow]
+}
+
+type UserStory {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    causes: [Apps_Requirement]
+    hasApproval: [AccessControl_Approval_System]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type Validation {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    condition: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    regex: String
+    required: Boolean
+    uuid: String
+    current: [Apps_Log_State_System]
+    for: [Attribute_Schema_System]
+    has: [Apps_Log_PropertyValue_System]
+    hasLabel: [Label_System_UserInterface]
+    hasType: [Apps_Type]
+    next: [Apps_State]
+    throws: [Message_System_UserInterface]
+}
+
+type Value {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+    hasLabel: [Label_System_UserInterface]
+}
+
+type ValueChain {
+    changedAt: DateTime
+    changedBy: String
+    description: String
+    id: String
+    name: String
+    sequence: String
+}
+
+type Version {
+    ID: String
+    abbreviation: String
+    activeFrom: String
+    activeTo: String
+    company: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    graph: String
+    name: String
+    uuid: String
+    version: String
+    basedOn: [Apps_Component_Configuration]
+    current: [Log_System]
+    has: [Apps_BOM_Log_System]
+    next: [Apps_Snapshot_Version]
+    usedAs: [Apps_Usage]
+}
+
+type View {
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    cypher: String
+    description: String
+    format: String
+    id: String
+    name: String
+    type: String
+    uuid: String
+    current: [Log_System]
+    has: [Apps_Log_Section_Style_System]
+    uses: [System_Template_UserInterface]
+}
+
+type Viewer {
+    code: String
+    createdAt: DateTime
+    createdBy: String
+    name: String
+    uuid: String
+}
+
+type Wdget {
+    name: String
+    uuid: String
+    current: [Log_System]
+    has: [Log_System]
+}
+
+type Widget {
+    _key: String
+    allowMultipleFiles: Boolean
+    allowPaging: Boolean
+    animate: Boolean
+    autoGroupColumnDef: String
+    changedAt: String
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    columnDefs: String
+    content: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: String
+    cypher: String
+    cypher_new: String
+    cypher_old: String
+    cypher_test: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    editable: Boolean
+    filter: String
+    fit: Boolean
+    fontSize: String
+    format: String
+    grabbable: Boolean
+    height: String
+    hex: String
+    hidden: String
+    id: String
+    label: Boolean
+    layout: String
+    level: String
+    limit: String
+    locked: String
+    migration: String
+    multiLanguage: String
+    name: String
+    package: String
+    pageSize: String
+    randomize: Boolean
+    rowSelection: String
+    selectable: Boolean
+    sequence: String
+    showRelationDirection: Boolean
+    showRelationType: String
+    sort: String
+    spacing: String
+    state: String
+    treeData: Boolean
+    triggered: String
+    type: String
+    uuid: String
+    widget: String
+    width: String
+    backup: [Column_Label_Section_System_UserInterface]
+    current: [Log_System]
+    for: [Attribute_Schema_System]
+    has: [Apps_Log_Section_Style_System]
+    hasColor: [Column_System_UserInterface]
+    hasColumn: [Backup_Column_Field_FieldSet_System_UserInterface]
+    hasColumng: [Column_System_UserInterface]
+    hasContextBox: [ContextBox_System_UserInterface_Widget]
+    hasContextBoxItem: [Context_System_Workflow]
+    hasFieldSet: [Section_System_UserInterface]
+    hasLabel: [Label_System_UserInterface]
+    hasMenuItem: [Button_Menu_System_Workflow]
+    hasSection: [Apps_Backup_Section_System_UserInterface]
+    hasStyle: [Style_System_UserInterface]
+    hasType: [Apps_Type]
+    hasWidget: [Grid_System_UserInterface_Widget]
+    loads: [Form_System_UserInterface_Widget]
+    raises: [Event_System_Workflow]
+    uses: [System_Template_UserInterface]
+    with: [Body_Footer_Form_Grid_Header_Report_System_UserInterface_Widget]
+    x: [Action_Query_System_Workflow]
+}
+
+type WireList {
+    ID: String
+    createdAt: DateTime
+    createdBy: String
+    documentIndex: String
+    name: String
+    uuid: String
+}
+
+type WorkPackage {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    description_richtext: String
+    findings: String
+    name: String
+    objectives: String
+    uuid: String
+    causes: [Activity_Apps]
+    hasActual: [Apps_DrawingRevision]
+    hasApproval: [AccessControl_Approval_System]
+    hasTask: [Apps_Task]
+    includes: [Apps_WorkPackage]
+    maintainedBy: [AccessControl_Role_System]
+}
+
+type WorkStep {
+    ID: String
+    changedAt: DateTime
+    changedBy: String
+    content: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+    has: [Apps_PropertyValue]
+    hasType: [Apps_Type]
+    is: [Apps_Operation]
+    nextStep: [Apps_WorkStep]
+    produces: [Apps_Component_DataItem]
+    undefined: [Apps_Component]
+    uses: [Apps_Resource]
+}
+
+type WorkUnit {
+    ID: String
+    IP: String
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    name: String
+    uuid: String
+}
+
+type Workflow {
+    ID: String
+    _key: String
+    admin: Boolean
+    administration: String
+    breadcrumb: String
+    browse: String
+    case: String
+    changedAt: DateTime
+    changedAt.day: String
+    changedAt.hour: String
+    changedAt.minute: String
+    changedAt.month: String
+    changedAt.nanosecond: String
+    changedAt.second: String
+    changedAt.timeZoneId: String
+    changedAt.timeZoneOffsetSeconds: String
+    changedAt.year: String
+    changedBy: String
+    class: String
+    confirm: String
+    createdAt: DateTime
+    createdAt.day: String
+    createdAt.hour: String
+    createdAt.minute: String
+    createdAt.month: String
+    createdAt.nanosecond: String
+    createdAt.second: String
+    createdAt.timeZoneId: String
+    createdAt.timeZoneOffsetSeconds: String
+    createdAt.year: String
+    createdBy: String
+    createdOn: DateTime
+    ctrl: Boolean
+    cypher: String
+    cypher_link: String
+    cypher_new: String
+    cypher_old: String
+    cypher_unlink: String
+    database: String
+    database_old: String
+    deactivated: String
+    description: String
+    direction: String
+    disabled: String
+    eventType: String
+    filter: String
+    firstName: String
+    format: String
+    height: String
+    icon: String
+    id: String
+    label: String
+    limit: String
+    locked: String
+    method: String
+    migration: String
+    modal: String
+    name: String
+    nodeTypeName: String
+    params: String
+    refresh: String
+    relationTypeName: String
+    rowSelection: String
+    scope: String
+    sequence: String
+    shift: Boolean
+    shortcut: String
+    store: String
+    timestamp: String
+    triggered: String
+    type: String
+    type_rel: String
+    update: String
+    url: String
+    uuid: String
+    widget: String
+    width: String
+    backup: [Action_Apps_Backup_Button_Context_Element_Event_Function_Graph_Grid_Icon_Label_Layout_Menu_NodeType_Parameter_Query_RelationType_Schema_System_TreeGrid_Type_UserInterface_Widget_Workflow]
+    calls: [Action_Function_Service_System_UserInterface_Workflow]
+    current: [Log_System]
+    enabledBy: [Action_Query_System_Workflow]
+    from: [Apps_Backup_List_NodeType_RelationType_Schema_System]
+    gets: [Action_Backup_Parameter_System_Workflow]
+    has: [Dependency_Log_System_Workflow]
+    hasApproval: [AccessControl_Approval_System]
+    hasColumn: [Column_System_UserInterface]
+    hasIcon: [Icon_System_UNIQUE IMPORT LABEL_UserInterface]
+    hasLabel: [Backup_Label_System_UserInterface]
+    hasMenu: [Navigation_System_Workflow]
+    hasMenuItem: [Button_System_Workflow]
+    hasRelation: [RelationType_Schema_System]
+    hasSource: [NodeType_Schema_System]
+    hasTarget: [NodeType_Schema_System]
+    hasType: [Apps_Type]
+    loads: [Backup_Button_Context_ContextBox_Element_Event_Form_Graph_Grid_Menu_Navigation_System_UserInterface_Widget_Workflow]
+    maintains: [Backup_NodeType_Schema_System]
+    on: [Element_System_Workflow]
+    raises: [Backup_Element_Event_Method_System_Workflow]
+    raises_deactivated: [Event_System_Workflow]
+    relation: [Form_System_UserInterface_Widget]
+    runs: [Action_Backup_Query_System_Workflow]
+    triggers: [AccessControl_Method_System]
+    uses: [Layout_System_UserInterface]
+    with: [Backup_Context_Diagram_Filter_Form_Gallery_Gantt_Graph_Grid_Report_Rule_System_TreeGrid_Upload_UserInterface_View_Wdget_Widget_Workflow]
+    with_deactivated: [Rule_System_Workflow]
+}
+
+type Workspace {
+    data: String
+    uuid: String
+}
+
+type WriteDataAtom {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    id: String
+    name: String
+    uuid: String
+    writes: [Apps_DataAtom]
+}
+
+type ZH {
+    changedAt: DateTime
+    changedBy: String
+    createdAt: DateTime
+    createdBy: String
+    description: String
+    id: String
+    language: String
+    name: String
+    uuid: String
+    hasApproval: [AccessControl_Approval_System]
+    in: [Language_System_UserInterface]
+}
+
+type de {
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+}
+
+type en {
+    createdAt: DateTime
+    createdBy: String
+    uuid: String
+}
+
+type imageToNote {
+    createdBy: String
+    createdOn: DateTime
+    name: String
+    uuid: String
+    from: [Apps_Image]
+    to: [Apps_Note]
+}
+
+type test {
+    name: String
+    params: String
+}
+
+type xApplication {
+    id: String
+    name: String
+    uuid: String
+}
